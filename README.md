@@ -5,7 +5,6 @@ In progress..
 <br>
 
 <p align="center"><img width=100% src=https://user-images.githubusercontent.com/44467789/66575859-4e214080-eb94-11e9-903b-891e94663b25.gif>
-  
                                               Source: National Geographic Channel
 
 

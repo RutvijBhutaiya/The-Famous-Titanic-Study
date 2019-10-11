@@ -13,6 +13,9 @@ attach(tt)
 
 library(ggplot2)
 library(rpivotTable)
+library(ggcorrplot)
+library(corrplot)
+library(RColorBrewer)
 
 ## Data Summary & Structure
 
@@ -109,6 +112,23 @@ boxplot(Age_Months ~ Survived, data = dev,
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
 
 ## NOTE: There are few Outliers in the Dev dataset, But for significant purpose we decided to consider it in the study.
+
+
+## Coorelation 
+
+ggcorrplot(cor(dev), method = 'circle',  type = 'lower', lab = TRUE)
+
+## Correlation
+
+corrplot(cor(dev), type = 'upper', order = 'hclust', 
+         col = brewer.pal(n = 8, name = 'RdYlBl'))
+
+## Scattered Plot
+
+plot(Age_Months , Survived, main = '' )
+
+plot(Fare , Survived, main = '' )
+
 
 
 ## Data Normalization 

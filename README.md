@@ -30,6 +30,7 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 
 - [Objective](#objective)
 - [Approach](#approach)
+- [Data Cleaning & Edit](#data-cleaning-&-edit)
 - [Exploratery Data Analysis](#exploratery-data-analysis)
 
 
@@ -46,6 +47,23 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 - Edit the Original Dataset and Create the dataset for the study - [TitanicNew.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicNew.csv) 
 - Exploratery Data Analysis
 -
+
+<br>
+
+### Data Cleaning & Edit
+
+1.	We downloaded dataset from [Kaggle](https://www.kaggle.com/pavlofesenko/titanic-extended). The dataset is already extended – Kaggle + Wikipedia.
+
+2.	In dataset we decided to consider Wiki_Age  and not Age – because of missing values in Age variable. 
+
+3.	Even in duplicated variables like Boarded and Embarked, we choose Boarded due to the places full form names. 
+
+4.	For simplicity - we made changes in Destination, and added new variable called DestinationCountry. DestinationCountry indicates only the country name unlike Destination with more details lie State and City. 
+
+5.	From the original dataset we have also added one more variable called NameLength. This variable indicates length characters of the name. Before applying the logic we had also removed the double name checks in the variables like e.g. Nasser, Mrs. Nicholas (Adele Achem) become Nasser, Mrs. Nicholas. 
+
+And at last after doing all these changes in the original dataset we created TitanicNew dataset for the prediction of the passenger survival study. 
+
 
 
 <br>

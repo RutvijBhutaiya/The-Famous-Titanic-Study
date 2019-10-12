@@ -30,7 +30,7 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 
 - [Objective](#objective)
 - [Approach](#approach)
-- [Data Cleaning & Edit](#data-cleaning-&-edit)
+- [Data Cleaning and Edit](#data-cleaning-and-edit)
 - [Exploratery Data Analysis](#exploratery-data-analysis)
 
 
@@ -50,7 +50,7 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 
 <br>
 
-### Data Cleaning & Edit
+### Data Cleaning and Edit
 
 1.	We downloaded dataset from [Kaggle](https://www.kaggle.com/pavlofesenko/titanic-extended). The dataset is already extended – Kaggle + Wikipedia.
 
@@ -64,10 +64,11 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 
 And at last after doing all these changes in the original dataset we created TitanicNew dataset for the prediction of the passenger survival study. 
 
-
-
 <br>
 
+### Exploratery Data Analysis
+
+<br>
 
 
 

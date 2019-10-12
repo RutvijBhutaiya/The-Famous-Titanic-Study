@@ -30,6 +30,7 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 
 - [Objective](#objective)
 - [Approach](#approach)
+- [Exploratery Data Analysis](#exploratery-data-analysis)
 
 
 
@@ -40,6 +41,12 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 Objective of the study is to predict the survival of passenger from the Titanic ship, with the use of Machine Learning algorithms. For accuracy, use ensemble techniques for prediction. For an extention of the project, one can insert the personal demographic data and check whether they would had survied the Titanic accident or not. 
 
 ### Approach
+
+- Collect the data from kaggle - [Link](https://www.kaggle.com/pavlofesenko/titanic-extended)
+- Edit the Original Dataset and Create the dataset for the study - [TitanicNew.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicNew.csv) 
+- Exploratery Data Analysis
+-
+
 
 <br>
 

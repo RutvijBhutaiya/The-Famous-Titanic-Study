@@ -135,11 +135,42 @@ as.matrix((prop.table(table(Survived)))*100)
 
 ```
 
+<br>
+
 #### Data Analysis on Tableau 
 
 Before we jump on our machine learning modeling we studied variables and data analysis on the titanic dataset with the help of Tableau.  
 
+##### 1. Passenger Class Survived Ratio
 
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712145-024de180-edb6-11e9-8b56-37ab867d036e.png>
+<br>
+  
+Pie chartshows, Passenger Class wise survived passenger ratio. This clearly indicatedmore than half of the passengers survived the Titanic accident was fromPassenger Class 1, and lease passenger were survived were from Class 3. Thisclearly indicated that even though the Class 1 passenger was less on countthey got the higher priority and hence their survival ratio is 63%.
+
+<br>
+
+##### 2. Passenger Hometown
+
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712169-49d46d80-edb6-11e9-9925-2a35ed564dd1.png>
+
+<br>
+
+PassengerHometown geography map indicated that % ratio of total passengers from different- different country locations. Majority of the passengers were from the UnitedKingdom and The United States with 23.6% and 21.77% respectively. 
+
+<br>
+
+##### 3. Passenger Boarded and Survived –Gender wise
+
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712190-899b5500-edb6-11e9-9cfa-e19df0085fda.png>
+  
+<br>
+
+Passenger Boarded and Survived – Gender wise barchart indicate the ratio of Male and Female passenger class with respect tothe port they boarded. This bar chart indicate that the majority of thepassengers boarded the Titanic ship from the port of Southampton. However, thepassenger who didn’t survive the crash was also from the same group of the cluster – 40.04%. This is mainly due to Pclass – passenger class. Class 3passenger count is substation high compare to Class 1 passenger and Class 3passenger was boarded from the port of Southampton. But, unfortunately only24% of passengers from Class 3 passengers cluster were survived and the rest 76% werenot lucky. From the chart, we can also observe that all the male passengers boardedfrom Belfast were not lucky to survive the crash. 
+
+<br>
+
+##### 4. Passenger Survived – Age wise
 
 <br>
 

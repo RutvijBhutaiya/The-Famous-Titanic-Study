@@ -62,6 +62,8 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 
 5.	From the original dataset we have also added one more variable called NameLength. This variable indicates length characters of the name. Before applying the logic we had also removed the double name checks in the variables like e.g. Nasser, Mrs. Nicholas (Adele Achem) become Nasser, Mrs. Nicholas. 
 
+6. Lifeboat Support - we assume that the box with missing value under variable Lifeboat means particular passenger didn't received the support from the Lifeboat. And hence, we created new variable LifeboatSuppot - Yes / No. 
+
 And at last after doing all these changes in the original dataset we created TitanicNew dataset for the prediction of the passenger survival study. 
 
 <br>

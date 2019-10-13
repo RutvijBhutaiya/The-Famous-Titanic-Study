@@ -70,6 +70,49 @@ And at last after doing all these changes in the original dataset we created Tit
 
 ### Exploratery Data Analysis
 
+After setting up the working directory we in Exploratory Data Analysis we begun with treating missing value in the date.
+
+```
+## Treating Missing Values
+
+colSums(is.na(tt))
+
+missingfare = subset(tt, is.na(Fare))
+
+missingage = subset(tt, is.na(Age_wiki))
+```
+
+1.     Missing Fare value treatment: Wechecked – Passengers Demographics (Boarded, PClass, Sex, Destination Country)and then done analysis in Tabelue with respect to demographics and set theAverage missing passenger Fare. [Checked Tabelus Pic missingfare]
+
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712011-e8130400-edb3-11e9-85fd-8298c91e45d8.png>
+ 
+ <br>
+
+
+2.     Missing value Age: We checkedpassenger Demographics (SibSpouce & ParentChild) based on which we tried toaverage down the missing vale in Age, However, we found it’s similar toActual Mean of Age_wiki. Hence we took that means only.
+
+```
+##* See the MissingFare Analysis on Tabelue and Selected Avg. = 13.4
+##* See the MissinfAge Analysis on Tabelue and Select Avg. 
+##* Age_wiki Avg.: 29.42 and Age_Months: 351
+
+
+tt$Fare[is.na(tt$Fare)] = '13.4'
+
+tt$Age_wiki[is.na(tt$Age_wiki)] = '29.42'
+
+tt$Age_Months[is.na(tt$Age_Months)] = '351'
+
+##* Fare, Age_wiki & Age_Months converted to Character
+##* Convert back to Integer & Numeric
+
+tt$Fare = as.integer(tt$Fare)
+tt$Age_wiki = as.numeric(tt$Age_wiki)
+tt$Age_Months = as.numeric(tt$Age_Months)
+```
+
+
+
 <br>
 
 

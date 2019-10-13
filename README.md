@@ -32,6 +32,7 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 - [Approach](#approach)
 - [Data Cleaning and Edit](#data-cleaning-and-edit)
 - [Exploratery Data Analysis](#exploratery-data-analysis)
+- [Data Analysis on Tableau](#data-analysis-on-tableau)
 
 
 
@@ -110,6 +111,33 @@ tt$Fare = as.integer(tt$Fare)
 tt$Age_wiki = as.numeric(tt$Age_wiki)
 tt$Age_Months = as.numeric(tt$Age_Months)
 ```
+
+For the Titanic passenger Survival study we created Dev (Study) and Val (test) dataset. Here, we decided to create a testing / Val dataset for missing values for the dependent variable 'Survived'. 
+
+And the Ratio from the Dev(Study) dataset for Survived and Not Survived passenger is 0: 61.6 and 1: 38.3
+
+```
+## Development (Study) dataSet and Validation (Test) dataset
+
+val = subset(tt, is.na(tt$Survived))
+
+dev = na.omit(tt)
+attach(dev)
+
+
+## Ratio : Survived 1 and 0
+
+as.matrix((prop.table(table(Survived)))*100)
+
+# [,1]
+# 0 61.61616
+# 1 38.38384
+
+```
+
+#### Data Analysis on Tableau 
+
+Before we jump on our machine learning modeling we studied variables and data analysis on the titanic dataset with the help of Tableau.  
 
 
 

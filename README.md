@@ -152,7 +152,7 @@ Pie chartshows, Passenger Class wise survived passenger ratio. This clearly indi
 
 ##### 2. Passenger Hometown
 
-<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712169-49d46d80-edb6-11e9-9925-2a35ed564dd1.png>
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/66712169-49d46d80-edb6-11e9-9925-2a35ed564dd1.png>
 
 <br>
 
@@ -162,7 +162,7 @@ PassengerHometown geography map indicated that % ratio of total passengers from 
 
 ##### 3. Passenger Boarded and Survived –Gender wise
 
-<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712190-899b5500-edb6-11e9-9cfa-e19df0085fda.png>
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/66712190-899b5500-edb6-11e9-9cfa-e19df0085fda.png>
   
 <br>
 
@@ -172,7 +172,7 @@ Passenger Boarded and Survived – Gender wise barchart indicate the ratio of Ma
 
 ##### 4. Passenger Survived – Age wise
 
-<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712211-d8e18580-edb6-11e9-87aa-1978b520a966.png>
+<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/66712211-d8e18580-edb6-11e9-87aa-1978b520a966.png>
 
 <br>
 
@@ -182,7 +182,7 @@ Passengersurvived – Age-wise classification is shown in the Box Plot.  This b
 
 ##### 5. Passenger Class wise Fare / LifeboatSupport
 
- <p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712260-8a80b680-edb7-11e9-9968-ceadb077eb16.png>
+ <p align="center"><img width=74% src=https://user-images.githubusercontent.com/44467789/66712260-8a80b680-edb7-11e9-9968-ceadb077eb16.png>
   
 <br>
 In this bar the chart we can see that the % Ratio of Fare is obviously higher for Class 1passengers. But, when we analyze - was their discrimination for lower classpassengers! This chart clearly indicated that 1st Class passengersgot priority in Lifeboat due to their high paid tickets. When we compare theLifeboatSupport with % of Fare Average – we observed that ticket Fare price averageis not very high for passengers who received the Lifeboat support. This ismainly due to the Class 1 passengers. However, due respect to the count of Class 3passengers and their low ticket value they did not luck to access Lifeboat onpriority.
@@ -191,7 +191,7 @@ In this bar the chart we can see that the % Ratio of Fare is obviously higher fo
 
 ##### 6. Parents Children – Spouse Siblings
 
-<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712272-ce73bb80-edb7-11e9-87b2-7ce314c391b8.png>
+<p align="center"><img width=62% src=https://user-images.githubusercontent.com/44467789/66712272-ce73bb80-edb7-11e9-87b2-7ce314c391b8.png>
 
 <br>
 

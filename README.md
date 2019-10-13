@@ -172,7 +172,34 @@ Passenger Boarded and Survived – Gender wise barchart indicate the ratio of Ma
 
 ##### 4. Passenger Survived – Age wise
 
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712211-d8e18580-edb6-11e9-87aa-1978b520a966.png>
+
 <br>
+
+Passengersurvived – Age-wise classification is shown in the Box Plot.  This box plot indicates that the average ageof female passenger, survived the Titanic accident was 29 Years. And theaverage age of a female passenger did not survive was 24.2 Years.  In male passenger case the situation reverses,the average age of male passengers, did not survive was 30.8 Years. And theaverage age of male passengers, survived was 27.2 Years. This indicates the elderfemale class and young male class had high survival ratio than the younger femaleclass and elder male class.
+
+<br>
+
+##### 5. Passenger Class wise Fare / LifeboatSupport
+
+ <p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712260-8a80b680-edb7-11e9-9968-ceadb077eb16.png>
+  
+<br>
+In this bar the chart we can see that the % Ratio of Fare is obviously higher for Class 1passengers. But, when we analyze - was their discrimination for lower classpassengers! This chart clearly indicated that 1st Class passengersgot priority in Lifeboat due to their high paid tickets. When we compare theLifeboatSupport with % of Fare Average – we observed that ticket Fare price averageis not very high for passengers who received the Lifeboat support. This ismainly due to the Class 1 passengers. However, due respect to the count of Class 3passengers and their low ticket value they did not luck to access Lifeboat onpriority.
+
+<br>
+
+##### 6. Parents Children – Spouse Siblings
+
+<p align="center"><img width=78% src=https://user-images.githubusercontent.com/44467789/66712272-ce73bb80-edb7-11e9-87b2-7ce314c391b8.png>
+
+<br>
+
+ParentsChildren and Spouse Siblings bar chart indicated that solo passenger withoutParents or Children’s family members’ survival is high. Similarly, a passenger who has not traveled with Spouse or Siblings also had a high survival ratio.
+
+<br>
+                       
+#### Outlier Study
 
 
 

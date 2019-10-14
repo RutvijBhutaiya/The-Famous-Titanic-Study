@@ -17,6 +17,7 @@ library(ggcorrplot)
 library(corrplot)
 library(RColorBrewer)
 
+
 ## Data Summary & Structure
 
 summary(tt)
@@ -31,7 +32,9 @@ str(tt)
 
 ## Convert Passenger Class into Factor()
 
-## tt$Pclass = as.factor(Pclass)
+# tt$Pclass = as.factor(Pclass)
+
+# tt$TicketNumber = as.factor(TicketNumber)
 
 
 ## Treating Missing Values
@@ -51,7 +54,7 @@ tt$Fare[is.na(tt$Fare)] = '13.4'
 
 tt$Age_wiki[is.na(tt$Age_wiki)] = '29.42'
 
-tt$Age_Months[is.na(tt$Age_Months)] = '351'
+tt$Age_Months[tt$Age_Months == 0] = '351'
 
 ##* Fare, Age_wiki & Age_Months converted to Character
 ##* Convert back to Integer & Numeric
@@ -111,28 +114,40 @@ boxplot(ParentsChild ~ Survived, data = dev,
 boxplot(Age_Months ~ Survived, data = dev, 
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
 
+boxplot(NameLength ~ Survived, data = dev, 
+        main = 'Name Length of Male/Female Passengers', ylab = 'Name Length', col = 'darksalmon')
+
+
+## @ CHK MAY BE REMOVE OUTLIERS FOROM PARENT - SIBSPOUc
+
 ## NOTE: There are few Outliers in the Dev dataset, But for significant purpose we decided to consider it in the study.
 
 
 ## Coorelation 
 
-ggcorrplot(cor(dev), method = 'circle',  type = 'lower', lab = TRUE)
+ggcorrplot(cor(dev[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
 
 ## Correlation
 
-corrplot(cor(dev), type = 'upper', order = 'hclust', 
-         col = brewer.pal(n = 8, name = 'RdYlBl'))
-
-## Scattered Plot
-
-plot(Age_Months , Survived, main = '' )
-
-plot(Fare , Survived, main = '' )
-
+corrplot(cor(dev[, c(2,3,5,7,8,10,13)]), type = 'upper', order = 'hclust', 
+         col = brewer.pal(n = 7, name = 'YlGnBu'))
 
 
 ## Data Normalization 
 
+library(forecast)
+
+hist(Age_Months, col = 'salmon')
+BoxCox.lambda(Age_Months)
+
+
+hist(NameLength, col = 'Salmon')
+
+
+hist(Fare, col = 'Salmon')
+
+## NOTE: Decided not to Normalize the Fare - Also FAre and Pclass has good coorelation. 
 
 
 
+## Apply Baruta <__ 

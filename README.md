@@ -270,9 +270,10 @@ dev = dev[which(dev$SibSpouse <= 4 & dev$ParentsChild <=2),]
 
 Hence, based on p-value we decided to remove the outliers. 
 
-```
-## Other VAriables Outliers Study
 
+Other Features - Age_Months & NameLength Outliers Study
+
+```
 boxplot(Age_Months ~ Survived, data = dev, 
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
 
@@ -283,5 +284,18 @@ boxplot(NameLength ~ Survived, data = dev,
 <p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923222-0a23b500-f046-11e9-8534-4fcb3f70b54e.png>
   
 There are few Outliers (Not very large) in the Dev dataset, But for significant purpose we decided to consider it in the stud for Age_Month and NameLength. 
+
+#### Correlation Study between features 
+
+```
+## Coorelation 
+
+ggcorrplot(cor(dev[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
+```
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923726-faf13700-f046-11e9-9db4-2b62be117386.png>
+
+As we can see in the correlation chart, PClass and Fare have the highest negative correlation, along with the target variable. Before building the Machine Learning models we will also do the feature selection through the Boruta package in R. 
+
+
 
 

@@ -204,17 +204,17 @@ ParentsChildren and Spouse Siblings bar chart indicated that solo passenger with
 We began the Outliers study with the Fare variable. In the Outliersidentification  we did the study on Fare,SibSpouse , ParentsChild, Age_Month, NameLength variables. 
 
 - Remove Less Logical Fare observation ??
-- ## 1. 0 Fare : Remove 
-- ## 2. $5 : 1Class passenger : Remove [Erroe : $5 passengertraveling in 1st class!]
-- ## 3. $69.55 : 3Class passenger : 11 passengers :Remove.[Person pay high tkt and travel in 3 class!]
-- ## 4. $56.49 : 3Class passenger : 8 passengers :Remove.[Person pay high tkt and travel in 3 class!] 
+- 1. 0 Fare : Remove 
+- 2. $5 : 1Class passenger : Remove [Erroe : $5 passengertraveling in 1st class!]
+- 3. $69.55 : 3Class passenger : 11 passengers :Remove.[Person pay high tkt and travel in 3 class!]
+- 4. $56.49 : 3Class passenger : 8 passengers :Remove.[Person pay high tkt and travel in 3 class!] 
 
 ```
 boxplot(Fare ~ Pclass, data = dev, 
         main = 'Fare with respect to Passenger Class', ylab = 'Price', col = 'darksalmon')
 ```
 
-<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/66922134-16a70e00-f044-11e9-8baf-0fcc1be5f6f5.png>
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66922134-16a70e00-f044-11e9-8baf-0fcc1be5f6f5.png>
   
 However, we decided not to remove the Outliers from the Fare feature, because it's logical, that 1st class passenger paid high Fare. So we decided not to remove the outliers from the Fare feature. 
 
@@ -234,11 +234,11 @@ boxplot(ParentsChild ~ Survived, data = dev,
         main = 'Parents / Children with respect to Survived', ylab = 'Count', col = 'darksalmon')
 ```
 
-<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/66922688-2d019980-f045-11e9-95c1-1078b4a54fc2.png>
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66922688-2d019980-f045-11e9-95c1-1078b4a54fc2.png>
 
-- # NOTE: 1. Remove Outliers from SibSpouse & ParentChild
-- # NOTE: 2. Chk the Correlation on dependent variable 
-- # NOTE: 3. Hypothesis Test
+- NOTE: 1. Remove Outliers from SibSpouse & ParentChild
+- NOTE: 2. Chk the Correlation on dependent variable 
+- NOTE: 3. Hypothesis Test
 
 ```
 # SibSpouse Feature

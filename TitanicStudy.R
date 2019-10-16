@@ -64,6 +64,8 @@ tt$Age_wiki = as.numeric(tt$Age_wiki)
 tt$Age_Months = as.numeric(tt$Age_Months)
 
 
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Pivot Table Analysis
 
 rpivotTable(tt)
@@ -103,13 +105,52 @@ boxplot(Fare ~ Pclass, data = dev,
 ## However, we decided not to remove above observations, as val dataset analysis has similar patterns!
 
 
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Boxplot Analysis for Outliers!
 
-boxplot(SibSpouce ~ Survived, data = dev, 
+par(mfrow = c(1,1))
+
+boxplot(SibSpouse ~ Survived, data = dev, 
         main = 'Sibbling / Spouce with respect to Survived', ylab = 'Count', col = 'darksalmon')
 
 boxplot(ParentsChild ~ Survived, data = dev, 
         main = 'Parents / Children with respect to Survived', ylab = 'Count', col = 'darksalmon')
+
+# NOTE: 1. Remove Outliers from SibSpouse & ParentChild
+# NOTE: 2. Chk the Correlation on dependent variable 
+# NOTE: 3. Hypothesis Test
+
+# NULL : No Significant Diff.
+# Alt: Significant Diff.
+
+# SibSpouse
+
+SibSpouse1 = subset(dev, SibSpouse <= 4)
+
+cor(SibSpouse1$SibSpouse, SibSpouse1$Survived)
+
+t.test(dev$SibSpouse, SibSpouse1$SibSpouse)
+
+# p-value < 2.2e-16 # Hence, Reject Null Hypo - Significant Diff. # Remove Outliers
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# ParentsChild
+
+ParentsChild1 = subset(dev, ParentsChild <= 2)
+
+cor(ParentsChild1$ParentsChild, ParentsChild1$Survived)
+
+t.test(dev$ParentsChild, ParentsChild1$ParentsChild)
+
+# p-value = 0.06225 # Hence, Very Close Significant Diff. # Remove Outliers
+
+# Remove Outliers from ParentChild and SibSpouse
+
+dev = dev[which(dev$SibSpouse <= 4 & dev$ParentsChild <=2),]
+
+## Other VAriables Outliers Study
 
 boxplot(Age_Months ~ Survived, data = dev, 
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
@@ -118,10 +159,12 @@ boxplot(NameLength ~ Survived, data = dev,
         main = 'Name Length of Male/Female Passengers', ylab = 'Name Length', col = 'darksalmon')
 
 
-## @ CHK MAY BE REMOVE OUTLIERS FOROM PARENT - SIBSPOUc
-
 ## NOTE: There are few Outliers in the Dev dataset, But for significant purpose we decided to consider it in the study.
 
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+attach(dev)
 
 ## Coorelation 
 
@@ -145,6 +188,8 @@ hist(NameLength, col = 'Salmon')
 
 
 hist(Fare, col = 'Salmon')
+BoxCox.lambda(Fare)
+# That ARTICLE SAYS DO NORMILAZIT on FARE ??~ 
 
 ## NOTE: Decided not to Normalize the Fare - Also FAre and Pclass has good coorelation. 
 

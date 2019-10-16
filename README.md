@@ -90,7 +90,7 @@ missingage = subset(tt, is.na(Age_wiki))
  <br>
 
 
-2.     Missing value Age: We checkedpassenger Demographics (SibSpouce & ParentChild) based on which we tried toaverage down the missing vale in Age, However, we found it’s similar toActual Mean of Age_wiki. Hence we took that means only.
+2.     Missing value Age: We checkedpassenger Demographics (SibSpouse & ParentChild) based on which we tried toaverage down the missing vale in Age, However, we found it’s similar toActual Mean of Age_wiki. Hence we took that means only.
 
 ```
 ##* See the MissingFare Analysis on Tabelue and Selected Avg. = 13.4
@@ -201,6 +201,74 @@ ParentsChildren and Spouse Siblings bar chart indicated that solo passenger with
                        
 #### Outlier Study
 
+We began the Outliers study with the Fare variable. In the Outliersidentification  we did the study on Fare,SibSpouse , ParentsChild, Age_Month, NameLength variables. 
+
+- Remove Less Logical Fare observation ??
+- ## 1. 0 Fare : Remove 
+- ## 2. $5 : 1Class passenger : Remove [Erroe : $5 passengertraveling in 1st class!]
+- ## 3. $69.55 : 3Class passenger : 11 passengers :Remove.[Person pay high tkt and travel in 3 class!]
+- ## 4. $56.49 : 3Class passenger : 8 passengers :Remove.[Person pay high tkt and travel in 3 class!] 
+
+```
+boxplot(Fare ~ Pclass, data = dev, 
+        main = 'Fare with respect to Passenger Class', ylab = 'Price', col = 'darksalmon')
+```
+
+<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/66922134-16a70e00-f044-11e9-8baf-0fcc1be5f6f5.png>
+  
+However, we decided not to remove the Outliers from the Fare feature, because it's logical, that 1st class passenger paid high Fare. So we decided not to remove the outliers from the Fare feature. 
+
+For SibSpouse and ParentsChild feature, we found close outliers. Hence, we decided to do the Hypotheses testing to know the significant impact on the Target variable. 
+
+For the following 2 features, we did hypothesis testing after removing the outliers from the features. And checked the p-value. 
+
+```
+## Boxplot Analysis for Outliers!
+
+par(mfrow = c(1,2))
+
+boxplot(SibSpouse ~ Survived, data = dev, 
+        main = 'Sibbling / Spouce with respect to Survived', ylab = 'Count', col = 'darksalmon')
+
+boxplot(ParentsChild ~ Survived, data = dev, 
+        main = 'Parents / Children with respect to Survived', ylab = 'Count', col = 'darksalmon')
+```
+
+<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/66922688-2d019980-f045-11e9-95c1-1078b4a54fc2.png>
+
+- # NOTE: 1. Remove Outliers from SibSpouse & ParentChild
+- # NOTE: 2. Chk the Correlation on dependent variable 
+- # NOTE: 3. Hypothesis Test
+
+```
+# SibSpouse Feature
+
+SibSpouse1 = subset(dev, SibSpouse <= 4)
+
+cor(SibSpouse1$SibSpouse, SibSpouse1$Survived)
+
+t.test(dev$SibSpouse, SibSpouse1$SibSpouse)
+
+# p-value < 2.2e-16 # Hence, Reject Null Hypo - Significant Diff. # Remove Outliers
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# ParentsChild Feature
+
+ParentsChild1 = subset(dev, ParentsChild <= 2)
+
+cor(ParentsChild1$ParentsChild, ParentsChild1$Survived)
+
+t.test(dev$ParentsChild, ParentsChild1$ParentsChild)
+
+# p-value = 0.06225 # Hence, Very Close Significant Diff. # Remove Outliers
+
+# Remove Outliers from ParentChild and SibSpouse
+
+dev = dev[which(dev$SibSpouse <= 4 & dev$ParentsChild <=2),]
+```
+
+Hence, based on p-value we decided to remove the outliers. 
 
 
 

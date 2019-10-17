@@ -1,0 +1,1271 @@
+PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNumber,Cabin,Age_Months,HometownCountry,Boarded,Destination,DestinationCountry,Lifeboat,LifeboatSupport,Fare_new
+1,0,3,"Braund, Mr. Owen Harris",23,male,1,0,A/5 21171,,264,England,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Canada,,No,1.945910149
+2,1,1,"Cumings, Mrs. John Bradley ",27,female,1,0,PC 17599,C85,420,US,Cherbourg,"New York, New York, US",US,4,Yes,4.262679877
+3,1,3,"Heikkinen, Miss. Laina",22,female,0,0,STON/O2. 3101282,,312,Finland,Southampton,New York City,US,14,Yes,1.945910149
+4,1,1,"Futrelle, Mrs. Jacques Heath ",29,female,1,0,113803,C123,420,US,Southampton,"Scituate, Massachusetts, US",US,D,Yes,3.970291914
+5,0,3,"Allen, Mr. William Henry",24,male,0,0,373450,,420,England,Southampton,New York City,US,,No,2.079441542
+6,0,3,"Moran, Mr. James",16,male,0,0,330877,,264,Ireland,Queenstown,New York City,US,,No,2.079441542
+7,0,1,"McCarthy, Mr. Timothy J",23,male,0,0,17463,E46,648,US,Southampton,"Dorchester, Massachusetts, US",US,,No,3.931825633
+8,0,3,"Palsson, Master. Gosta Leonard",30,male,3,1,349909,,24,Sweden,Southampton,"Chicago, Illinois, US",US,,No,3.044522438
+9,1,3,"Johnson, Mrs. Oscar W ",22,female,0,2,347742,,312,US,Southampton,"St. Charles, Illinois, US",US,15,Yes,2.397895273
+10,1,2,"Nasser, Mrs. Nicholas ",22,female,1,0,237736,,168,Lebanon,Cherbourg,"Cleveland, Ohio, US",US,,No,3.401197382
+11,1,3,"Sandstrom, Miss. Marguerite Rut",31,female,1,1,PP 9549,G6,48,Sweden,Southampton,"San Francisco, US",US,13,Yes,2.772588722
+12,1,1,"Bonnell, Miss. Elizabeth",24,female,0,0,113783,C103,732,US,Southampton,"Youngstown, Ohio, US",US,8,Yes,3.258096538
+13,0,3,"Saundercock, Mr. William Henry",30,male,0,0,A/5. 2151,,228,England,Southampton,New York City,US,,No,2.079441542
+15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",36,female,0,0,350406,,168,Sweden,Southampton,"Los Angeles, US",US,,No,1.945910149
+16,1,2,"Hewlett, Mrs. ",14,female,0,0,248706,,672,British India,Southampton,"Rapid City, South Dakota, US",US,13,Yes,2.772588722
+17,0,3,"Rice, Master. Eugene",20,male,4,1,382652,,24,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
+18,1,2,"Williams, Mr. Charles Eugene",28,male,0,0,244373,,276,England,Southampton,"Chicago, Illinois, US",US,14,Yes,2.564949357
+19,0,3,"Vander Planke, Mrs. Julius ",27,female,1,0,345763,,372,Belgium,Southampton,"Fremont, Ohio, US",US,,No,2.890371758
+20,1,3,"Masselmani, Mrs. Fatima",23,female,0,0,2649,,264,Lebanon,Cherbourg,"Michigan City, Indiana, US",US,C,Yes,1.945910149
+21,0,2,"Fynney, Mr. Joseph J",20,male,0,0,239865,,420,England,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.258096538
+22,1,2,"Beesley, Mr. Lawrence",21,male,0,0,248698,D56,408,England,Southampton,"Toronto, Ontario, Canada",Canada,13,Yes,2.564949357
+23,1,3,"McGowan, Miss. Anna ""Annie""",27,female,0,0,330923,,192,Ireland,Queenstown,"Chicago, Illinois, US",US,13,Yes,2.079441542
+24,1,1,"Sloper, Mr. William Thompson",28,male,0,0,113788,A6,336,US,Southampton,"New Britain, Connecticut, US",US,7,Yes,3.555348061
+25,0,3,"Palsson, Miss. Torborg Danira",29,female,3,1,349909,,96,Sweden,Southampton,"Chicago, Illinois, US",US,,No,3.044522438
+27,0,3,"Emir, Mr. Farred Chehab",23,male,0,0,2631,,300,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+28,0,1,"Fortune, Mr. Charles Alexander",30,male,3,2,19950,C23 C25 C27,228,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,5.572154032
+29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",29,female,0,0,330959,,300,Ireland,Queenstown,New York City,US,,No,1.945910149
+30,0,3,"Todoroff, Mr. Lalio",19,male,0,0,349216,,276,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+31,0,1,"Uruchurtu, Don. Manuel E",24,male,0,0,PC 17601,,480,Mexico,Cherbourg,"Mexico City, Mexico",Mexico,,No,3.295836866
+32,1,1,"Spencer, Mrs. William Augustus ",31,female,1,0,PC 17569,B78,540,US,Cherbourg,"New York, New York, US",US,6,Yes,4.983606622
+33,1,3,"Glynn, Miss. Mary Agatha",24,female,0,0,335677,,228,Ireland,Queenstown,"Washington, DC, US",US,13,Yes,1.945910149
+34,0,2,"Wheadon, Mr. Edward H",21,male,0,0,C.A. 24579,,792,Channel Islands,Southampton,"Edgewood, Rhode Island, US",US,,No,2.302585093
+35,0,1,"Meyer, Mr. Edgar Joseph",23,male,1,0,PC 17604,,336,US,Cherbourg,"New York, New York, US",US,,No,4.406719247
+36,0,1,"Holverson, Mr. Alexander Oskar",30,male,1,0,113789,,504,US,Southampton,"New York, New York, US",US,,No,3.951243719
+37,1,3,"Mamee, Mr. Hanna",16,male,0,0,2677,,240,Lebanon,Cherbourg,"Philadelphia, Pennsylvania, US",US,15,Yes,1.945910149
+38,0,3,"Cann, Mr. Ernest Charles",24,male,0,0,A./5. 2152,,252,England,Southampton,New York City,US,,No,2.079441542
+39,0,3,"Vander Planke, Miss. Augusta Maria",34,female,2,0,345764,,216,Belgium,Southampton,"Fremont, Ohio, US",US,,No,2.890371758
+40,1,3,"Nicola-Yarred, Miss. Jamila",27,female,1,0,2651,,168,Lebanon,Cherbourg,"Jacksonville, Florida, US",US,C,Yes,2.397895273
+41,0,3,"Ahlin, Mrs. Johan ",18,female,1,0,7546,,480,Sweden,Southampton,"Akeley, Minnesota, US",US,,No,2.197224577
+42,0,2,"Turpin, Mrs. William John Robert ",33,female,1,0,11668,,324,England,Southampton,"Salt Lake City, Utah, US",US,,No,3.044522438
+43,0,3,"Kraeff, Mr. Theodor",19,male,0,0,349253,,351,Bulgaria,Cherbourg,"Madison, Wisconsin, US",US,,No,1.945910149
+44,1,2,"Laroche, Miss. Simonne Marie Anne Andree",40,female,1,2,SC/Paris 2123,,36,France,Cherbourg,"Cap-Ha??tien, Haiti",Haiti,14,Yes,3.713572067
+45,1,3,"Devaney, Miss. Margaret Delia",29,female,0,0,330958,,228,Ireland,Queenstown,New York City,US,C,Yes,1.945910149
+46,0,3,"Rogers, Mr. William John",24,male,0,0,S.C./A.4. 23567,,348,Australia,Southampton,New York City,US,,No,2.079441542
+47,0,3,"Lennon, Mr. Denis",17,male,1,0,370371,,240,Ireland,Queenstown,New York City,US,,No,2.708050201
+48,1,3,"O'Driscoll, Miss. Bridget",25,female,0,0,14311,,288,Ireland,Queenstown,"Jersey City, New Jersey, US",US,D,Yes,1.945910149
+49,0,3,"Samaan, Mr. Youssef",19,male,2,0,2662,,192,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,3.044522438
+50,0,3,"Arnold-Franchi, Mrs. Josef ",27,female,1,0,349237,,216,Switzerland,Southampton,"New Glarus, Wisconsin, US",US,,No,2.833213344
+51,0,3,"Panula, Master. Juha Niilo",26,male,4,1,3101295,,84,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+52,0,3,"Nosworthy, Mr. Richard Cater",28,male,0,0,A/4. 39886,,252,England,Southampton,"Buffalo, New York, US",US,,No,1.945910149
+53,1,1,"Harper, Mrs. Henry Sleeper ",27,female,1,0,PC 17572,D33,588,US,Cherbourg,"New York, New York, US",US,3,Yes,4.33073334
+54,1,2,"Faunthorpe, Mrs. Lizzie ",24,female,1,0,2926,,348,England,Southampton,"Philadelphia, Pennsylvania, US",US,16,Yes,3.258096538
+55,0,1,"Ostby, Mr. Engelhart Cornelius",30,male,0,1,113509,B30,768,US,Southampton,"Providence, Rhode Island, US",US,,No,4.110873864
+56,1,1,"Woolner, Mr. Hugh",17,male,0,0,19947,C52,540,England,Southampton,"New York, New York, US",US,D,Yes,3.555348061
+57,1,2,"Rugg, Miss. Emily",17,female,0,0,C.A. 31026,,252,Channel Islands,Southampton,"Wilmington, Delaware, US",US,12,Yes,2.302585093
+58,0,3,"Novel, Mr. Mansouer",19,male,0,0,2697,,240,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+59,1,2,"West, Miss. Constance Mirium",28,female,1,2,C.A. 34651,,48,England,Southampton,"Gainesville, Florida, US",US,10,Yes,3.295836866
+61,0,3,"Sirayanian, Mr. Orsen",21,male,0,0,2669,,264,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,,No,1.945910149
+62,1,1,"Icard, Miss. Amelie",19,female,0,0,113572,B28,456,US,Southampton,"New York, New York, US",US,6,Yes,4.382026635
+63,0,1,"Harris, Mr. Henry Birkhardt",27,male,1,0,36973,C83,540,US,Southampton,"New York, New York, US",US,,No,4.418840608
+64,0,3,"Skoog, Master. Harald",21,male,3,2,347088,,60,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
+65,0,1,"Stewart, Mr. Albert A",21,male,0,0,PC 17605,,648,US,Cherbourg,"Gallipolis, Ohio, US",US,,No,3.295836866
+66,1,3,"Moubarek, Master. Gerios",24,male,1,1,2661,,84,Lebanon,Cherbourg,"Houtzdale, Pennsylvania, US",US,C,Yes,2.708050201
+67,1,2,"Nye, Mrs. ",10,female,0,0,C.A. 29395,F33,348,US,Southampton,"East Orange, New Jersey, US",US,11,Yes,2.302585093
+68,0,3,"Crease, Mr. Ernest James",24,male,0,0,S.P. 3464,,228,England,Southampton,"Cleveland, Ohio, US",US,,No,2.079441542
+69,1,3,"Andersson, Miss. Erna Alexandra",31,female,4,2,3101281,,204,Finland,Southampton,New York City,US,D,Yes,1.945910149
+70,0,3,"Kink, Mr. Vincenz",17,male,2,0,315151,,312,Switzerland,Southampton,"Milwaukee, Wisconsin, US",US,,No,2.079441542
+71,0,2,"Jenkin, Mr. Stephen Curnow",26,male,0,0,C.A. 33111,,384,England,Southampton,"Houghton, Michigan, US",US,,No,2.302585093
+73,0,2,"Hood, Mr. Ambrose Jr",20,male,0,0,S.O.C. 14879,,252,England,Southampton,"Manitoba, Canada",Canada,,No,4.290459441
+74,0,3,"Chronopoulos, Mr. Apostolos",27,male,1,0,2680,,312,Greece,Cherbourg,New York City,US,,No,2.63905733
+75,1,3,"Bing, Mr. Lee",13,male,0,0,1601,,384,China,Southampton,New York City,US,C,Yes,4.025351691
+76,0,3,"Moen, Mr. Sigurd Hansen",23,male,0,0,348123,F G73,300,Norway,Southampton,"Minneapolis, Minnesota, US",US,,No,1.945910149
+77,0,3,"Staneff, Mr. Ivan",17,male,0,0,349208,,276,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+78,0,3,"Moutal, Mr. Rahamin Haim",24,male,0,0,374746,,336,England,Southampton,New York City,US,,No,2.079441542
+79,1,2,"Caldwell, Master. Alden Gates",29,male,0,2,248738,,10,Bangkok,Southampton,"Roseville, Illinois, US",US,13,Yes,3.36729583
+80,1,3,"Dowdell, Miss. Elizabeth",24,female,0,0,364516,,372,US,Southampton,New York City,US,13,Yes,2.48490665
+81,0,3,"Waelens, Mr. Achille",20,male,0,0,345767,,264,Belgium,Southampton,"Stanton, Ohio, US",US,,No,2.197224577
+82,1,3,"Sheerlinck, Mr. Jan Baptist",27,male,0,0,345779,,348,Belgium,Southampton,"Detroit, Michigan, US",US,11,Yes,2.197224577
+83,1,3,"McDermott, Miss. Brigdet Delia",30,female,0,0,330932,,372,Ireland,Queenstown,"Chicago, Illinois, US",US,13,Yes,1.945910149
+84,0,1,"Carrau, Mr. Francisco M",23,male,0,0,113059,,372,Uruguay,Southampton,"Montevideo, Uruguay",Uruguay,,No,3.850147602
+85,1,2,"Ilett, Miss. Bertha",19,female,0,0,SO/C 14885,,204,Channel Islands,Southampton,"Atlanta, Georgia, US",US,,No,2.302585093
+86,1,3,"Backstrom, Mrs. Karl Alfred ",28,female,3,0,3101278,,396,Finland,Southampton,New York City,US,D,Yes,2.708050201
+88,0,3,"Slocovski, Mr. Selman Francis",29,male,0,0,SOTON/OQ 392086,,240,England,Southampton,New York City,US,,No,2.079441542
+89,1,1,"Fortune, Miss. Mabel Helen",26,female,3,2,19950,C23 C25 C27,276,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,10,Yes,5.572154032
+90,0,3,"Celotti, Mr. Francesco",22,male,0,0,343275,,288,Italy,Southampton,New York City,US,,No,2.079441542
+91,0,3,"Christmann, Mr. Emil",20,male,0,0,343276,,348,England,Southampton,New York City,US,,No,2.079441542
+92,0,3,"Andreasson, Mr. Paul Edvin",26,male,0,0,347466,,240,Sweden,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+93,0,1,"Chaffee, Mr. Herbert Fuller",27,male,1,0,W.E.P. 5734,E31,552,US,Southampton,"Amenia, North Dakota, US",US,,No,4.110873864
+94,0,3,"Dean, Mr. Bertram Frank",23,male,1,2,C.A. 2315,,300,England,Southampton,"Wichita, Kansas, US",US,,No,2.995732274
+95,0,3,"Coxon, Mr. Daniel",17,male,0,0,364500,,708,England,Southampton,"Merrill, Wisconsin, US",US,,No,1.945910149
+96,0,3,"Shorney, Mr. Charles Joseph",27,male,0,0,374910,,264,England,Southampton,"New York, US",US,,No,2.079441542
+97,0,1,"Goldschmidt, Mr. George B",25,male,0,0,PC 17754,A5,852,US,Cherbourg,"New York, New York, US",US,,No,3.526360525
+98,1,1,"Greenfield, Mr. William Bertram",31,male,0,1,PC 17759,D10 D12,276,US,Cherbourg,"New York, New York, US",US,7,Yes,4.143134726
+99,1,2,"Doling, Mrs. John T ",20,female,0,1,231919,,408,England,Southampton,New York City,US,,No,3.135494216
+100,0,2,"Kantor, Mr. Sinai",17,male,1,0,244367,,408,Russia,Southampton,"Bronx, New York, US",US,,No,3.258096538
+101,0,3,"Petranec, Miss. Matilda",23,female,0,0,349245,,336,Croatia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+102,0,3,"Petroff, Mr. Pastcho ",21,male,0,0,349215,,348,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+103,0,1,"White, Mr. Richard Frasar",25,male,0,1,35281,D26,252,US,Southampton,"Brunswick, Maine, US",US,,No,4.343805422
+104,0,3,"Johansson, Mr. Gustaf Joel",26,male,0,0,7540,,396,Sweden,Southampton,"Cheyenne, North Dakota, US",US,,No,2.079441542
+105,0,3,"Gustafsson, Mr. Anders Vilhelm",30,male,2,0,3101276,,444,Finland,Southampton,New York City,US,,No,1.945910149
+106,0,3,"Mionoff, Mr. Stoytcho",21,male,0,0,349207,,336,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+107,1,3,"Salkjelsvik, Miss. Anna Kristine",32,female,0,0,343120,,252,Norway,Southampton,"Proctor, Minnesota, US",US,C,Yes,1.945910149
+108,1,3,"Moss, Mr. Albert Johan",22,male,0,0,312991,,348,Norway,Southampton,New York City,US,B,Yes,1.945910149
+109,0,3,"Rekic, Mr. Tido",15,male,0,0,349249,,456,Bosnia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+110,1,3,"Moran, Miss. Bertha",19,female,1,0,371110,,336,Ireland,Queenstown,"Brooklyn, New York, US",US,16,Yes,3.17805383
+111,0,1,"Porter, Mr. Walter Chamberlain",30,male,0,0,110465,C110,552,US,Southampton,"Worcester, Massachusetts, US",US,,No,3.951243719
+112,0,3,"Zabour, Miss. Hileni",20,female,1,0,2665,,192,Syria,Cherbourg,New York City,US,,No,2.63905733
+113,0,3,"Barton, Mr. David John",22,male,0,0,324669,,264,England,Southampton,New York City,US,,No,2.079441542
+114,0,3,"Jussila, Miss. Katriina",23,female,1,0,4136,,240,Finland,Southampton,New York City,US,,No,2.197224577
+115,0,3,"Attalah, Miss. Malake",21,female,0,0,2627,,204,Lebanon,Cherbourg,New York City,US,,No,2.63905733
+116,0,3,"Pekoniemi, Mr. Edvard",21,male,0,0,STON/O 2. 3101294,,252,Finland,Southampton,New York City,US,,No,1.945910149
+117,0,3,"Connors, Mr. Patrick",20,male,0,0,370369,,732,Ireland,Queenstown,New York City,US,,No,1.945910149
+118,0,2,"Turpin, Mr. William John Robert",31,male,1,0,11668,,348,England,Southampton,"Salt Lake City, Utah, US",US,,No,3.044522438
+119,0,1,"Baxter, Mr. Quigg Edmond",24,male,0,1,PC 17558,B58 B60,288,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,,No,5.509388337
+120,0,3,"Andersson, Miss. Ellis Anna Maria",33,female,4,2,347082,,24,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
+121,0,2,"Hickman, Mr. Stanley George",27,male,2,0,S.O.C. 14879,,240,England,Southampton,"The Pas, Manitoba, Canada",Canada,,No,4.290459441
+122,0,3,"Moore, Mr. Leonard Charles",26,male,0,0,A4. 54510,,228,England,Southampton,"Hoboken, New Jersey, US",US,,No,2.079441542
+123,0,2,"Nasser, Mr. Nicholas",20,male,1,0,237736,,336,Lebanon,Cherbourg,"Cleveland, Ohio, US",US,,No,3.401197382
+124,1,2,"Webber, Miss. Susan",19,female,0,0,27267,E101,444,England,Southampton,"Hartford, Connecticut, US",US,12,Yes,2.564949357
+125,0,1,"White, Mr. Percival Wayland",27,male,0,1,35281,D26,648,US,Southampton,"Brunswick, Maine, US",US,,No,4.343805422
+126,1,3,"Nicola-Yarred, Master. Elias",28,male,1,0,2651,,144,Lebanon,Cherbourg,"Jacksonville, Florida, US",US,C,Yes,2.397895273
+127,0,3,"McMahon, Mr. Martin",19,male,0,0,370372,,240,Ireland,Queenstown,New York City,US,,No,1.945910149
+128,1,3,"Madsen, Mr. Fridtjof Arne",25,male,0,0,C 17369,,288,Norway,Southampton,"Brooklyn, New York, US",US,13,Yes,1.945910149
+129,1,3,"Peter, Miss. Anna",17,female,1,1,2668,F E69,24,Syria,Cherbourg,"Detroit, Michigan, US",US,C,Yes,3.091042453
+130,0,3,"Ekstrom, Mr. Johan",18,male,0,0,347061,,540,US,Southampton,"Effington Rut, South Dakota, US",US,,No,1.791759469
+131,0,3,"Drazenoic, Mr. Jozef",20,male,0,0,349241,,396,Croatia,Cherbourg,New York City,US,,No,1.945910149
+132,0,3,"Coelho, Mr. Domingos Fernandeo",30,male,0,0,SOTON/O.Q. 3101307,,240,Portugal,Southampton,New York City,US,,No,1.945910149
+133,0,3,"Robins, Mrs. Alexander A ",25,female,1,0,A/5. 3337,,564,England,Southampton,"Yonkers, New York, US",US,,No,2.63905733
+134,1,2,"Weisz, Mrs. Leopold ",20,female,1,0,228414,,444,England,Southampton,"Montreal, Quebec, Canada",Canada,10,Yes,3.258096538
+135,0,2,"Sobey, Mr. Samuel James Hayden",30,male,0,0,C.A. 29178,,300,England,Southampton,"Houghton, Michigan, US",US,,No,2.564949357
+136,0,2,"Richard, Mr. Emile",18,male,0,0,SC/PARIS 2133,,276,France,Cherbourg,"Montreal, Quebec, Canada",Canada,,No,2.708050201
+137,1,1,"Newsom, Miss. Helen Monypeny",28,female,0,2,11752,D47,228,US,Southampton,"New York, New York, US",US,5,Yes,3.258096538
+138,0,1,"Futrelle, Mr. Jacques Heath",27,male,1,0,113803,C123,444,US,Southampton,"Scituate, Massachusetts, US",US,,No,3.970291914
+139,0,3,"Osen, Mr. Olaf Elon",19,male,0,0,7534,,192,Sweden,Southampton,"Mitchell, South Dakota, US",US,,No,2.197224577
+140,0,1,"Giglio, Mr. Victor",18,male,0,0,PC 17593,B86,288,France,Cherbourg,"New York, New York, US",US,,No,4.369447852
+141,0,3,"Boulos, Mrs. Joseph ",20,female,0,2,2678,,480,Lebanon,Cherbourg,"Kent, British Columbia, Canada",Canada,,No,2.708050201
+142,1,3,"Nysten, Miss. Anna Sofia",24,female,0,0,347081,,264,Sweden,Southampton,"Hackensack, New Jersey, US",US,13,Yes,1.945910149
+143,1,3,"Hakkarainen, Mrs. Pekka Pietari ",32,female,1,0,STON/O2. 3101279,,288,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,2.708050201
+144,0,3,"Burke, Mr. Jeremiah",19,male,0,0,365222,,228,Ireland,Queenstown,"Charlestown, US",US,,No,1.791759469
+145,0,2,"Andrew, Mr. Edgardo Samuel",26,male,0,0,231945,,204,Argentina,Southampton,"Trenton, New Jersey, US",US,,No,2.397895273
+146,0,2,"Nicholls, Mr. Joseph Charles",28,male,1,1,C.A. 33112,,228,England,Southampton,"Houghton, Michigan, US",US,,No,3.583518938
+147,1,3,"Andersson, Mr. August Edvard ",29,male,0,0,350043,,324,Sweden,Southampton,"Chicago, Illinois, US",US,A,Yes,1.945910149
+148,0,3,"Ford, Miss. Robina Maggie ""Ruby""",32,female,2,2,W./C. 6608,,84,England,Southampton,"Essex County, New Jersey, US",US,,No,3.526360525
+149,0,2,"Navratil, Mr. Michel ",21,male,0,2,230080,F2,384,France,Southampton,New York City,US,,No,3.258096538
+150,0,2,"Byles, Rev. Thomas Roussel Davids",33,male,0,0,244310,,504,England,Southampton,"Jacksonville, Florida, US",US,,No,2.564949357
+151,0,2,"Bateman, Rev. Robert James",26,male,0,0,S.O.P. 1166,,612,US,Southampton,"Jacksonville, Florida, US",US,,No,2.48490665
+152,1,1,"Pears, Mrs. Thomas ",19,female,1,0,113776,C2,264,England,Southampton,"New York, New York, US",US,8,Yes,4.189654742
+153,0,3,"Meo, Mr. Alfonzo",16,male,0,0,A.5. 11206,,576,England,Southampton,"Washington, DC, US",US,,No,2.079441542
+154,0,3,"van Billiard, Mr. Austin Blyler",31,male,0,2,A/5. 851,,420,England,Southampton,"North Wales, Pennsylvania, US",US,,No,2.63905733
+155,0,3,"Olsen, Mr. Ole Martin",21,male,0,0,Fa 265302,,324,Norway,Southampton,"Broderick, Canada",Canada,,No,1.945910149
+156,0,1,"Williams, Mr. Charles Duane",27,male,0,1,PC 17597,,612,Switzerland,Cherbourg,"Radnor, Pennsylvania, US",US,,No,4.110873864
+157,1,3,"Gilnagh, Miss. Katherine ""Katie""",32,female,0,0,35851,,204,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+158,0,3,"Corn, Mr. Harry",15,male,0,0,SOTON/OQ 392090,,360,England,Southampton,New York City,US,,No,2.079441542
+159,0,3,"Smiljanic, Mr. Mile",19,male,0,0,315037,,444,Croatia,Southampton,New York City,US,,No,2.079441542
+161,0,3,"Cribb, Mr. John Hatfield",24,male,0,1,371362,,528,England,Southampton,"Newark, New Jersey, US",US,,No,2.772588722
+162,1,2,"Watt, Mrs. James ",17,female,0,0,C.A. 33595,,480,Scotland,Southampton,"Portland, Oregon, US",US,9,Yes,2.708050201
+163,0,3,"Bengtsson, Mr. John Viktor",26,male,0,0,347068,,312,Sweden,Southampton,"Monee, Illinois, US",US,,No,1.945910149
+164,0,3,"Calic, Mr. Jovo",15,male,0,0,315093,,204,Croatia,Southampton,"Sault Ste. Marie, Michigan, US",US,,No,2.079441542
+165,0,3,"Panula, Master. Eino Viljami",28,male,4,1,3101295,,12,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",47,male,0,2,363291,,108,England,Southampton,"Detroit, Michigan, US",US,C,Yes,2.995732274
+167,1,1,"Chibnall, Mrs. ",15,female,0,1,113505,E33,576,England,Southampton,"New York, New York, US",US,6,Yes,4.007333185
+169,0,1,"Baumann, Mr. John D",19,male,0,0,PC 17318,,720,US,Cherbourg,"New York, New York, US",US,,No,3.218875825
+170,0,3,"Ling, Mr. Lee",13,male,0,0,1601,,288,China,Southampton,New York City,US,,No,4.025351691
+171,0,1,"Van der hoef, Mr. Wyckoff",25,male,0,0,111240,B19,732,US,Belfast,"Brooklyn, New York, US",US,,No,3.496507561
+172,0,3,"Rice, Master. Arthur",20,male,4,1,382652,,48,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
+173,1,3,"Johnson, Miss. Eleanor Ileen",28,female,1,1,347742,,12,US,Southampton,"St. Charles, Illinois, US",US,15,Yes,2.397895273
+174,0,3,"Sivola, Mr. Antti Wilhelm",25,male,0,0,STON/O 2. 3101280,,252,US,Southampton,"Mountain Home, Idaho, US",US,,No,1.945910149
+175,0,1,"Smith, Mr. James Clinch",23,male,0,0,17764,A7,672,France,Cherbourg,"Long Island, New York, US",US,,No,3.401197382
+176,0,3,"Klasen, Mr. Klas Albin",22,male,1,1,350404,,216,Sweden,Southampton,New York City,US,,No,1.945910149
+177,0,3,"Lefebre, Master. Henry Forbes",29,male,3,1,4133,,60,France,Southampton,"Mystic, Iowa, US",US,,No,3.218875825
+178,0,1,"Isham, Miss. Ann Elizabeth",26,female,0,0,PC 17595,C49,600,US,Cherbourg,"Chicago, Illinois, US",US,,No,3.33220451
+179,0,2,"Hale, Mr. Reginald",18,male,0,0,250653,,360,US,Southampton,"Auburn, New York, US",US,,No,2.564949357
+180,0,3,"Leonard, Mr. Lionel",19,male,0,0,LINE,,432,US,Southampton,New York City,US,,No,#NAME?
+182,0,2,"Pernot, Mr. Rene",16,male,0,0,SC/PARIS 2131,,468,France,Cherbourg,"New York, New York, US",US,,No,2.708050201
+183,0,3,"Asplund, Master. Clarence Gustaf Hugo",37,male,4,2,347077,,108,Sweden,Southampton,"Worcester, Massachusetts, US",US,,No,3.433987204
+184,1,2,"Becker, Master. Richard F",25,male,2,1,230136,F4,12,British India,Southampton,"Benton Harbor, Michigan, US",US,11,Yes,3.663561646
+185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",35,female,0,2,315153,,48,Switzerland,Southampton,"Milwaukee, Wisconsin, US",US,2,Yes,3.091042453
+186,0,1,"Rood, Mr. Hugh Roscoe",21,male,0,0,113767,A32,456,US,Southampton,"Seattle, Washington, US",US,,No,3.912023005
+187,1,3,"O'Brien, Mrs. Thomas ",21,female,1,0,370365,,312,Ireland,Queenstown,New York City,US,,No,2.708050201
+188,1,1,"Romaine, Mr. Charles Hallace ",29,male,0,0,111428,,540,US,Southampton,"New York, New York, US",US,9,Yes,3.258096538
+189,0,3,"Bourke, Mr. John",16,male,1,1,364849,,504,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,2.708050201
+190,0,3,"Turcin, Mr. Stjepan",19,male,0,0,349247,,432,Croatia,Southampton,"Youngstown, Ohio, US",US,,No,1.945910149
+191,1,2,"Pinsky, Mrs. ",13,female,0,0,234604,,252,US,Southampton,"Brooklyn, New York, US",US,9,Yes,2.564949357
+192,0,2,"Carbines, Mr. William",21,male,0,0,28424,,228,England,Southampton,"Houghton, Michigan, US",US,,No,2.564949357
+193,1,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",47,female,1,0,350046,,228,Denmark,Southampton,"Portland, Oregon, US",US,16,Yes,1.945910149
+194,1,2,"Navratil, Master. Michel M",26,male,1,1,230080,F2,36,France,Southampton,New York City,US,D,Yes,3.258096538
+195,1,1,"Brown, Mrs. James Joseph ",25,female,0,0,PC 17610,B4,528,US,Cherbourg,"Denver, Colorado, US",US,6,Yes,3.295836866
+196,1,1,"Lurette, Miss. Elise",20,female,0,0,PC 17569,B80,708,US,Cherbourg,"New York, New York, US",US,6,Yes,4.983606622
+197,0,3,"Mernagh, Mr. Robert",19,male,0,0,368703,,312,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,1.945910149
+198,0,3,"Olsen, Mr. Karl Siegwart Andreas",32,male,0,1,4579,,504,Norway,Southampton,"Brooklyn, New York, US",US,,No,2.079441542
+199,1,3,"Madigan, Miss. Margaret ""Maggie""",32,female,0,0,370370,,252,Ireland,Queenstown,New York City,US,15,Yes,1.945910149
+200,0,2,"Yrois, Miss. Henriette ",23,female,0,0,248747,,288,France,Southampton,"Montreal, Quebec, Canada",Canada,,No,2.564949357
+201,0,3,"Vande Walle, Mr. Nestor Cyriel",30,male,0,0,345770,,336,Belgium,Southampton,New York City,US,,No,2.197224577
+203,0,3,"Johanson, Mr. Jakob Alfred",26,male,0,0,3101264,,408,Finland,Southampton,"Vancouver, British Columbia, Canada",Canada,,No,1.791759469
+204,0,3,"Youseff, Mr. Gerious",20,male,0,0,2628,,540,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,1.945910149
+205,1,3,"Cohen, Mr. Gurshon ""Gus""",24,male,0,0,A/5 3540,,216,England,Southampton,"Brooklyn, New York, US",US,12,Yes,2.079441542
+206,0,3,"Strom, Miss. Telma Matilda",26,female,0,1,347054,G6,24,US,Southampton,"Indiana Harbor, Indiana, US",US,,No,2.302585093
+207,0,3,"Backstrom, Mr. Karl Alfred",26,male,1,0,3101278,,384,Finland,Southampton,New York City,US,,No,2.708050201
+208,1,3,"Albimona, Mr. Nassef Cassem",27,male,0,0,2699,,312,US,Cherbourg,"Fredericksburg, Virginia, US",US,15,Yes,2.890371758
+209,1,3,"Carr, Miss. Helen ""Ellen""",25,female,0,0,367231,,192,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+210,1,1,"Blank, Mr. Henry",16,male,0,0,112277,A31,468,US,Cherbourg,"Glen Ridge, New Jersey, US",US,7,Yes,3.433987204
+211,0,3,"Ali, Mr. Ahmed",14,male,0,0,SOTON/O.Q. 3101311,,288,Argentina,Southampton,New York City,US,,No,1.945910149
+212,1,2,"Cameron, Miss. Clear Annie",26,female,0,0,F.C.C. 13528,,420,England,Southampton,"Mamaronek, New York, US",US,14,Yes,3.044522438
+213,0,3,"Perkin, Mr. John Henry",22,male,0,0,A/5 21174,,264,England,Southampton,"Saskatoon, Saskatchewan, Canada",Canada,,No,1.945910149
+214,0,2,"Givard, Mr. Hans Kristensen",27,male,0,0,250646,,360,Denmark,Southampton,"San Francisco, California, US",US,,No,2.564949357
+215,0,3,"Kiernan, Mr. Philip",19,male,1,0,367229,,264,Ireland,Queenstown,"Jersey City, New Jersey, US",US,,No,1.945910149
+216,1,1,"Newell, Miss. Madeleine",23,female,1,0,35273,D36,372,US,Cherbourg,"Lexington, Massachusetts, US",US,6,Yes,4.727387819
+217,1,3,"Honkanen, Miss. Eliina",22,female,0,0,STON/O2. 3101283,,324,Finland,Southampton,New York City,US,,No,1.945910149
+218,0,2,"Jacobsohn, Mr. Sidney Samuel",28,male,1,0,243847,,480,England,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.295836866
+219,1,1,"Bazzani, Miss. Albina",21,female,0,0,11813,D15,432,US,Cherbourg,"Philadelphia, Pennsylvania, US",US,8,Yes,4.33073334
+220,0,2,"Harris, Mr. Walter",18,male,0,0,W/C 14208,,360,England,Southampton,New York City,US,,No,2.302585093
+221,1,3,"Sunderland, Mr. Victor Francis",30,male,0,0,SOTON/OQ 392089,,240,England,Southampton,"Cleveland, Ohio, US",US,B,Yes,2.079441542
+222,0,2,"Bracken, Mr. James H",20,male,0,0,220367,,348,Mexico,Southampton,"Lake Arthur, New Mexico, US",US,,No,2.564949357
+223,0,3,"Green, Mr. George Henry",23,male,0,0,21440,,480,England,Southampton,"Lead, South Dakota, US",US,,No,2.079441542
+224,0,3,"Nenkoff, Mr. Christo",20,male,0,0,349234,,264,Bulgaria,Southampton,"Coon Rapids, Iowa, US",US,,No,1.945910149
+225,1,1,"Hoyt, Mr. Frederick Maxfield",28,male,1,0,19943,C93,420,US,Southampton,"Stamford, Connecticut, US",US,D,Yes,4.49980967
+226,0,3,"Berglund, Mr. Karl Ivar Sven",28,male,0,0,PP 4348,,264,Finland,Southampton,New York City,US,,No,2.197224577
+227,1,2,"Mellors, Mr. William John",25,male,0,0,SW/PP 751,,228,England,Southampton,"Long Island, New York, US",US,B,Yes,2.302585093
+228,0,3,"Lovell, Mr. John Hall ",22,male,0,0,A/5 21173,,240,England,Southampton,New York City,US,,No,1.945910149
+229,0,2,"Fahlstrom, Mr. Arne Jonas",25,male,0,0,236171,,216,Norway,Southampton,"Bayonne, New Jersey, US",US,,No,2.564949357
+230,0,3,"Lefebre, Miss. Mathilde",23,female,3,1,4133,,144,France,Southampton,"Mystic, Iowa, US",US,,No,3.218875825
+231,1,1,"Harris, Mrs. Henry Birkhardt ",29,female,1,0,36973,C83,420,US,Southampton,"New York, New York, US",US,D,Yes,4.418840608
+232,0,3,"Larsson, Mr. Bengt Edvin",24,male,0,0,347067,,348,Sweden,Southampton,"Hartford, Connecticut, US",US,,No,1.945910149
+233,0,2,"Sjostedt, Mr. Ernst Adolf",25,male,0,0,237442,,360,Sweden,Southampton,"Sault Ste Marie, Michigan, US",US,10,Yes,2.564949357
+234,1,3,"Asplund, Miss. Lillian Gertrud",30,female,4,2,347077,,60,Sweden,Southampton,"Worcester, Massachusetts, US",US,15,Yes,3.433987204
+235,0,2,"Leyson, Mr. Robert William Norman",33,male,0,0,C.A. 29566,,300,England,Southampton,New York City,US,,No,2.302585093
+236,0,3,"Harknett, Miss. Alice Phoebe",28,female,0,0,W./C. 6609,,252,England,Southampton,"New London, Connecticut, US",US,,No,1.945910149
+237,0,2,"Hold, Mr. Stephen",17,male,1,0,26707,,528,England,Southampton,"Sacramento, California, US",US,,No,3.258096538
+238,1,2,"Collyer, Miss. Marjorie ""Lottie""",32,female,0,2,C.A. 31921,,96,England,Southampton,"Payette, Idaho, US",US,14,Yes,3.258096538
+239,0,2,"Pengelly, Mr. Frederick William",31,male,0,0,28665,,228,England,Southampton,"Butte, Montana, US",US,,No,2.302585093
+240,0,2,"Hunt, Mr. George Henry",22,male,0,0,SCO/W 1585,,396,US,Southampton,"Philadelphia, Pennsylvania, US",US,,No,2.48490665
+241,0,3,"Zabour, Miss. Thamine",21,female,1,0,2665,,228,Syria,Cherbourg,New York City,US,,No,2.63905733
+242,1,3,"Murphy, Miss. Katherine ""Kate""",30,female,1,0,367230,,216,Ireland,Queenstown,"Philadelphia, Pennsylvania, US",US,16,Yes,2.708050201
+243,0,2,"Coleridge, Mr. Reginald Charles",31,male,0,0,W./C. 14263,,348,England,Southampton,"Detroit, Michigan, US",US,,No,2.302585093
+244,0,3,"Maenpaa, Mr. Matti Alexanteri",29,male,0,0,STON/O 2. 3101275,,264,Finland,Southampton,"Sudbury, Ontario, Canada",Canada,,No,1.945910149
+245,0,3,"Attalah, Mr. Sleiman",20,male,0,0,2694,,360,Canada,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+246,0,1,"Minahan, Dr. William Edward",27,male,2,0,19928,C78,528,US,Southampton,"Fond du Lac, Wisconsin, US",US,,No,4.49980967
+247,0,3,"Lindahl, Miss. Agda Thorilda Viktoria",37,female,0,0,347071,,300,Sweden,Southampton,"Saranac Lake, New York, US",US,,No,1.945910149
+248,1,2,"Hamalainen, Mrs. William ",25,female,0,2,250649,,288,US,Southampton,"Detroit, Michigan, US",US,4,Yes,2.63905733
+249,1,1,"Beckwith, Mr. Richard Leonard",29,male,1,1,11751,D35,444,US,Southampton,"New York, New York, US",US,5,Yes,3.951243719
+250,0,2,"Carter, Rev. Ernest Courtenay",29,male,1,0,244252,,648,England,Southampton,New York City,US,,No,3.258096538
+251,0,3,"Reed, Mr. James George",22,male,0,0,362316,,228,Australia,Southampton,New York City,US,,No,1.945910149
+252,0,3,"Strom, Mrs. Wilhelm ",20,female,1,1,347054,G6,348,US,Southampton,"Indiana Harbor, Indiana, US",US,,No,2.302585093
+253,0,1,"Stead, Mr. William Thomas",25,male,0,0,113514,C87,744,England,Southampton,"New York, New York, US",US,,No,3.258096538
+254,0,3,"Lobb, Mr. William Arthur",24,male,1,0,A/5. 3336,,360,US,Southampton,"Scranton, Pennsylvania, US",US,,No,2.772588722
+255,0,3,"Rosblom, Mrs. Viktor ",21,female,0,2,370129,,492,Finland,Southampton,"Astoria, Oregon, US",US,,No,2.995732274
+256,1,3,"Touma, Mrs. Darwis ",19,female,0,2,2650,,324,Lebanon,Cherbourg,"Dowagiac, Michigan, US",US,C,Yes,2.708050201
+257,1,1,"Thorne, Mrs. Gertrude Maybelle",30,female,0,0,PC 17585,,444,US,Cherbourg,"New York, New York, US",US,D,Yes,4.369447852
+258,1,1,"Cherry, Miss. Gladys",20,female,0,0,110152,B77,360,England,Southampton,"Vancouver, British Columbia, Canada",Canada,8,Yes,4.454347296
+259,1,1,"Ward, Miss. Anna",16,female,0,0,PC 17755,,456,US,Cherbourg,"Germantown, Pennsylvania, US",US,3,Yes,6.238324625
+260,1,2,"Parrish, Mrs. ",14,female,0,1,230433,,720,US,Southampton,"Woodford County, Kentucky, US",US,12,Yes,3.258096538
+261,0,3,"Smith, Mr. Thomas",17,male,0,0,384461,,312,Ireland,Queenstown,"Hammond, Indiana, US",US,,No,1.945910149
+262,1,3,"Asplund, Master. Edvin Rojj Felix",33,male,4,2,347077,,36,Sweden,Southampton,"Worcester, Massachusetts, US",US,15,Yes,3.433987204
+263,0,1,"Taussig, Mr. Emil",17,male,1,1,110413,E67,624,US,Southampton,"New York, New York, US",US,,No,4.369447852
+264,0,1,"Harrison, Mr. William",21,male,0,0,112059,B94,540,England,Southampton,"New York, New York, US",US,,No,#NAME?
+265,0,3,"Henry, Miss. Delia",18,female,0,0,382649,,276,Ireland,Queenstown,"Boston, Massachusetts, US",US,,No,1.945910149
+266,0,2,"Reeves, Mr. David",17,male,0,0,C.A. 17248,,432,England,Southampton,New York City,US,,No,2.302585093
+267,0,3,"Panula, Mr. Ernesti Arvid",25,male,4,1,3101295,,192,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+268,1,3,"Persson, Mr. Ernst Ulrik",24,male,1,0,347083,,300,Sweden,Southampton,"Indianapolis, Indiana, US",US,15,Yes,1.945910149
+269,1,1,"Graham, Mrs. William Thompson ",30,female,0,1,PC 17582,C125,708,US,Southampton,"Greenwich, Connecticut, US",US,3,Yes,5.030437921
+270,1,1,"Bissette, Miss. Amelia",22,female,0,0,PC 17760,C99,468,US,Cherbourg,"New York, New York, US",US,8,Yes,4.905274778
+271,0,1,"Cairns, Mr. Alexander",21,male,0,0,113798,,336,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,,No,3.433987204
+272,1,3,"Tornquist, Mr. William Henry",28,male,0,0,LINE,,300,Sweden,Southampton,New York City,US,15,Yes,#NAME?
+273,1,2,"Mellinger, Mrs. ",16,female,0,1,250644,,492,England,Southampton,"Bennington, Vermont, US",US,14,Yes,2.944438979
+274,0,1,"Natsch, Mr. Charles H",21,male,0,1,PC 17596,C118,432,US,Cherbourg,"Brooklyn, New York, US",US,,No,3.36729583
+275,1,3,"Healy, Miss. Hanora ""Nora""",26,female,0,0,370375,,348,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+276,1,1,"Andrews, Miss. Kornelia Theodosia",33,female,1,0,13502,D7,744,US,Cherbourg,"Hudson, New York, US",US,10,Yes,4.343805422
+277,0,3,"Lindblom, Miss. Augusta Charlotta",33,female,0,0,347073,,540,Sweden,Southampton,"Stratford, Connecticut, US",US,,No,1.945910149
+278,0,2,"Parkes, Mr. Francis ""Frank""",27,male,0,0,239853,,216,Ireland,Belfast,New York City,US,,No,#NAME?
+279,0,3,"Rice, Master. Eric",18,male,4,1,382652,,84,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
+280,1,3,"Abbott, Mrs. Stanton ",21,female,1,1,C.A. 2673,,468,US,Southampton,"East Providence, Rhode Island, US",US,A,Yes,2.995732274
+281,0,3,"Duane, Mr. Frank",16,male,0,0,336439,,780,Ireland,Queenstown,"Morris Plains, New Jersey, US",US,,No,1.945910149
+282,0,3,"Olsson, Mr. Nils Johan Goransson",32,male,0,0,347464,,336,Sweden,Southampton,New York City,US,,No,1.945910149
+283,0,3,"de Pelsmaeker, Mr. Alfons",25,male,0,0,345778,,192,Belgium,Southampton,"Gladstone, Michigan, US",US,,No,2.197224577
+284,1,3,"Dorking, Mr. Edward Arthur",26,male,0,0,A/5. 10482,,216,England,Southampton,"Oglesby, Illinois, US",US,B,Yes,2.079441542
+285,0,1,"Smith, Mr. Richard William",26,male,0,0,113056,A19,684,England,Southampton,"New York, New York, US",US,,No,3.258096538
+286,0,3,"Stankovic, Mr. Ivan",19,male,0,0,349239,,396,Croatia,Cherbourg,New York City,US,,No,2.079441542
+287,1,3,"de Mulder, Mr. Theodore",23,male,0,0,345774,,432,Belgium,Southampton,"Detroit, Michigan, US",US,11,Yes,2.197224577
+288,0,3,"Naidenoff, Mr. Penko",20,male,0,0,349206,,264,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+289,1,2,"Hosono, Mr. Masabumi",20,male,0,0,237798,,492,Japan,Southampton,"Tokyo, Japan",Japan,10,Yes,2.564949357
+290,1,3,"Connolly, Miss. Kate",20,female,0,0,370373,,264,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+291,1,1,"Barber, Miss. Ellen ""Nellie""",28,female,0,0,19877,,312,England,Southampton,"New York, New York, US",US,6,Yes,4.356708827
+292,1,1,"Bishop, Mrs. Dickinson H ",25,female,1,0,11967,B49,228,US,Cherbourg,"Dowagiac, Michigan, US",US,7,Yes,4.510859507
+293,0,2,"Levy, Mr. Rene Jacques",22,male,0,0,SC/Paris 2163,D,432,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,,No,2.48490665
+294,0,3,"Haas, Miss. Aloisia",19,female,0,0,349236,,288,Switzerland,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+295,0,3,"Mineff, Mr. Ivan",16,male,0,0,349233,,288,Bulgaria,Southampton,"Coon Rapids, Iowa, US",US,,No,1.945910149
+296,0,1,"Lewy, Mr. Ervin G",17,male,0,0,PC 17612,,372,US,Cherbourg,"Chicago, Illinois, US",US,,No,3.295836866
+297,0,3,"Hanna, Mr. Mansour",18,male,0,0,2693,,420,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+298,0,1,"Allison, Miss. Helen Loraine",28,female,1,2,113781,C22 C26,24,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,5.017279837
+299,1,1,"Saalfeld, Mr. Adolphe",21,male,0,0,19988,C106,564,England,Southampton,"New York, New York, US",US,3,Yes,3.401197382
+300,1,1,"Baxter, Mrs. James ",19,female,0,1,PC 17558,B58 B60,600,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,6,Yes,5.509388337
+301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",40,female,0,0,9234,,240,Ireland,Queenstown,"Chicago, Illinois, US",US,16,Yes,1.945910149
+302,1,3,"McCoy, Mr. Bernard",18,male,2,0,367226,,288,Ireland,Queenstown,"Brooklyn, New York, US",US,16,Yes,3.135494216
+303,0,3,"Johnson, Mr. William Cahoone Jr",31,male,0,0,LINE,,228,US,Southampton,New York City,US,,No,#NAME?
+304,1,2,"Keane, Miss. Nora A",19,female,0,0,226593,E101,552,Ireland,Queenstown,"Harrisburg, Pennsylvania, US",US,10,Yes,2.48490665
+305,0,3,"Williams, Mr. Howard Hugh ""Harry""",33,male,0,0,A/5 2466,,336,Channel Islands,Southampton,New York City,US,,No,2.079441542
+306,1,1,"Allison, Master. Hudson Trevor",30,male,1,2,113781,C22 C26,11,Canada,Southampton,"Montreal, Quebec, Canada",Canada,11,Yes,5.017279837
+307,1,1,"Fleming, Miss. Margaret",23,female,0,0,17421,,504,US,Cherbourg,"Haverford, Pennsylvania, US",US,4,Yes,4.700480366
+308,1,1,"Penasco y Castellana, Mrs. Victor de Satode ",44,female,1,0,PC 17758,C65,264,Spain,Cherbourg,"New York, New York, US",US,8,Yes,4.682131227
+309,0,2,"Abelson, Mr. Samuel",19,male,1,0,P/PP 3381,,360,Russia,Cherbourg,"New York, New York, US",US,,No,3.17805383
+310,1,1,"Francatelli, Miss. Laura Mabel",30,female,0,0,PC 17485,E36,372,England,Cherbourg,"New York, New York, US",US,1,Yes,4.025351691
+311,1,1,"Hays, Miss. Margaret Bechstein",30,female,0,0,11767,C54,288,US,Cherbourg,"New York, New York, US",US,7,Yes,4.418840608
+312,1,1,"Ryerson, Miss. Emily Borie",26,female,2,2,PC 17608,B57 B59 B63 B66,216,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504
+313,0,2,"Lahtinen, Mrs. William ",23,female,1,1,250651,,312,US,Southampton,"Minneapolis, Minnesota, US",US,,No,3.258096538
+314,0,3,"Hendekovic, Mr. Ignjac",22,male,0,0,349243,,336,Croatia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+315,0,2,"Hart, Mr. Benjamin",18,male,1,1,F.C.C. 13529,,564,England,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.258096538
+316,1,3,"Nilsson, Miss. Helmina Josefina",31,female,0,0,347470,,312,Sweden,Southampton,"Joliet, Illinois, US",US,13,Yes,1.945910149
+317,1,2,"Kantor, Mrs. Sinai ",19,female,1,0,244367,,288,Russia,Southampton,"Bronx, New York, US",US,12,Yes,3.258096538
+318,0,2,"Moraweck, Dr. Ernest",20,male,0,0,29011,,648,US,Southampton,"Frankfort, Kentucky, US",US,,No,2.63905733
+319,1,1,"Wick, Miss. Mary Natalie",24,female,0,2,36928,C7,372,US,Southampton,"Youngstown, Ohio, US",US,8,Yes,5.099866428
+320,1,1,"Spedden, Mrs. Frederic Oakley ",30,female,1,1,16966,E34,468,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
+321,0,3,"Dennis, Mr. Samuel",18,male,0,0,A/5 21172,,264,England,Southampton,"Saskatoon, Saskatchewan, Canada",Canada,,No,1.945910149
+322,0,3,"Danoff, Mr. Yoto",16,male,0,0,349219,,324,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+323,1,2,"Slayter, Miss. Hilda Mary",25,female,0,0,234818,,360,Canada,Queenstown,"Vancouver, British Columbia, Canada",Canada,13,Yes,2.48490665
+324,1,2,"Caldwell, Mrs. Albert Francis ",30,female,1,1,248738,,336,Bangkok,Southampton,"Roseville, Illinois, US",US,13,Yes,3.36729583
+326,1,1,"Young, Miss. Marie Grice",24,female,0,0,PC 17760,C32,432,US,Cherbourg,"New York, New York, US",US,8,Yes,4.905274778
+327,0,3,"Nysveen, Mr. Johan Hansen",25,male,0,0,345364,,732,Norway,Southampton,"Grand Forks, North Dakota, US",US,,No,1.791759469
+328,1,2,"Ball, Mrs. ",11,female,0,0,28551,D,432,England,Southampton,"Jacksonville, Florida, US",US,10,Yes,2.564949357
+329,1,3,"Goldsmith, Mrs. Frank John ",27,female,1,1,363291,,372,England,Southampton,"Detroit, Michigan, US",US,C,Yes,2.995732274
+330,1,1,"Hippach, Miss. Jean Gertrude",28,female,0,1,111361,B18,204,US,Cherbourg,"Chicago, Illinois, US",US,4,Yes,4.043051268
+331,1,3,"McCoy, Miss. Agnes",18,female,2,0,367226,,348,Ireland,Queenstown,"Brooklyn, New York, US",US,16,Yes,3.135494216
+332,0,1,"Partner, Mr. Austen",19,male,0,0,113043,C124,480,England,Southampton,"Toronto, Ontario, Canada",Canada,,No,3.33220451
+333,0,1,"Graham, Mr. George Edward",25,male,0,1,PC 17582,C91,456,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,5.030437921
+334,0,3,"Vander Planke, Mr. Leo Edmondus",31,male,2,0,345764,,180,Belgium,Southampton,"Fremont, Ohio, US",US,,No,2.890371758
+335,1,1,"Frauenthal, Mrs. Henry William ",31,female,1,0,PC 17611,,504,England,Southampton,"New York, New York, US",US,5,Yes,4.890349128
+336,0,3,"Denkoff, Mr. Mitto",18,male,0,0,349225,,360,Bulgaria,Southampton,"Coon Rapids, Iowa, US",US,,No,1.945910149
+337,0,1,"Pears, Mr. Thomas Clinton",25,male,1,0,113776,C2,348,England,Southampton,"New York, New York, US",US,,No,4.189654742
+338,1,1,"Burns, Miss. Elizabeth Margaret",31,female,0,0,16966,E40,492,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
+339,1,3,"Dahl, Mr. Karl Edwart",21,male,0,0,7598,,540,Australia,Southampton,"Fingal, North Dakota, US",US,15,Yes,2.079441542
+340,0,1,"Blackwell, Mr. Stephen Weart",28,male,0,0,113784,T,540,US,Southampton,"Trenton, New Jersey, US",US,,No,3.555348061
+341,1,2,"Navratil, Master. Edmond Roger",30,male,1,1,230080,F2,24,France,Southampton,New York City,US,D,Yes,3.258096538
+342,1,1,"Fortune, Miss. Alice Elizabeth",30,female,3,2,19950,C23 C25 C27,288,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,10,Yes,5.572154032
+343,0,2,"Collander, Mr. Erik Gustaf",26,male,0,0,248740,,324,Russia,Southampton,"Ashtabula, Ohio, US",US,,No,2.564949357
+344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",42,male,0,0,244361,,300,England,Southampton,"Minatitl?­n, Veracruz, Mexico",Mexico,,No,2.564949357
+345,0,2,"Fox, Mr. Stanley Hubert",23,male,0,0,229236,,456,US,Southampton,"Rochester, New York, US",US,,No,2.564949357
+346,1,2,"Brown, Miss. Amelia ""Mildred""",29,female,0,0,248733,F33,216,England,Southampton,"Montreal, Quebec, Canada",Canada,11,Yes,2.564949357
+347,1,2,"Smith, Miss. Marion Elsie",25,female,0,0,31418,,468,England,Southampton,"Washington, DC US",US,9,Yes,2.564949357
+348,1,3,"Davison, Mrs. Thomas Henry ",27,female,1,0,386525,,351,,,,,,No,2.772588722
+349,1,3,"Coutts, Master. William Loch ""William""",38,male,1,1,C.A. 37671,,108,England,Southampton,"Brooklyn, New York, US",US,2,Yes,2.708050201
+350,0,3,"Dimic, Mr. Jovan",16,male,0,0,315088,,504,Croatia,Southampton,"Red Lodge, Montana, US",US,,No,2.079441542
+351,0,3,"Odahl, Mr. Nils Martin",22,male,0,0,7267,,276,Sweden,Southampton,"Peoria, Illinois, US",US,,No,2.197224577
+352,0,1,"Williams-Lambert, Mr. Fletcher Fellows",38,male,0,0,113510,C128,516,England,Southampton,"Newark, New Jersey, US",US,,No,3.555348061
+353,0,3,"Elias, Mr. Tannous",18,male,1,1,2695,,204,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+354,0,3,"Arnold-Franchi, Mr. Josef",25,male,1,0,349237,,300,Switzerland,Southampton,"New Glarus, Wisconsin, US",US,,No,2.833213344
+355,0,3,"Yousif, Mr. Wazli",17,male,0,0,2647,,300,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+356,0,3,"Vanden Steen, Mr. Leo Peter",27,male,0,0,345783,,336,Belgium,Southampton,New York City,US,,No,2.197224577
+357,1,1,"Bowerman, Miss. Elsie Edith",27,female,0,1,113505,E33,264,England,Southampton,"New York, New York, US",US,6,Yes,4.007333185
+358,0,2,"Funk, Miss. Annie Clemmer",25,female,0,0,237671,,456,British India,Southampton,"Bally, Pennsylvania, US",US,,No,2.564949357
+359,1,3,"McGovern, Miss. Mary",20,female,0,0,330931,,264,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",33,female,0,0,330980,,276,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+362,0,2,"del Carlo, Mr. Sebastiano",25,male,1,0,SC/PARIS 2167,,348,Italy,Cherbourg,"Chicago, Illinois, US",US,,No,3.295836866
+363,0,3,"Barbara, Mrs. ",14,female,0,1,2691,,540,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,2.63905733
+364,0,3,"Asim, Mr. Adola",15,male,0,0,SOTON/O.Q. 3101310,,420,Argentina,Southampton,New York City,US,,No,1.945910149
+365,0,3,"O'Brien, Mr. Thomas",19,male,1,0,370365,,324,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,2.708050201
+366,0,3,"Adahl, Mr. Mauritz Nils Martin",30,male,0,0,C 7076,,360,Sweden,Southampton,"Brooklyn, New York, US",US,,No,1.945910149
+367,1,1,"Warren, Mrs. Frank Manley ",26,female,1,0,110813,D37,720,US,Cherbourg,"Portland, Oregon, US",US,5,Yes,4.317488114
+368,1,3,"Moussa, Mrs. ",13,female,0,0,2626,,420,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,1.945910149
+369,1,3,"Jermyn, Miss. Annie",19,female,0,0,14313,,312,Ireland,Queenstown,"East Lynn, Massachusetts, US",US,D,Yes,1.945910149
+370,1,1,"Aubart, Mme. Leontine Pauline",29,female,0,0,PC 17477,B35,288,France,Cherbourg,"New York, New York, US",US,9,Yes,4.234106505
+371,1,1,"Harder, Mr. George Achilles",27,male,1,0,11765,E50,300,US,Cherbourg,"New York, New York, US",US,5,Yes,4.007333185
+372,0,3,"Wiklund, Mr. Jakob Alfred",25,male,1,0,3101267,,216,Finland,Southampton,"Montreal, Quebec, Canada",Canada,,No,1.791759469
+373,0,3,"Beavan, Mr. William Thomas",26,male,0,0,323951,,216,England,Southampton,"Russell, US",US,,No,2.079441542
+374,0,1,"Ringhini, Mr. Sante",19,male,0,0,PC 17760,,264,US,Cherbourg,"New York, New York, US",US,,No,4.905274778
+375,0,3,"Palsson, Miss. Stina Viola",26,female,3,1,349909,,36,Sweden,Southampton,"Chicago, Illinois, US",US,,No,3.044522438
+376,1,1,"Meyer, Mrs. Edgar Joseph ",25,female,1,0,PC 17604,,300,US,Cherbourg,"New York, New York, US",US,6,Yes,4.406719247
+377,1,3,"Landergren, Miss. Aurora Adelia",31,female,0,0,C 7077,,264,Sweden,Southampton,New York City,US,13,Yes,1.945910149
+378,0,1,"Widener, Mr. Harry Elkins",25,male,0,2,113503,C82,324,US,Southampton,"Philadelphia, Pennsylvania, US",US,,No,5.351858133
+379,0,3,"Betros, Mr. Tannous",19,male,0,0,2648,,240,Lebanon,Cherbourg,"Waterbury, Connecticut, US",US,,No,1.386294361
+380,0,3,"Gustafsson, Mr. Karl Gideon",27,male,0,0,347069,,228,Sweden,Southampton,"Aberdeen, South Dakota, US",US,,No,1.945910149
+381,1,1,"Bidois, Miss. Rosalie",21,female,0,0,PC 17757,,552,US,Cherbourg,"New York, New York, US",US,4,Yes,5.424950017
+382,1,3,"Nakid, Miss. Maria ",19,female,0,2,2653,,12,Lebanon,Cherbourg,"Waterbury, Connecticut, US",US,C,Yes,2.708050201
+383,0,3,"Tikkanen, Mr. Juho",18,male,0,0,STON/O 2. 3101293,,384,Finland,Southampton,New York City,US,,No,1.945910149
+384,1,1,"Holverson, Mrs. Alexander Oskar ",32,female,1,0,113789,,420,US,Southampton,"New York, New York, US",US,8,Yes,3.951243719
+385,0,3,"Plotcharsky, Mr. Vasil",22,male,0,0,349227,,324,Bulgaria,Southampton,"Tulsa, Oklahoma, US",US,,No,1.945910149
+386,0,2,"Davies, Mr. Charles Henry",25,male,0,0,S.O.C. 14879,,252,England,Southampton,"Eden, Manitoba, Canada",Canada,,No,4.290459441
+388,1,2,"Buss, Miss. Kate",16,female,0,0,27849,,432,England,Southampton,"San Francisco, US",US,9,Yes,2.564949357
+389,0,3,"Sadlier, Mr. Matthew",20,male,0,0,367655,,240,Ireland,Queenstown,"Lakewood Township, New Jersey, US",US,,No,1.945910149
+390,1,2,"Lehmann, Miss. Bertha",21,female,0,0,SC 1748,,204,Switzerland,Cherbourg,"Central City, Iowa, US",US,12,Yes,2.48490665
+391,1,1,"Carter, Mr. William Ernest",26,male,1,2,113760,B96 B98,432,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,C,Yes,4.787491743
+392,1,3,"Jansson, Mr. Carl Olof",22,male,0,0,350034,,252,Sweden,Southampton,"Swedeburg, Nebraska, US",US,A,Yes,1.945910149
+393,0,3,"Gustafsson, Mr. Johan Birger",28,male,2,0,3101277,,336,Finland,Southampton,New York City,US,,No,1.945910149
+394,1,1,"Newell, Miss. Marjorie",22,female,1,0,35273,D36,276,US,Cherbourg,"Lexington, Massachusetts, US",US,6,Yes,4.727387819
+395,1,3,"Sandstrom, Mrs. Hjalmar ",24,female,0,2,PP 9549,G6,288,Sweden,Southampton,"San Francisco, US",US,13,Yes,2.772588722
+396,0,3,"Johansson, Mr. Erik",19,male,0,0,350052,,264,Sweden,Southampton,"St. Paul, Minnesota, US",US,,No,1.945910149
+397,0,3,"Olsson, Miss. Elina",19,female,0,0,350407,,372,Sweden,Southampton,"St. Paul, Minnesota, US",US,,No,1.945910149
+398,0,2,"McKane, Mr. Peter David",23,male,0,0,28403,,552,Channel Islands,Southampton,"Rochester, New York, US",US,,No,3.258096538
+399,0,2,"Pain, Dr. Alfred",16,male,0,0,244278,,276,Canada,Southampton,"Hamilton, Ontario, Canada",Canada,,No,2.302585093
+400,1,2,"Trout, Mrs. William H ",22,female,0,0,240929,,312,US,Southampton,"Columbus, Ohio, US",US,9,Yes,2.48490665
+401,1,3,"Niskanen, Mr. Juha",18,male,0,0,STON/O 2. 3101289,,468,Finland,Southampton,"Boston, Massachusetts, US",US,9,Yes,1.945910149
+402,0,3,"Adams, Mr. John",15,male,0,0,341826,,312,England,Southampton,"La Porte City, Iowa, US",US,,No,2.079441542
+403,0,3,"Jussila, Miss. Mari Aina",24,female,1,0,4137,,252,Finland,Southampton,New York City,US,,No,2.197224577
+404,0,3,"Hakkarainen, Mr. Pekka Pietari",30,male,1,0,STON/O2. 3101279,,336,Finland,Southampton,"Monessen, Pennsylvania, US",US,,No,2.708050201
+405,0,3,"Oreskovic, Miss. Marija",23,female,0,0,315096,,240,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+406,0,2,"Gale, Mr. Shadrach",18,male,1,0,28664,,396,England,Southampton,"Clear Creek, Colorado, US",US,,No,3.044522438
+407,0,3,"Widegren, Mr. Carl/Charles Peter",32,male,0,0,347064,,612,Sweden,Southampton,New York City,US,,No,1.945910149
+408,1,2,"Richards, Master. William Rowe",30,male,1,1,29106,,36,England,Southampton,"Akron, Ohio, US",US,4,Yes,2.890371758
+409,0,3,"Birkeland, Mr. Hans Martin Monsen",33,male,0,0,312992,,252,Norway,Southampton,New York City,US,,No,1.945910149
+410,0,3,"Lefebre, Miss. Ida",18,female,3,1,4133,,36,France,Southampton,"Mystic, Iowa, US",US,,No,3.218875825
+411,0,3,"Sdycoff, Mr. Todor",18,male,0,0,349222,,504,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+412,0,3,"Hart, Mr. Henry",15,male,0,0,394140,,324,Ireland,Queenstown,"Boston, Massachusetts, US",US,,No,1.791759469
+413,1,1,"Minahan, Miss. Daisy E",22,female,1,0,19928,C78,396,US,Southampton,"Fond du Lac, Wisconsin, US",US,14,Yes,4.49980967
+414,0,2,"Cunningham, Mr. Alfred Fleming",30,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,#NAME?
+415,1,3,"Sundman, Mr. Johan Julian",25,male,0,0,STON/O 2. 3101269,,528,Finland,Southampton,"Cheyenne, Wyoming, US",US,15,Yes,1.945910149
+416,0,3,"Meek, Mrs. Thomas ",18,female,0,0,343095,,372,Australia,Southampton,New York City,US,,No,2.079441542
+417,1,2,"Drew, Mrs. James Vivian ",24,female,1,1,28220,,408,US,Southampton,"Greenport, New York, US",US,10,Yes,3.465735903
+418,1,2,"Silven, Miss. Lyyli Karoliina",29,female,0,2,250652,,204,Russia,Southampton,"Minneapolis, Minnesota, US",US,16,Yes,2.564949357
+419,0,2,"Matthews, Mr. William John",26,male,0,0,28228,,360,England,Southampton,"La Salle, Illinois, US",US,,No,2.564949357
+420,0,3,"Van Impe, Miss. Catharina",25,female,0,2,345773,,120,Belgium,Southampton,"Detroit, Michigan, US",US,,No,3.17805383
+421,0,3,"Gheorgheff, Mr. Stanio",22,male,0,0,349254,,351,Bulgaria,Cherbourg,"Butte, Montana, US",US,,No,1.945910149
+422,0,3,"Charters, Mr. David",19,male,0,0,A/5. 13032,,336,Ireland,Queenstown,New York City,US,,No,1.945910149
+423,0,3,"Zimmerman, Mr. Leo",18,male,0,0,315082,,348,Germany,Southampton,"Saskatoon, Saskatchewan, Canada",Canada,,No,1.945910149
+424,0,3,"Danbom, Mrs. Ernst Gilbert ",27,female,1,1,347080,,336,Sweden,Southampton,"Stanton, Iowa, US",US,,No,2.63905733
+425,0,3,"Rosblom, Mr. Viktor Richard",27,male,1,1,370129,,216,Finland,Southampton,"Astoria, Oregon, US",US,,No,2.995732274
+426,0,3,"Wiseman, Mr. Phillippe",22,male,0,0,A/4. 34244,,648,England,Southampton,"Quebec City, Quebec, Canada",Canada,,No,1.945910149
+427,1,2,"Clarke, Mrs. Charles V ",23,female,1,0,2003,,336,England,Southampton,"San Francisco, California, US",US,14,Yes,3.258096538
+428,1,2,"Phillips, Miss. Kate Florence ",30,female,0,0,250655,,228,England,Southampton,"Los Angeles, US",US,11,Yes,3.258096538
+429,0,3,"Flynn, Mr. James",16,male,0,0,364851,,336,Ireland,Queenstown,New York City,US,,No,1.945910149
+430,1,3,"Pickard, Mr. Berk ",18,male,0,0,SOTON/O.Q. 392078,E10,384,Poland,Southampton,"San Francisco, US",US,9,Yes,2.079441542
+431,1,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",41,male,0,0,110564,C52,336,Sweden,Southampton,"Washington, DC, US",US,D,Yes,3.258096538
+432,1,3,"Thorneycroft, Mrs. Percival ",28,female,1,0,376564,,384,England,Southampton,"Clinton, New York, US",US,10,Yes,2.772588722
+433,1,2,"Louch, Mrs. Charles Alexander ",30,female,1,0,SC/AH 3085,,504,England,Southampton,New York City,US,14,Yes,3.258096538
+434,0,3,"Kallio, Mr. Nikolai Erland",26,male,0,0,STON/O 2. 3101274,,204,Finland,Southampton,"Sudbury, Ontario, Canada",Canada,,No,1.945910149
+435,0,1,"Silvey, Mr. William Baird",25,male,1,0,13507,E44,600,US,Cherbourg,"Duluth, Minnesota, US",US,,No,4.007333185
+436,1,1,"Carter, Miss. Lucile Polk",25,female,1,2,113760,B96 B98,156,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,4,Yes,4.787491743
+437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",36,female,2,2,W./C. 6608,,240,England,Southampton,"Essex County, New Jersey, US",US,,No,3.526360525
+440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",38,male,0,0,C.A. 18723,,372,Sweden,Southampton,"Arlington, Virginia, US",US,,No,2.302585093
+441,1,2,"Hart, Mrs. Benjamin ",20,female,1,1,F.C.C. 13529,,576,England,Southampton,"Winnipeg, Manitoba, Canada",Canada,14,Yes,3.258096538
+442,0,3,"Hampe, Mr. Leon",15,male,0,0,345769,,228,Belgium,Southampton,"Detroit, Michigan, US",US,,No,2.197224577
+443,0,3,"Petterson, Mr. Johan Emil",25,male,1,0,347076,,300,Sweden,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+444,1,2,"Reynaldo, Ms. Encarnacion",25,female,0,0,230434,,336,Spain,Southampton,New York City,US,9,Yes,2.564949357
+445,1,3,"Johannesen-Bratthammer, Mr. Bernt",33,male,0,0,65306,,348,Norway,Southampton,New York City,US,13,Yes,2.079441542
+446,1,1,"Dodge, Master. Washington",25,male,0,2,33638,A34,48,US,Southampton,"San Francisco, California, US",US,5,Yes,4.394449155
+447,1,2,"Mellinger, Miss. Madeleine Violet",33,female,0,1,250644,,156,England,Southampton,"Bennington, Vermont, US",US,14,Yes,2.944438979
+448,1,1,"Seward, Mr. Frederic Kimber",27,male,0,0,113794,,408,US,Southampton,"New York, New York, US",US,7,Yes,3.258096538
+449,1,3,"Baclini, Miss. Marie Catherine",30,female,2,1,2666,,60,Lebanon,Cherbourg,"Brooklyn, New York, US",US,C,Yes,2.944438979
+450,1,1,"Peuchen, Major. Arthur Godfrey",30,male,0,0,113786,C104,624,Canada,Southampton,"Toronto, Ontario, Canada",Canada,6,Yes,3.401197382
+451,0,2,"West, Mr. Edwy Arthur",21,male,1,2,C.A. 34651,,432,England,Southampton,"Gainesville, Florida, US",US,,No,3.295836866
+452,0,3,"Hagland, Mr. Ingvald Olai Olsen",31,male,1,0,65303,,336,Norway,Southampton,"Belmar, New Jersey, US",US,,No,2.944438979
+453,0,1,"Foreman, Mr. Benjamin Laventall",31,male,0,0,113051,C111,360,US,Southampton,"New York, New York, US",US,,No,3.295836866
+454,1,1,"Goldenberg, Mr. Samuel L",24,male,1,0,17453,C92,564,France,Cherbourg,"New York, New York, US",US,5,Yes,4.48863637
+455,0,3,"Peduzzi, Mr. Joseph",19,male,0,0,A/5 2817,,288,England,Southampton,New York City,US,,No,2.079441542
+456,1,3,"Jalsevac, Mr. Ivan",18,male,0,0,349240,,348,Croatia,Cherbourg,"Galesburg, Illinois, US",US,15,Yes,1.945910149
+457,0,1,"Millet, Mr. Francis Davis",25,male,0,0,13509,E38,780,US,Cherbourg,"East Bridgewater, Massachusetts, US",US,,No,3.258096538
+458,1,1,"Kenyon, Mrs. Frederick R ",25,female,1,0,17464,D21,372,US,Southampton,"Pittsburgh, Pennsylvania, US",US,8,Yes,3.931825633
+459,1,2,"Toomey, Miss. Ellen",19,female,0,0,F.C.C. 13531,,576,US,Southampton,"Indianapolis, Indiana, US",US,9,Yes,2.302585093
+460,0,3,"O'Connor, Mr. Maurice",21,male,0,0,371060,,192,Ireland,Queenstown,New York City,US,,No,1.945910149
+461,1,1,"Anderson, Mr. Harry",19,male,0,0,19952,E12,564,US,Southampton,"New York, New York, US",US,3,Yes,3.258096538
+462,0,3,"Morley, Mr. William",19,male,0,0,364506,,408,England,Southampton,New York City,US,,No,2.079441542
+463,0,1,"Gee, Mr. Arthur H",17,male,0,0,111320,E63,564,England,Southampton,"Mexico City, Mexico",Mexico,,No,3.63758616
+464,0,2,"Milling, Mr. Jacob Christian",28,male,0,0,234360,,576,Denmark,Southampton,"Oregon, Wisconsin, US",US,,No,2.564949357
+465,0,3,"Maisner, Mr. Simon",18,male,0,0,A/S 2816,,408,England,Southampton,New York City,US,,No,2.079441542
+466,0,3,"Goncalves, Mr. Manuel Estanslas",31,male,0,0,SOTON/O.Q. 3101306,,444,Portugal,Southampton,New York City,US,,No,1.945910149
+467,0,2,"Campbell, Mr. William",21,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,#NAME?
+468,0,1,"Smart, Mr. John Montgomery",26,male,0,0,113792,,672,England,Southampton,"New York, New York, US",US,,No,3.258096538
+469,0,3,"Scanlan, Mr. James",18,male,0,0,36209,,264,Ireland,Queenstown,New York City,US,,No,1.945910149
+470,1,3,"Baclini, Miss. Helene Barbara",29,female,2,1,2666,,9,Lebanon,Cherbourg,"Brooklyn, New York, US",US,C,Yes,2.944438979
+471,0,3,"Keefe, Mr. Arthur",17,male,0,0,323592,,468,US,Southampton,"Rahway, New Jersey, US",US,A,Yes,1.945910149
+472,0,3,"Cacic, Mr. Luka",15,male,0,0,315089,,456,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+473,1,2,"West, Mrs. Edwy Arthur ",23,female,1,2,C.A. 34651,,396,England,Southampton,"Gainesville, Florida, US",US,10,Yes,3.295836866
+474,1,2,"Jerwan, Mrs. Amin S ",20,female,0,0,SC/AH Basle 541,D,276,US,Southampton,New York City,US,11,Yes,2.564949357
+475,0,3,"Strandberg, Miss. Ida Sofia",27,female,0,0,7553,,264,Finland,Southampton,New York City,US,,No,2.197224577
+476,0,1,"Clifford, Mr. George Quincy",27,male,0,0,110465,A14,480,US,Southampton,"Stoughton, Massachusetts",US,,No,3.951243719
+477,0,2,"Renouf, Mr. Peter Henry",23,male,1,0,31027,,396,US,Southampton,"Elizabeth, New Jersey, US",US,,No,3.044522438
+478,0,3,"Braund, Mr. Lewis Richard",25,male,1,0,3460,,348,England,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Canada,,No,1.945910149
+479,0,3,"Karlsson, Mr. Nils August",25,male,0,0,350060,,264,Sweden,Southampton,"Palmer, Massachusetts, US",US,,No,1.945910149
+480,1,3,"Hirvonen, Miss. Hildur E",24,female,0,1,3101298,,24,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,2.48490665
+482,0,2,"Frost, Mr. Anthony Wood ""Archie""",32,male,0,0,239854,,444,Ireland,Belfast,New York City,US,,No,#NAME?
+483,0,3,"Rouse, Mr. Richard Henry",24,male,0,0,A/5 3594,,600,England,Southampton,"Cleveland, Ohio, US",US,,No,2.079441542
+484,1,3,"Turkula, Mrs. ",14,female,0,0,4134,,756,Finland,Southampton,"Hibbing, Minnesota, US",US,15,Yes,2.197224577
+485,1,1,"Bishop, Mr. Dickinson H",23,male,1,0,11967,B49,300,US,Cherbourg,"Dowagiac, Michigan, US",US,7,Yes,4.510859507
+486,0,3,"Lefebre, Miss. Jeannie",22,female,3,1,4133,,96,France,Southampton,"Mystic, Iowa, US",US,,No,3.218875825
+487,1,1,"Hoyt, Mrs. Frederick Maxfield ",30,female,1,0,19943,C93,372,US,Southampton,"Stamford, Connecticut, US",US,D,Yes,4.49980967
+488,0,1,"Kent, Mr. Edward Austin",23,male,0,0,11771,B37,696,US,Cherbourg,"Buffalo, New York, US",US,,No,3.36729583
+489,0,3,"Somerton, Mr. Francis William",29,male,0,0,A.5. 18509,,360,England,Southampton,"Canastota, New York, US",US,,No,2.079441542
+490,1,3,"Coutts, Master. Eden Leslie ""Neville""",37,male,1,1,C.A. 37671,,36,England,Southampton,"Brooklyn, New York, US",US,2,Yes,2.708050201
+491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",36,male,1,0,65304,,228,Norway,Southampton,"Belmar, New Jersey, US",US,,No,2.944438979
+492,0,3,"Windelov, Mr. Einar",19,male,0,0,SOTON/OQ 3101317,,252,South Africa,Southampton,New York City,US,,No,1.945910149
+493,0,1,"Molson, Mr. Harry Markland",26,male,0,0,113787,C30,660,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.401197382
+494,0,1,"Artagaveytia, Mr. Ramon",23,male,0,0,PC 17609,,852,Argentina,Cherbourg,"New York, New York, US",US,,No,3.891820298
+495,0,3,"Stanley, Mr. Edward Roland",26,male,0,0,A/4 45380,,252,England,Southampton,"Cleveland, Ohio, US",US,,No,2.079441542
+496,0,3,"Yousseff, Mr. Gerious",21,male,0,0,2627,,312,Lebanon,Cherbourg,"Youngstown, Ohio, US",US,,No,2.63905733
+497,1,1,"Eustis, Miss. Elizabeth Mussey",30,female,1,0,36947,D20,648,US,Cherbourg,"Brookline, Massachusetts, US",US,4,Yes,4.356708827
+498,0,3,"Shellard, Mr. Frederick William",31,male,0,0,C.A. 6212,,660,England,Southampton,"Troy, New York, US",US,,No,2.708050201
+499,0,1,"Allison, Mrs. Hudson J C ",25,female,1,2,113781,C22 C26,300,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,5.017279837
+500,0,3,"Svensson, Mr. Olof",18,male,0,0,350035,,288,Sweden,Southampton,New York City,US,,No,1.945910149
+501,0,3,"Calic, Mr. Petar",16,male,0,0,315086,,204,Croatia,Southampton,"Sault Ste. Marie, Michigan, US",US,,No,2.079441542
+502,0,3,"Canavan, Miss. Mary",19,female,0,0,364846,,264,Ireland,Queenstown,"Philadelphia, Pennsylvania, US",US,,No,1.945910149
+503,0,3,"O'Sullivan, Miss. Bridget Mary",30,female,0,0,330909,,252,Ireland,Queenstown,New York City,US,,No,1.945910149
+504,0,3,"Laitinen, Miss. Kristina Sofia",30,female,0,0,4135,,444,Finland,Southampton,New York City,US,,No,2.197224577
+505,1,1,"Maioni, Miss. Roberta",21,female,0,0,110152,B79,240,Canada,Southampton,"Vancouver, British Columbia, Canada",Canada,8,Yes,4.454347296
+506,0,1,"Penasco y Castellana, Mr. Victor de Satode",42,male,1,0,PC 17758,C65,288,Spain,Cherbourg,"New York, New York, US",US,,No,4.682131227
+507,1,2,"Quick, Mrs. Frederick Charles ",30,female,0,2,26360,,396,England,Southampton,"Detroit, Michigan, US",US,11,Yes,3.258096538
+508,1,1,"Bradley, Mr. George ",20,male,0,0,111427,,444,US,Southampton,"Los Angeles, California, US",US,9,Yes,3.258096538
+509,0,3,"Olsen, Mr. Henry Margido",24,male,0,0,C 4001,,336,Norway,Southampton,New York City,US,,No,3.091042453
+510,1,3,"Lang, Mr. Fang",14,male,0,0,1601,,312,China,Southampton,New York City,US,14,Yes,4.025351691
+511,1,3,"Daly, Mr. Eugene Patrick",24,male,0,0,382651,,348,Ireland,Queenstown,New York City,US,B,Yes,1.945910149
+512,0,3,"Webber, Mr. James",17,male,0,0,SOTON/OQ 3101316,,792,US,Southampton,"San Francisco, US",US,,No,2.079441542
+513,1,1,"McGough, Mr. James Robert",25,male,0,0,PC 17473,E25,420,US,Southampton,"Philadelphia, Pennsylvania, US",US,7,Yes,3.258096538
+514,1,1,"Rothschild, Mrs. Martin ",24,female,1,0,PC 17603,,648,US,Cherbourg,"New York, New York, US",US,6,Yes,4.077537444
+515,0,3,"Coleff, Mr. Satio",17,male,0,0,349209,,288,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+516,0,1,"Walker, Mr. William Anderson",28,male,0,0,36967,D46,576,US,Southampton,"East Orange, New Jersey, US",US,,No,3.526360525
+517,1,2,"Lemore, Mrs. ",13,female,0,0,C.A. 34260,F33,408,US,Southampton,"Chicago, Illinois, US",US,14,Yes,2.302585093
+518,0,3,"Ryan, Mr. Patrick",17,male,0,0,371110,,348,Ireland,Queenstown,"Bronx, New York, US",US,,No,3.17805383
+519,1,2,"Angle, Mrs. William A ",22,female,1,0,226875,,432,England,Southampton,New York City,US,11,Yes,3.258096538
+520,0,3,"Pavlovic, Mr. Stefo",19,male,0,0,349242,,384,Croatia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+521,1,1,"Perreault, Miss. Anne",21,female,0,0,12749,B73,396,Canada,Southampton,"Montreal, Quebec, Canada",Canada,3,Yes,4.532599493
+522,0,3,"Vovk, Mr. Janko",15,male,0,0,349252,,252,Slovenia,Southampton,"St. Joseph, Minnesota, US",US,,No,1.945910149
+523,0,3,"Lahoud, Mr. Sarkis",18,male,0,0,2624,,360,Lebanon,Cherbourg,"Waterbury, Connecticut, US",US,,No,1.945910149
+524,1,1,"Hippach, Mrs. Louis Albert ",27,female,0,1,111361,B18,528,US,Cherbourg,"Chicago, Illinois, US",US,4,Yes,4.043051268
+525,0,3,"Kassem, Mr. Fared",17,male,0,0,2700,,216,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+526,0,3,"Farrell, Mr. James",18,male,0,0,367232,,300,Ireland,Queenstown,New York City,US,,No,1.945910149
+527,1,2,"Ridsdale, Miss. Lucy",20,female,0,0,W./C. 14258,,600,England,Southampton,"Marietta, Ohio, US",US,13,Yes,2.302585093
+528,0,1,"Farthing, Mr. John",18,male,0,0,PC 17483,C95,684,US,Southampton,"New York, New York, US",US,,No,5.398162702
+529,0,3,"Salonen, Mr. Johan Werner",25,male,0,0,3101296,,468,US,Southampton,"Aberdeen, Washington, US",US,,No,1.945910149
+530,0,2,"Hocking, Mr. Richard George",27,male,2,1,29104,,276,US,Southampton,"Akron, Ohio, US",US,,No,2.397895273
+531,1,2,"Quick, Miss. Phyllis May",24,female,1,1,26360,,24,England,Southampton,"Detroit, Michigan, US",US,11,Yes,3.258096538
+532,0,3,"Toufik, Mr. Nakli",17,male,0,0,2641,,204,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+533,0,3,"Elias, Mr. Joseph Jr",20,male,1,1,2690,,180,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+534,1,3,"Peter, Mrs. Catherine ",22,female,0,2,2668,,288,Syria,Cherbourg,"Detroit, Michigan, US",US,C,Yes,3.091042453
+535,0,3,"Cacic, Miss. Marija",19,female,0,0,315084,,360,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+536,1,2,"Hart, Miss. Eva Miriam",22,female,0,2,F.C.C. 13529,,84,England,Southampton,"Winnipeg, Manitoba, Canada",Canada,14,Yes,3.258096538
+537,0,1,"Butt, Major. Archibald Willingham",33,male,0,0,113050,B38,552,US,Southampton,"Washington, DC, US",US,,No,3.258096538
+538,1,1,"LeRoy, Miss. Bertha",19,female,0,0,PC 17761,,324,US,Cherbourg,"Minneapolis, Minnesota, US",US,2,Yes,4.663439094
+539,0,3,"Risien, Mr. Samuel Beard",24,male,0,0,364498,,828,England,Southampton,"Groesbeck, Texas, US",US,,No,2.63905733
+540,1,1,"Frolicher, Miss. Hedwig Margaritha",34,female,0,2,13568,B39,264,Switzerland,Cherbourg,"New York, New York, US",US,5,Yes,3.891820298
+541,1,1,"Crosby, Miss. Harriet R",23,female,0,2,WE/P 5735,B22,468,US,Southampton,"Milwaukee, Wisconsin, US",US,7,Yes,4.262679877
+542,0,3,"Andersson, Miss. Ingeborg Constanzia",36,female,4,2,347082,,108,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
+543,0,3,"Andersson, Miss. Sigrid Elisabeth",33,female,4,2,347082,,132,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
+544,1,2,"Beane, Mr. Edward",17,male,1,0,2908,,384,US,Southampton,New York City,US,13,Yes,3.258096538
+545,0,1,"Douglas, Mr. Walter Donald",26,male,1,0,PC 17761,C86,600,US,Cherbourg,"Minneapolis, Minnesota, US",US,,No,4.663439094
+546,0,1,"Nicholson, Mr. Arthur Ernest",28,male,0,0,693,,768,England,Southampton,"New York, New York, US",US,,No,3.258096538
+547,1,2,"Beane, Mrs. Edward ",19,female,1,0,2908,,228,England,Southampton,New York City,US,13,Yes,3.258096538
+548,1,2,"Padro y Manent, Mr. Julian",26,male,0,0,SC/PARIS 2146,,312,Spain,Cherbourg,"Havana, Cuba",Cuba,9,Yes,2.564949357
+549,0,3,"Goldsmith, Mr. Frank John",25,male,1,1,363291,,396,England,Southampton,"Detroit, Michigan, US",US,,No,2.995732274
+550,1,2,"Davies, Master. John Morgan Jr",30,male,1,1,C.A. 33112,,96,England,Southampton,"Houghton, Michigan, US",US,14,Yes,3.583518938
+551,1,1,"Thayer, Mr. John Borland Jr",27,male,0,2,17421,C70,204,US,Cherbourg,"Haverford, Pennsylvania, US",US,B,Yes,4.700480366
+552,0,2,"Sharp, Mr. Percival James R",27,male,0,0,244358,,324,England,Southampton,New York City,US,,No,3.258096538
+553,0,3,"O'Brien, Mr. Timothy",20,male,0,0,330979,,252,Ireland,Queenstown,New York City,US,,No,1.945910149
+554,1,3,"Leeni, Mr. Fahim ",17,male,0,0,2620,,264,Lebanon,Cherbourg,"Dayton, Ohio, US",US,6,Yes,1.945910149
+555,1,3,"Ohman, Miss. Velin",18,female,0,0,347085,,264,Sweden,Southampton,"Chicago, Illinois, US",US,C,Yes,1.945910149
+556,0,1,"Wright, Mr. George",18,male,0,0,113807,,744,Canada,Southampton,"Halifax, Nova Scotia, Canada",Canada,,No,3.258096538
+557,1,1,"Duff Gordon, Lady. ",19,female,1,0,11755,A16,576,England,Cherbourg,"New York, New York, US",US,1,Yes,3.663561646
+558,0,1,"Robbins, Mr. Victor",19,male,0,0,PC 17757,,351,,,,,,No,5.424950017
+559,1,1,"Taussig, Mrs. Emil ",19,female,1,1,110413,E67,468,US,Southampton,"New York, New York, US",US,8,Yes,4.369447852
+560,1,3,"de Messemaeker, Mrs. Guillaume Joseph ",38,female,1,0,345572,,432,US,Southampton,"Tampico, Montana, US",US,13,Yes,2.833213344
+561,0,3,"Morrow, Mr. Thomas Rowan",24,male,0,0,372622,,360,Ireland,Queenstown,"Gleichen, Alberta, Canada",Canada,,No,1.945910149
+562,0,3,"Sivic, Mr. Husein",17,male,0,0,349251,,480,Bosnia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+563,0,2,"Norman, Mr. Robert Douglas",26,male,0,0,218629,,336,Scotland,Southampton,"Houghton, Michigan, US",US,,No,2.564949357
+564,0,3,"Simmons, Mr. John",17,male,0,0,SOTON/OQ 392082,,468,England,Southampton,New York City,US,,No,2.079441542
+565,0,3,"Meanwell, Miss. ",16,female,0,0,SOTON/O.Q. 392087,,756,England,Southampton,New York City,US,,No,2.079441542
+566,0,3,"Davies, Mr. Alfred J",20,male,2,0,A/4 48871,,288,England,Southampton,"Pontiac, Michigan, US",US,,No,3.17805383
+567,0,3,"Stoytcheff, Mr. Ilia",20,male,0,0,349205,,228,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+569,0,3,"Doharr, Mr. Tannous",19,male,0,0,2686,,336,Lebanon,Cherbourg,"Youngstown, Ohio, US",US,,No,1.945910149
+570,1,3,"Jonsson, Mr. Carl",17,male,0,0,350417,,384,Sweden,Southampton,"Huntley, Illinois, US",US,15,Yes,1.945910149
+571,1,2,"Harris, Mr. George",18,male,0,0,S.W./PP 752,,744,England,Southampton,New York City,US,15,Yes,2.302585093
+572,1,1,"Appleton, Mrs. Edward Dale ",27,female,2,0,11769,C101,636,US,Southampton,"New York, New York, US",US,2,Yes,3.931825633
+573,1,1,"Flynn, Mr. John Irwin ",22,male,0,0,PC 17474,E25,432,US,Southampton,"Brooklyn, New York, US",US,5,Yes,3.258096538
+574,1,3,"Kelly, Miss. Mary",17,female,0,0,14312,,264,Ireland,Queenstown,New York City,US,D,Yes,1.945910149
+575,0,3,"Rush, Mr. Alfred George John",28,male,0,0,A/4. 20589,,192,England,Southampton,"Detroit, Michigan, US",US,,No,2.079441542
+576,0,3,"Patchett, Mr. George",20,male,0,0,358585,,228,England,Southampton,"Kitchener, Ontario, Canada",Canada,,No,2.63905733
+577,1,2,"Garside, Miss. Ethel",20,female,0,0,243880,,408,England,Southampton,"Brooklyn, New York, US",US,12,Yes,2.564949357
+578,1,1,"Silvey, Mrs. William Baird ",27,female,1,0,13507,E44,468,US,Cherbourg,"Duluth, Minnesota, US",US,11,Yes,4.007333185
+579,0,3,"Caram, Mrs. Joseph ",19,female,1,0,2689,,216,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,2.63905733
+580,1,3,"Jussila, Mr. Eiriik",19,male,0,0,STON/O 2. 3101286,,384,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,1.945910149
+581,1,2,"Christy, Miss. Julie Rachel",27,female,1,1,237789,,300,England,Southampton,"Montreal, Quebec, Canada",Canada,12,Yes,3.401197382
+582,1,1,"Thayer, Mrs. John Borland ",26,female,1,1,17421,C68,468,US,Cherbourg,"Haverford, Pennsylvania, US",US,4,Yes,4.700480366
+583,0,2,"Downton, Mr. William James",26,male,0,0,28403,,660,US,Southampton,"Rochester, New York, US",US,,No,3.258096538
+584,0,1,"Ross, Mr. John Hugo",19,male,0,0,13049,A10,432,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.688879454
+585,0,3,"Paulner, Mr. Uscher",19,male,0,0,3411,,192,Unknown,Cherbourg,New York City,US,,No,2.079441542
+586,1,1,"Taussig, Miss. Ruth",19,female,0,2,110413,E68,216,US,Southampton,"New York, New York, US",US,8,Yes,4.369447852
+587,0,2,"Jarvis, Mr. John Denzil",23,male,0,0,237565,,564,England,Southampton,New York City,US,,No,2.708050201
+588,1,1,"Frolicher-Stehli, Mr. Maxmillian",32,male,1,1,13567,B41,720,Switzerland,Cherbourg,"New York, New York, US",US,5,Yes,4.369447852
+589,0,3,"Gilinski, Mr. Eliezer",21,male,0,0,14973,,264,Australia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+590,0,3,"Murdlin, Mr. Joseph",19,male,0,0,A./5. 3235,,264,England,Southampton,New York City,US,,No,2.079441542
+591,0,3,"Rintamaki, Mr. Matti",20,male,0,0,STON/O 2. 3101273,,420,Finland,Southampton,"Sudbury, Ontario, Canada",Canada,,No,1.945910149
+592,1,1,"Stephenson, Mrs. Walter Bertram ",32,female,1,0,36947,D20,624,France,Cherbourg,"Haverford, Pennsylvania, US",US,4,Yes,4.356708827
+593,0,3,"Elsbury, Mr. William James",26,male,0,0,A/5 3902,,564,England,Southampton,"Gurnee, Illinois, US",US,,No,1.945910149
+594,0,3,"Bourke, Miss. Mary",18,female,0,2,364848,,480,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,1.945910149
+595,0,2,"Chapman, Mr. John Henry",23,male,1,0,SC/AH 29037,,432,England,Southampton,"Spokane, Washington, US",US,,No,3.258096538
+596,0,3,"Van Impe, Mr. Jean Baptiste",27,male,1,1,345773,,432,Belgium,Southampton,"Detroit, Michigan, US",US,,No,3.17805383
+597,1,2,"Leitch, Miss. Jessie Wills",26,female,0,0,248727,,372,England,Southampton,"Chicago, Illinois, US",US,11,Yes,3.496507561
+598,0,3,"Johnson, Mr. Alfred",19,male,0,0,LINE,,588,England,Southampton,New York City,US,,No,#NAME?
+599,0,3,"Boulos, Mr. Hanna",17,male,0,0,2664,,216,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+600,1,1,"Duff Gordon, Sir. Cosmo Edmund ",31,male,1,0,PC 17485,A20,588,England,Cherbourg,"New York, New York, US",US,1,Yes,4.025351691
+601,1,2,"Jacobsohn, Mrs. Sidney Samuel ",30,female,2,1,243847,,288,England,Southampton,"Montreal, Quebec, Canada",Canada,12,Yes,3.295836866
+602,0,3,"Slabenoff, Mr. Petco",20,male,0,0,349214,,504,Bulgaria,Southampton,New York City,US,,No,1.945910149
+603,0,1,"Harrington, Mr. Charles H",25,male,0,0,113796,,444,US,Southampton,"Washington, DC, US",US,,No,3.737669618
+604,0,3,"Torber, Mr. Ernst William",25,male,0,0,364511,,528,Germany,Southampton,New York City,US,,No,2.079441542
+605,1,1,"Homer, Mr. Harry ",17,male,0,0,111426,,480,US,Southampton,"Indianapolis, Indiana, US",US,15,Yes,3.258096538
+606,0,3,"Lindell, Mr. Edvard Bengtsson",29,male,1,0,349910,,432,Finland,Southampton,"Hartford, Connecticut, US",US,A,Yes,2.708050201
+607,0,3,"Karaic, Mr. Milan",17,male,0,0,349246,,360,Croatia,Southampton,"Youngstown, Ohio, US",US,,No,1.945910149
+608,1,1,"Daniel, Mr. Robert Williams",27,male,0,0,113804,,324,US,Southampton,"Philadelphia, Pennsylvania, US",US,3,Yes,3.401197382
+609,1,2,"Laroche, Mrs. Joseph ",21,female,1,2,SC/Paris 2123,,264,France,Cherbourg,"Cap-Ha??tien, Haiti",Haiti,14,Yes,3.713572067
+610,1,1,"Shutes, Miss. Elizabeth W",25,female,0,0,PC 17582,C125,480,US,Southampton,"Greenwich, Connecticut, US",US,3,Yes,5.030437921
+612,0,3,"Jardin, Mr. Jose Neto",21,male,0,0,SOTON/O.Q. 3101305,,252,Portugal,Southampton,New York City,US,,No,1.945910149
+613,1,3,"Murphy, Miss. Margaret Jane",27,female,1,0,367230,,300,Ireland,Queenstown,"Philadelphia, Pennsylvania, US",US,16,Yes,2.708050201
+614,0,3,"Horgan, Mr. John",16,male,0,0,370377,,264,Ireland,Queenstown,New York City,US,,No,1.945910149
+615,0,3,"Brocklebank, Mr. William Alfred",31,male,0,0,364512,,420,England,Southampton,New York City,US,,No,2.079441542
+616,1,2,"Herman, Miss. Alice",19,female,1,2,220845,,288,England,Southampton,"Bernardsville, New Jersey, US",US,9,Yes,4.17438727
+617,0,3,"Danbom, Mr. Ernst Gilbert",25,male,1,1,347080,,408,Sweden,Southampton,"Stanton, Iowa, US",US,,No,2.63905733
+618,0,3,"Lobb, Mrs. William Arthur ",26,female,1,0,A/5. 3336,,312,US,Southampton,"Scranton, Pennsylvania, US",US,,No,2.772588722
+619,1,2,"Becker, Miss. Marion Louise",27,female,2,1,230136,F4,48,British India,Southampton,"Benton Harbor, Michigan, US",US,11,Yes,3.663561646
+620,0,2,"Gavey, Mr. Lawrence",19,male,0,0,31028,,312,Channel Islands,Southampton,"Elizabeth, New Jersey, US",US,,No,2.302585093
+621,0,3,"Yasbeck, Mr. Antoni",19,male,1,0,2659,,324,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,2.63905733
+622,1,1,"Kimball, Mr. Edwin Nelson Jr",28,male,1,0,11753,D19,504,US,Southampton,"Boston, Massachusetts, US",US,5,Yes,3.951243719
+623,1,3,"Nakid, Mr. Sahid",16,male,1,1,2653,,240,Lebanon,Cherbourg,"Waterbury, Connecticut, US",US,C,Yes,2.708050201
+624,0,3,"Hansen, Mr. Henry Damsgaard",27,male,0,0,350029,,252,Denmark,Southampton,"Racine, Wisconsin, US",US,,No,1.945910149
+625,0,3,"Bowen, Mr. David John ""Dai""",27,male,0,0,54636,,240,Australia,Southampton,New York City,US,,No,2.772588722
+626,0,1,"Sutton, Mr. Frederick",21,male,0,0,36963,D50,732,US,Southampton,"Haddonfield, New Jersey, US",US,,No,3.465735903
+627,0,2,"Kirkland, Rev. Charles Leonard",30,male,0,0,219533,,624,Scotland,Queenstown,"Tuxford, Saskatchewan, Canada",Canada,,No,2.48490665
+628,1,1,"Longley, Miss. Gretchen Fiske",29,female,0,0,13502,D9,252,US,Cherbourg,"Hudson, New York, US",US,10,Yes,4.343805422
+629,0,3,"Bostandyeff, Mr. Guentcho",25,male,0,0,349224,,312,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+630,0,3,"O'Connell, Mr. Patrick D",24,male,0,0,334912,,204,Ireland,Queenstown,New York City,US,,No,1.945910149
+631,1,1,"Barkworth, Mr. Algernon Henry Wilson",36,male,0,0,27042,A23,564,England,Southampton,"New York, New York, US",US,B,Yes,3.401197382
+632,0,3,"Lundahl, Mr. Johan Svensson",27,male,0,0,347743,,612,Sweden,Southampton,"Spokane, Washington, US",US,,No,1.945910149
+633,1,1,"Stahelin-Maeglin, Dr. Max",25,male,0,0,13214,B50,384,Switzerland,Southampton,"New York, New York, US",US,3,Yes,3.401197382
+634,0,1,"Parr, Mr. William Henry Marsh",29,male,0,0,112052,,348,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+635,0,3,"Skoog, Miss. Mabel",18,female,3,2,347088,,108,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
+636,1,2,"Davis, Miss. Mary",17,female,0,0,237668,,336,England,Southampton,"Tottenville, New York, US",US,13,Yes,2.564949357
+637,0,3,"Leinonen, Mr. Antti Gustaf",26,male,0,0,STON/O 2. 3101292,,384,Finland,Southampton,New York City,US,,No,1.945910149
+638,0,2,"Collyer, Mr. Harvey",19,male,1,1,C.A. 31921,,372,England,Southampton,"Payette, Idaho, US",US,,No,3.258096538
+640,0,3,"Thorneycroft, Mr. Percival",26,male,1,0,376564,,432,England,Southampton,"Clinton, New York, US",US,,No,2.772588722
+641,0,3,"Jensen, Mr. Hans Peder",22,male,0,0,350050,,240,Denmark,Southampton,"Portland, Oregon, US",US,,No,1.945910149
+642,1,1,"Sagesser, Mlle. Emma",20,female,0,0,PC 17477,B35,288,France,Cherbourg,"New York, New York, US",US,9,Yes,4.234106505
+643,0,3,"Skoog, Miss. Margit Elizabeth",29,female,3,2,347088,,24,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
+644,1,3,"Foo, Mr. Choong",15,male,0,0,1601,,384,China,Southampton,New York City,US,C,Yes,4.025351691
+645,1,3,"Baclini, Miss. Eugenie",22,female,2,1,2666,,48,Lebanon,Cherbourg,"Brooklyn, New York, US",US,C,Yes,2.944438979
+646,1,1,"Harper, Mr. Henry Sleeper",25,male,1,0,PC 17572,D33,576,US,Cherbourg,"New York, New York, US",US,3,Yes,4.33073334
+647,0,3,"Cor, Mr. Liudevit",17,male,0,0,349231,,228,Croatia,Southampton,"Great Falls, Montana, US",US,,No,1.945910149
+648,1,1,"Simonius-Blumer, Col. Oberst Alfons",35,male,0,0,13213,A26,672,Switzerland,Southampton,"New York, New York, US",US,3,Yes,3.555348061
+649,0,3,"Willey, Mr. Edward",18,male,0,0,S.O./P.P. 751,,216,England,Southampton,"Schenectady, New York, US",US,,No,1.945910149
+650,1,3,"Stanley, Miss. Amy Zillah Elsie",31,female,0,0,CA. 2314,,288,England,Southampton,"New Haven, Connecticut, US",US,C,Yes,1.945910149
+651,0,3,"Mitkoff, Mr. Mito",17,male,0,0,349221,,276,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+652,1,2,"Doling, Miss. Elsie",19,female,0,1,231919,,228,England,Southampton,New York City,US,,No,3.135494216
+653,0,3,"Kalvik, Mr. Johannes Halvorsen",30,male,0,0,8475,,252,Norway,Southampton,"Story City, Iowa, US",US,,No,2.079441542
+654,1,3,"O'Leary, Miss. Hanora ""Norah""",29,female,0,0,330919,,192,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+655,0,3,"Hegarty, Miss. Hanora ""Nora""",28,female,0,0,365226,,216,Ireland,Queenstown,"Charlestown, US",US,,No,1.791759469
+656,0,2,"Hickman, Mr. Leonard Mark",25,male,2,0,S.O.C. 14879,,288,England,Southampton,"Eden, Manitoba, Canada",Canada,,No,4.290459441
+657,0,3,"Radeff, Mr. Alexander",21,male,0,0,349223,,324,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+658,0,3,"Bourke, Mrs. John ",18,female,1,1,364849,,384,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,2.708050201
+659,0,2,"Eitemiller, Mr. George Floyd",28,male,0,0,29751,,276,England,Southampton,"Detroit, Michigan, US",US,,No,2.564949357
+660,0,1,"Newell, Mr. Arthur Webster",26,male,0,2,35273,D48,696,US,Cherbourg,"Lexington, Massachusetts, US",US,,No,4.727387819
+661,1,1,"Frauenthal, Dr. Henry William",29,male,2,0,PC 17611,,588,England,Southampton,"New York, New York, US",US,5,Yes,4.890349128
+662,0,3,"Badt, Mr. Mohamed",17,male,0,0,2623,,480,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+663,0,1,"Colley, Mr. Edward Pomeroy",26,male,0,0,5727,E58,444,Ireland,Southampton,"Vancouver, British Columbia, Canada",Canada,,No,3.218875825
+664,0,3,"Coleff, Mr. Peju",16,male,0,0,349210,,432,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+665,1,3,"Lindqvist, Mr. Eino William",27,male,1,0,STON/O 2. 3101285,,240,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,1.945910149
+666,0,2,"Hickman, Mr. Lewis",18,male,2,0,S.O.C. 14879,,360,England,Southampton,"The Pas, Manitoba, Canada",Canada,,No,4.290459441
+667,0,2,"Butler, Mr. Reginald Fenton",27,male,0,0,234686,,300,England,Southampton,New York City,US,,No,2.564949357
+668,0,3,"Rommetvedt, Mr. Knud Paust",26,male,0,0,312993,,588,Norway,Southampton,New York City,US,,No,1.945910149
+669,0,3,"Cook, Mr. Jacob",15,male,0,0,A/5 3536,,516,Russia,Southampton,New York City,US,,No,2.079441542
+670,1,1,"Taylor, Mrs. Elmer Zebley ",26,female,1,0,19996,C126,576,England,Southampton,"East Orange, New Jersey, US",US,5,Yes,3.951243719
+671,1,2,"Brown, Mrs. Thomas William Solomon ",35,female,1,1,29750,,480,South Africa,Southampton,"Seattle, Washington, US",US,14,Yes,3.663561646
+672,0,1,"Davidson, Mr. Thornton",22,male,1,0,F.C. 12750,B71,372,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.951243719
+673,0,2,"Mitchell, Mr. Henry Michael",27,male,0,0,C.A. 24580,,852,Channel Islands,Southampton,"Toledo, Ohio, US",US,,No,2.302585093
+674,1,2,"Wilhelms, Mr. Charles",21,male,0,0,244270,,384,England,Southampton,New York City,US,9,Yes,2.564949357
+675,0,2,"Watson, Mr. Ennis Hastings",26,male,0,0,239856,,180,Ireland,Belfast,New York City,US,,No,#NAME?
+676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",30,male,0,0,349912,,216,Sweden,Southampton,"Joliet, Illinois, US",US,,No,1.945910149
+677,0,3,"Sawyer, Mr. Frederick Charles",29,male,0,0,342826,,396,England,Southampton,"Halley, Michigan, US",US,,No,2.079441542
+678,1,3,"Turja, Miss. Anna Sofia",23,female,0,0,4138,,216,Finland,Southampton,"Ashtabula, Ohio, US",US,15,Yes,2.197224577
+680,1,1,"Cardeza, Mr. Thomas Drake Martinez",34,male,0,1,PC 17755,B51 B53 B55,432,US,Cherbourg,"Germantown, Pennsylvania, US",US,3,Yes,6.238324625
+681,0,3,"Peters, Miss. Katie",19,female,0,0,330935,,312,Ireland,Queenstown,New York City,US,,No,2.079441542
+682,1,1,"Hassab, Mr. Hammad",18,male,0,0,PC 17572,D49,324,Egypt,Cherbourg,"New York, New York, US",US,3,Yes,4.33073334
+683,0,3,"Olsvigen, Mr. Thor Anderson",27,male,0,0,6563,,240,Norway,Southampton,"Carneron, US",US,,No,2.197224577
+685,0,2,"Brown, Mr. Thomas William Solomon",33,male,1,1,29750,,720,South Africa,Southampton,"Seattle, Washington, US",US,,No,3.663561646
+686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",38,male,1,2,SC/Paris 2123,,300,France,Cherbourg,"Cap-Ha??tien, Haiti",Haiti,,No,3.713572067
+687,0,3,"Panula, Mr. Jaako Arnold",24,male,4,1,3101295,,180,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+688,0,3,"Dakic, Mr. Branko",17,male,0,0,349228,,228,Croatia,Southampton,New York City,US,,No,2.302585093
+689,0,3,"Fischer, Mr. Eberhard Thelander",31,male,0,0,350036,,216,Sweden,Southampton,New York City,US,,No,1.945910149
+690,1,1,"Madill, Miss. Georgette Alexandra",33,female,0,1,24160,B5,192,US,Southampton,"St Louis, Missouri, US",US,2,Yes,5.351858133
+691,1,1,"Dick, Mr. Albert Adrian",23,male,1,0,17474,B20,372,Canada,Southampton,"Calgary, Alberta, Canada",Canada,3,Yes,4.043051268
+692,1,3,"Karun, Miss. Manca",18,female,0,1,349256,,48,Slovenia,Southampton,"Galesburg, Illinois, US",US,15,Yes,2.564949357
+693,1,3,"Lam, Mr. Ali",12,male,0,0,1601,,444,China,Southampton,New York City,US,C,Yes,4.025351691
+694,0,3,"Saad, Mr. Khalil",16,male,0,0,2672,,300,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+695,0,1,"Weir, Col. John",15,male,0,0,113800,,708,US,Southampton,"New York, New York, US",US,,No,3.258096538
+696,0,2,"Chapman, Mr. Charles Henry",26,male,0,0,248731,,624,US,Southampton,"Bronx, New York, US",US,,No,2.564949357
+697,0,3,"Kelly, Mr. James",16,male,0,0,363592,,528,Ireland,Queenstown,"New Haven, Connecticut, US",US,,No,2.079441542
+698,1,3,"Mullens, Miss. Katherine ""Katie""",32,female,0,0,35852,,228,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+699,0,1,"Thayer, Mr. John Borland",24,male,1,1,17421,C68,588,US,Cherbourg,"Haverford, Pennsylvania, US",US,,No,4.700480366
+700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",40,male,0,0,348121,F G63,504,Norway,Southampton,"Milwaukee, Wisconsin, US",US,,No,1.945910149
+701,1,1,"Astor, Mrs. John Jacob ",23,female,1,0,PC 17757,C62 C64,216,US,Cherbourg,"New York, New York, US",US,4,Yes,5.424950017
+702,1,1,"Silverthorne, Mr. Spencer Victor",32,male,0,0,PC 17475,E24,420,US,Southampton,"St Louis, Missouri, US",US,5,Yes,3.258096538
+703,0,3,"Barbara, Miss. Saiide",21,female,0,1,2691,,144,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,2.63905733
+704,0,3,"Gallagher, Mr. Martin",21,male,0,0,36864,,348,Ireland,Queenstown,New York City,US,,No,1.945910149
+705,0,3,"Hansen, Mr. Henrik Juul",23,male,1,0,350025,,312,Denmark,Southampton,"Racine, Wisconsin, US",US,,No,1.945910149
+706,0,2,"Morley, Mr. Henry Samuel ",25,male,0,0,250655,,456,England,Southampton,"Los Angeles, US",US,,No,3.258096538
+707,1,2,"Kelly, Mrs. Florence ""Fannie""",29,female,0,0,223596,,540,England,Southampton,New York City,US,9,Yes,2.564949357
+708,1,1,"Calderhead, Mr. Edward Pennington",33,male,0,0,PC 17476,E24,504,US,Southampton,"New York, New York, US",US,5,Yes,3.258096538
+709,1,1,"Cleaver, Miss. Alice",20,female,0,0,113781,,264,England,Southampton,"Montreal, Quebec, Canada",Canada,11,Yes,5.017279837
+710,1,3,"Moubarek, Master. Halim Gonios ",31,male,1,1,2661,,48,Lebanon,Cherbourg,"Houtzdale, Pennsylvania, US",US,C,Yes,2.708050201
+711,1,1,"Mayne, Mlle. Berthe Antonine ",29,female,0,0,PC 17482,C90,288,Belgium,Cherbourg,"Montreal, Quebec, Canada",Canada,6,Yes,3.891820298
+712,0,1,"Klaber, Mr. Herman",18,male,0,0,113028,C124,540,US,Southampton,"Portland, Oregon, US",US,,No,3.258096538
+713,1,1,"Taylor, Mr. Elmer Zebley",24,male,1,0,19996,C126,576,England,Southampton,"East Orange, New Jersey, US",US,5,Yes,3.951243719
+714,0,3,"Larsson, Mr. August Viktor",26,male,0,0,7545,,348,US,Southampton,"Stamford, Connecticut, US",US,,No,2.197224577
+715,0,2,"Greenberg, Mr. Samuel",21,male,0,0,250647,,624,US,Southampton,"Bronx, New York, US",US,,No,2.564949357
+716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",42,male,0,0,348124,F G73,228,Norway,Southampton,"Minneapolis, Minnesota, US",US,,No,1.945910149
+717,1,1,"Endres, Miss. Caroline Louise",29,female,0,0,PC 17757,C45,468,US,Cherbourg,"New York, New York, US",US,4,Yes,5.424950017
+718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",35,female,0,0,34218,E101,324,England,Southampton,"Auburndale, Florida, US",US,16,Yes,2.302585093
+719,0,3,"McEvoy, Mr. Michael",19,male,0,0,36568,,228,Ireland,Queenstown,New York City,US,,No,2.708050201
+720,0,3,"Johnson, Mr. Malkolm Joackim",28,male,0,0,347062,,396,US,Southampton,"Minneapolis, Minnesota, US",US,,No,1.945910149
+721,1,2,"Harper, Miss. Annie Jessie ""Nina""",33,female,0,1,248727,,72,England,Southampton,"Chicago, Illinois, US",US,11,Yes,3.496507561
+722,0,3,"Jensen, Mr. Svend Lauritz",25,male,1,0,350048,,204,Denmark,Southampton,"Portland, Oregon, US",US,,No,1.945910149
+723,0,2,"Gillespie, Mr. William Henry",28,male,0,0,12233,,408,Ireland,Southampton,"Vancouver, British Columbia, Canada",Canada,,No,2.564949357
+724,0,2,"Hodges, Mr. Henry Price",23,male,0,0,250643,,600,England,Southampton,"Boston, Massachusetts, US",US,,No,2.564949357
+725,1,1,"Chambers, Mr. Norman Campbell",29,male,1,0,113806,E8,324,US,Southampton,"New York, New York, US",US,5,Yes,3.970291914
+726,0,3,"Oreskovic, Mr. Luka",19,male,0,0,315094,,240,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+727,1,2,"Renouf, Mrs. Peter Henry ",25,female,3,0,31027,,360,US,Southampton,"Elizabeth, New Jersey, US",US,12,Yes,3.044522438
+728,1,3,"Mannion, Miss. Margareth",24,female,0,0,36866,,336,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
+729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",31,male,1,0,236853,,300,Sweden,Southampton,"Rockford, Illinois, US",US,,No,3.258096538
+730,0,3,"Ilmakangas, Miss. Pieta Sofia",29,female,1,0,STON/O2. 3101271,,300,Finland,Southampton,New York City,US,,No,1.945910149
+731,1,1,"Allen, Miss. Elisabeth Walton",29,female,0,0,24160,B5,348,US,Southampton,"St Louis, Missouri, US",US,2,Yes,5.351858133
+732,0,3,"Hassan, Mr. Houssein G N",24,male,0,0,2699,,132,US,Cherbourg,"Fredericksburg, Virginia, US",US,,No,2.890371758
+733,0,2,"Knight, Mr. Robert J",20,male,0,0,239855,,468,Ireland,Belfast,New York City,US,,No,#NAME?
+734,0,2,"Berriman, Mr. William John",26,male,0,0,28425,,276,England,Southampton,"Calumet, Michigan, US",US,,No,2.564949357
+735,0,2,"Troupiansky, Mr. Moses Aaron",28,male,0,0,233639,,276,England,Southampton,New York City,US,,No,2.564949357
+736,0,3,"Williams, Mr. Leslie",20,male,0,0,54636,,336,Australia,Southampton,New York City,US,,No,2.772588722
+738,1,1,"Lesurer, Mr. Gustave J",22,male,0,0,PC 17755,B101,420,US,Cherbourg,"Germantown, Pennsylvania, US",US,3,Yes,6.238324625
+739,0,3,"Ivanoff, Mr. Kanio",18,male,0,0,349201,,240,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+740,0,3,"Nankoff, Mr. Minko",18,male,0,0,349218,,384,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+741,1,1,"Hawksford, Mr. Walter James",27,male,0,0,16988,D45,540,England,Southampton,"New York, New York, US",US,3,Yes,3.401197382
+742,0,1,"Cavendish, Mr. Tyrell William",29,male,1,0,19877,C46,432,England,Southampton,"New York, New York, US",US,,No,4.356708827
+743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",37,female,2,2,PC 17608,B57 B59 B63 B66,252,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504
+744,0,3,"McNamee, Mr. Neal",17,male,1,0,376566,,324,England,Southampton,"Philadelphia, Pennsylvania, US",US,,No,2.772588722
+745,1,3,"Stranden, Mr. Juho",18,male,0,0,STON/O 2. 3101288,,372,Finland,Southampton,"Duluth, Minnesota, US",US,9,Yes,1.945910149
+746,0,1,"Crosby, Capt. Edward Gifford",28,male,1,1,WE/P 5735,B22,840,US,Southampton,"Milwaukee, Wisconsin, US",US,,No,4.262679877
+747,0,3,"Abbott, Mr. Rossmore Edward",27,male,1,1,C.A. 2673,,192,US,Southampton,"East Providence, Rhode Island, US",US,,No,2.995732274
+748,1,2,"Sinkkonen, Miss. Anna",21,female,0,0,250648,,360,Finland,Southampton,"Brighton, Boston, Massachusetts, US",US,10,Yes,2.564949357
+749,0,1,"Marvin, Mr. Daniel Warner",25,male,1,0,113773,D30,216,US,Southampton,"New York, New York, US",US,,No,3.970291914
+750,0,3,"Connaghton, Mr. Michael",23,male,0,0,335097,,372,US,Queenstown,"Brooklyn, New York, US",US,,No,1.945910149
+751,1,2,"Wells, Miss. Joan",17,female,1,1,29103,,48,England,Southampton,"Akron, Ohio, US",US,14,Yes,3.135494216
+752,1,3,"Moor, Master. Meier",19,male,0,1,392096,E121,84,Russia,Southampton,"Chicago, Illinois, US",US,14,Yes,2.48490665
+753,0,3,"Vande Velde, Mr. Johannes Joseph",32,male,0,0,345780,,420,Belgium,Southampton,New York City,US,,No,2.197224577
+754,0,3,"Jonkoff, Mr. Lalio",18,male,0,0,349204,,276,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+755,1,2,"Herman, Mrs. Samuel ",20,female,1,2,220845,,576,England,Southampton,"Bernardsville, New Jersey, US",US,9,Yes,4.17438727
+756,1,2,"Hamalainen, Master. Viljo",25,male,1,1,250649,,12,US,Southampton,"Detroit, Michigan, US",US,4,Yes,2.63905733
+757,0,3,"Carlsson, Mr. August Sigfrid",28,male,0,0,350042,,288,Sweden,Southampton,"Tower, Minnesota, US",US,,No,1.945910149
+758,0,2,"Bailey, Mr. Percy Andrew",24,male,0,0,29108,,216,England,Southampton,"Akron, Ohio, US",US,,No,2.397895273
+759,0,3,"Theobald, Mr. Thomas Leonard",28,male,0,0,363294,,408,England,Southampton,"Detroit, Michigan, US",US,,No,2.079441542
+760,1,1,"Rothes, the Countess. of ",25,female,0,0,110152,B77,408,Canada,Southampton,"Vancouver, British Columbia, Canada",Canada,8,Yes,4.454347296
+761,0,3,"Garfirth, Mr. John",18,male,0,0,358585,,252,England,Southampton,"Kitchener, Ontario, Canada",Canada,,No,2.63905733
+762,0,3,"Nirva, Mr. Iisakki Antino Aijo",30,male,0,0,SOTON/O2 3101272,,492,Finland,Southampton,"Sudbury, Ontario, Canada",Canada,,No,1.945910149
+763,1,3,"Barah, Mr. Hanna Assi",21,male,0,0,2663,,324,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,15,Yes,1.945910149
+764,1,1,"Carter, Mrs. William Ernest ",28,female,1,2,113760,B96 B98,432,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,4,Yes,4.787491743
+765,0,3,"Eklund, Mr. Hans Linus",22,male,0,0,347074,,192,Sweden,Southampton,"Jerome Junction, Arizona, US",US,,No,1.945910149
+766,1,1,"Hogeboom, Mrs. John C ",22,female,1,0,13502,D11,612,US,Cherbourg,"Hudson, New York, US",US,10,Yes,4.343805422
+767,0,1,"Brewe, Dr. Arthur Jackson",25,male,0,0,112379,,540,US,Cherbourg,"Philadelphia, Pennsylvania, US",US,,No,3.663561646
+768,0,3,"Mangan, Miss. Mary",18,female,0,0,364850,,384,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,1.945910149
+769,0,3,"Moran, Mr. Daniel J",19,male,1,0,371110,,324,Ireland,Queenstown,"Brooklyn, New York, US",US,,No,3.17805383
+770,0,3,"Gronnestad, Mr. Daniel Danielsen",32,male,0,0,8471,,384,Norway,Southampton,"Portland, North Dakota, US",US,,No,2.079441542
+771,0,3,"Lievens, Mr. Rene Aime",22,male,0,0,345781,,288,Belgium,Southampton,"Detroit, Michigan, US",US,,No,2.197224577
+772,0,3,"Jensen, Mr. Niels Peder",23,male,0,0,350047,,576,US,Southampton,"Portland, Oregon, US",US,,No,1.945910149
+773,0,2,"Mack, Mrs. ",11,female,0,0,S.O./P.P. 3,E77,684,England,Southampton,New York City,US,,No,2.302585093
+774,0,3,"Elias, Mr. Dibo",15,male,0,0,2674,,348,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",39,male,0,0,347078,,216,Sweden,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+777,0,3,"Tobin, Mr. Roger",16,male,0,0,383121,F38,240,Ireland,Queenstown,New York City,US,,No,1.945910149
+778,1,3,"Emanuel, Miss. Virginia Ethel",29,female,0,0,364516,,72,US,Southampton,New York City,US,13,Yes,2.48490665
+779,0,3,"Kilgannon, Mr. Thomas J",23,male,0,0,36865,,264,Ireland,Queenstown,New York City,US,,No,1.945910149
+780,1,1,"Robert, Mrs. Edward Scott ",26,female,0,1,24160,B3,516,US,Southampton,"St Louis, Missouri, US",US,2,Yes,5.351858133
+781,1,3,"Ayoub, Miss. Banoura",20,female,0,0,2687,,180,Lebanon,Cherbourg,"Owen Sound, Ontario, Canada",Canada,C,Yes,1.945910149
+782,1,1,"Dick, Mrs. Albert Adrian ",25,female,1,0,17474,B20,204,Canada,Southampton,"Calgary, Alberta, Canada",Canada,3,Yes,4.043051268
+783,0,1,"Long, Mr. Milton Clyde",22,male,0,0,113501,D6,348,US,Southampton,"Springfield, Massachusetts, US",US,,No,3.401197382
+784,0,3,"Johnston, Mr. Andrew G",22,male,1,2,W./C. 6607,,420,England,Southampton,"New London, Connecticut, US",US,,No,3.135494216
+785,0,3,"Ali, Mr. William",16,male,0,0,SOTON/O.Q. 3101312,,300,Argentina,Southampton,New York City,US,,No,1.945910149
+786,0,3,"Harmer, Mr. Abraham ",20,male,0,0,374887,,300,England,Southampton,"Montreal, Quebec, Canada",Canada,,No,1.945910149
+787,1,3,"Sjoblom, Miss. Anna Sofia",25,female,0,0,3101265,,216,Finland,Southampton,"Olympia, Washington, US",US,16,Yes,1.945910149
+788,0,3,"Rice, Master. George Hugh",25,male,4,1,382652,,96,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
+789,1,3,"Dean, Master. Bertram Vere",26,male,1,2,C.A. 2315,,12,England,Southampton,"Wichita, Kansas, US",US,10,Yes,2.995732274
+790,0,1,"Guggenheim, Mr. Benjamin",24,male,0,0,PC 17593,B82 B84,552,France,Cherbourg,"New York, New York, US",US,,No,4.369447852
+791,0,3,"Keane, Mr. Andrew ""Andy""",24,male,0,0,12460,,276,Ireland,Queenstown,"Auburndale, Florida, US",US,,No,1.945910149
+792,0,2,"Gaskell, Mr. Alfred",19,male,0,0,239865,,216,England,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.258096538
+794,0,1,"Hoyt, Mr. William Fisher",24,male,0,0,PC 17600,,504,US,Cherbourg,"New York, New York, US",US,14,Yes,3.401197382
+795,0,3,"Dantcheff, Mr. Ristiu",21,male,0,0,349203,,300,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+796,0,2,"Otter, Mr. Richard",18,male,0,0,28213,,468,US,Southampton,"Middleburg Heights, Ohio, US",US,,No,2.564949357
+797,1,1,"Leader, Dr. Alice ",18,female,0,0,17465,D17,588,US,Southampton,"New York, New York, US",US,8,Yes,3.218875825
+798,1,3,"Osman, Mrs. Mara",16,female,0,0,349244,,372,Croatia,Southampton,"Steelton, Pennsylvania, US",US,,No,2.079441542
+799,0,3,"Ibrahim Shawah, Mr. Yousseff",28,male,0,0,2685,,396,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+800,0,3,"Van Impe, Mrs. Jean Baptiste ",29,female,1,1,345773,,360,Belgium,Southampton,"Detroit, Michigan, US",US,,No,3.17805383
+801,0,2,"Ponesell, Mr. Martin",20,male,0,0,250647,,408,England,Southampton,New York City,US,,No,2.564949357
+802,1,2,"Collyer, Mrs. Harvey ",21,female,1,1,C.A. 31921,,372,England,Southampton,"Payette, Idaho, US",US,14,Yes,3.258096538
+803,1,1,"Carter, Master. William Thornton II",35,male,1,2,113760,B96 B98,132,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,4,Yes,4.787491743
+804,1,3,"Thomas, Master. Assad Alexander",31,male,0,1,2625,,5,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,16,Yes,2.079441542
+805,1,3,"Hedman, Mr. Oskar Arvid",23,male,0,0,347089,,324,US,Southampton,"St. Paul, Minnesota, US",US,15,Yes,1.791759469
+806,0,3,"Johansson, Mr. Karl Johan",25,male,0,0,347063,,372,US,Southampton,"Duluth, Minnesota, US",US,,No,1.945910149
+807,0,1,"Andrews, Mr. Thomas Jr",22,male,0,0,112050,A36,468,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+808,0,3,"Pettersson, Miss. Ellen Natalia",31,female,0,0,347087,,216,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,1.945910149
+809,0,2,"Meyer, Mr. August",17,male,0,0,248723,,372,England,Southampton,New York City,US,,No,2.564949357
+810,1,1,"Chambers, Mrs. Norman Campbell ",31,female,1,0,113806,E8,384,US,Southampton,"New York, New York, US",US,5,Yes,3.970291914
+811,0,3,"Alexander, Mr. William",22,male,0,0,3474,,276,England,Southampton,"Albion, Michigan, US",US,,No,1.945910149
+812,0,3,"Lester, Mr. James",17,male,0,0,A/4 48871,,468,England,Southampton,"Pontiac, Michigan, US",US,,No,3.17805383
+813,0,2,"Slemen, Mr. Richard James",25,male,0,0,28206,,420,England,Southampton,"Nashua, New Hampshire, US",US,,No,2.302585093
+814,0,3,"Andersson, Miss. Ebba Iris Alfrida",34,female,4,2,347082,,72,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
+815,0,3,"Tomlin, Mr. Ernest Portage",26,male,0,0,364499,,264,Canada,Southampton,"Des Moines, Iowa, US",US,,No,2.079441542
+816,0,1,"Fry, Mr. Richard",16,male,0,0,112058,B102,468,England,Southampton,"New York, New York, US",US,,No,#NAME?
+817,0,3,"Heininen, Miss. Wendla Maria",28,female,0,0,STON/O2. 3101290,,276,Finland,Southampton,New York City,US,,No,1.945910149
+818,0,2,"Mallet, Mr. Albert",18,male,1,1,S.C./PARIS 2079,,372,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,,No,3.610917913
+819,0,3,"Holm, Mr. John Fredrik Alexander",32,male,0,0,C 7075,,516,Sweden,Southampton,New York City,US,,No,1.791759469
+820,0,3,"Skoog, Master. Karl Thorsten",28,male,3,2,347088,,132,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
+821,1,1,"Hays, Mrs. Charles Melville ",28,female,1,1,12749,B69,624,Canada,Southampton,"Montreal, Quebec, Canada",Canada,3,Yes,4.532599493
+822,1,3,"Lulic, Mr. Nikola",17,male,0,0,315098,,348,Croatia,Southampton,"Chicago, Illinois, US",US,15,Yes,2.079441542
+823,0,1,"Reuchlin, Jonkheer. John George",31,male,0,0,19972,,456,Netherlands,Southampton,"New York, New York, US",US,,No,#NAME?
+824,1,3,"Moor, Mrs. ",11,female,0,1,392096,E121,348,Russia,Southampton,"Chicago, Illinois, US",US,14,Yes,2.48490665
+825,0,3,"Panula, Master. Urho Abraham",28,male,4,1,3101295,,24,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+826,0,3,"Flynn, Mr. John",15,male,0,0,368323,,504,Ireland,Queenstown,"Pittsburgh, Pennsylvania, US",US,,No,1.791759469
+827,0,3,"Lam, Mr. Len",12,male,0,0,1601,,276,China,Southampton,New York City,US,,No,4.025351691
+828,1,2,"Mallet, Master. Andre",21,male,0,2,S.C./PARIS 2079,,12,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,10,Yes,3.610917913
+829,1,3,"McCormack, Mr. Thomas Joseph",28,male,0,0,367228,,228,US,Queenstown,"Guttenberg, New Jersey, US",US,15,Yes,1.945910149
+830,1,1,"Stone, Mrs. George Nelson ",26,female,0,0,113572,B28,744,US,Southampton,"New York, New York, US",US,6,Yes,4.382026635
+831,1,3,"Yasbeck, Mrs. Antoni ",21,female,1,0,2659,,180,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,C,Yes,2.63905733
+832,1,2,"Richards, Master. George Sibley",31,male,1,1,29106,,9,England,Southampton,"Akron, Ohio, US",US,4,Yes,2.890371758
+833,0,3,"Saad, Mr. Amin",14,male,0,0,2671,,360,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+834,0,3,"Augustsson, Mr. Albert",22,male,0,0,347468,,276,Sweden,Southampton,"Bloomington, Indiana, US",US,,No,1.945910149
+835,0,3,"Allum, Mr. Owen George",22,male,0,0,2223,,180,England,Southampton,New York City,US,,No,2.079441542
+836,1,1,"Compton, Miss. Sara Rebecca",27,female,1,1,PC 17756,E49,468,US,Cherbourg,"Lakewood, New Jersey, US",US,14,Yes,4.418840608
+837,0,3,"Pasic, Mr. Jakob",16,male,0,0,315097,,252,Slovenia,Southampton,"Aurora, Illinois, US",US,,No,2.079441542
+838,0,3,"Sirota, Mr. Maurice",19,male,0,0,392092,,240,England,Southampton,New York City,US,,No,2.079441542
+839,1,3,"Chip, Mr. Chang",15,male,0,0,1601,,384,China,Southampton,New York City,US,C,Yes,4.025351691
+840,1,1,"Marechal, Mr. Pierre",20,male,0,0,11774,C47,336,France,Cherbourg,"New York, New York, US",US,7,Yes,3.36729583
+841,0,3,"Alhomaki, Mr. Ilmari Rudolf",27,male,0,0,SOTON/O2 3101287,,228,Finland,Southampton,"Astoria, Oregon, US",US,,No,1.945910149
+842,0,2,"Mudd, Mr. Thomas Charles",24,male,0,0,S.O./P.P. 3,,192,England,Southampton,New York City,US,,No,2.302585093
+843,1,1,"Serepeca, Miss. Augusta",23,female,0,0,113798,,360,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,4,Yes,3.433987204
+844,0,3,"Lemberopolous, Mr. Peter L",26,male,0,0,2683,,360,Greece,Cherbourg,"Stamford, Connecticut US",US,,No,1.791759469
+845,0,3,"Culumovic, Mr. Jeso",19,male,0,0,315090,,204,Croatia,Southampton,"Hammond, Indiana, US",US,,No,2.079441542
+846,0,3,"Abbing, Mr. Anthony",19,male,0,0,C.A. 5547,,480,US,Southampton,"Cincinnati, Ohio, US",US,,No,1.945910149
+848,0,3,"Markoff, Mr. Marin",18,male,0,0,349213,,420,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+849,0,2,"Harper, Rev. John",17,male,0,1,248727,,468,England,Southampton,"Chicago, Illinois, US",US,,No,3.496507561
+850,1,1,"Goldenberg, Mrs. Samuel L ",26,female,1,0,17453,C92,480,France,Cherbourg,"New York, New York, US",US,5,Yes,4.48863637
+851,0,3,"Andersson, Master. Sigvard Harald Elias",39,male,4,2,347082,,48,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
+852,0,3,"Svensson, Mr. Johan",19,male,0,0,347060,,888,Sweden,Southampton,"Effington Rut, South Dakota, US",US,,No,1.945910149
+853,0,3,"Boulos, Miss. Nourelain",23,female,1,1,2678,,84,Lebanon,Cherbourg,"Kent, British Columbia, Canada",Canada,,No,2.708050201
+854,1,1,"Lines, Miss. Mary Conover",25,female,0,1,PC 17592,D28,192,France,Cherbourg,"Hanover, New Hampshire, US",US,9,Yes,3.663561646
+855,0,2,"Carter, Mrs. Ernest Courtenay ",30,female,1,0,244252,,540,England,Southampton,New York City,US,,No,3.258096538
+856,1,3,"Aks, Mrs. Sam ",14,female,0,1,392091,,216,England,Southampton,"Norfolk, Virginia, US",US,13,Yes,2.197224577
+857,1,1,"Wick, Mrs. George Dennick ",26,female,1,1,36928,,540,US,Southampton,"Youngstown, Ohio, US",US,8,Yes,5.099866428
+858,1,1,"Daly, Mr. Peter Denis ",22,male,0,0,113055,E17,612,Peru,Southampton,"Lima, Peru",Peru,A,Yes,3.258096538
+860,0,3,"Razi, Mr. Raihed",16,male,0,0,2629,,360,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+861,0,3,"Hansen, Mr. Claus Peter",23,male,2,0,350026,,492,US,Southampton,"Racine, Wisconsin, US",US,,No,2.63905733
+862,0,2,"Giles, Mr. Frederick Edward",27,male,1,0,28134,,240,England,Southampton,"Camden, New Jersey, US",US,,No,2.397895273
+863,1,1,"Swift, Mrs. Frederick Joel ",27,female,0,0,17466,D17,552,US,Southampton,"New York, New York, US",US,8,Yes,3.218875825
+865,0,2,"Gill, Mr. John William",22,male,0,0,233866,,288,England,Southampton,New York City,US,,No,2.564949357
+866,1,2,"Bystrom, Mrs. ",14,female,0,0,236852,,504,US,Southampton,New York City,US,,No,2.564949357
+867,1,2,"Duran y More, Miss. Asuncion",28,female,1,0,SC/PARIS 2149,,324,Spain,Cherbourg,"Havana, Cuba",Cuba,12,Yes,2.564949357
+868,0,1,"Roebling, Mr. Washington Augustus II",36,male,0,0,PC 17590,A24,372,US,Southampton,"Trenton, New Jersey, US",US,,No,3.912023005
+869,0,3,"van Melkebeke, Mr. Philemon",27,male,0,0,345777,,276,Belgium,Southampton,"Detroit, Michigan, US",US,,No,2.197224577
+870,1,3,"Johnson, Master. Harold Theodor",31,male,1,1,347742,,48,US,Southampton,"St. Charles, Illinois, US",US,15,Yes,2.397895273
+871,0,3,"Balkic, Mr. Cerin",17,male,0,0,349248,,312,Bosnia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+872,1,1,"Beckwith, Mrs. Richard Leonard ",31,female,1,1,11751,D35,552,US,Southampton,"New York, New York, US",US,5,Yes,3.951243719
+873,0,1,"Carlsson, Mr. Frans Olof",24,male,0,0,695,B51 B53 B55,396,US,Southampton,"New York, New York, US",US,,No,1.609437912
+874,0,3,"Vander Cruyssen, Mr. Victor",27,male,0,0,345765,,552,Belgium,Southampton,"Detroit, Michigan, US",US,,No,2.197224577
+875,1,2,"Abelson, Mrs. Samuel ",21,female,1,0,P/PP 3381,,336,Russia,Cherbourg,"New York, New York, US",US,10,Yes,3.17805383
+876,1,3,"Najib, Miss. Adele Kiamie ""Jane""",32,female,0,0,2667,,180,Lebanon,Cherbourg,"Brooklyn, New York, US",US,C,Yes,1.945910149
+877,0,3,"Gustafsson, Mr. Alfred Ossian",29,male,0,0,7534,,228,Finland,Southampton,"Waukegan, Illinois, US",US,,No,2.197224577
+878,0,3,"Petroff, Mr. Nedelio",20,male,0,0,349212,,228,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+879,0,3,"Laleff, Mr. Kristo",18,male,0,0,349217,,276,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+880,1,1,"Potter, Mrs. Thomas Jr ",23,female,0,1,11767,C50,672,US,Cherbourg,"Philadelphia, Pennsylvania, US",US,7,Yes,4.418840608
+881,1,2,"Shelley, Mrs. William ",22,female,0,1,230433,,300,US,Southampton,"Deer Lodge, Montana, US",US,12,Yes,3.258096538
+882,0,3,"Markun, Mr. Johann",18,male,0,0,349257,,396,Slovenia,Cherbourg,New York City,US,,No,1.945910149
+883,0,3,"Dahlberg, Miss. Gerda Ulrika",28,female,0,0,7552,,264,Sweden,Southampton,"Chicago, Illinois, US",US,,No,2.302585093
+884,0,2,"Banfield, Mr. Frederick James",29,male,0,0,C.A./SOTON 34068,,336,England,Southampton,"Houghton, Michigan, US",US,,No,2.302585093
+885,0,3,"Sutehall, Mr. Henry Jr",22,male,0,0,SOTON/OQ 392076,,300,England,Southampton,"Buffalo, New York, US",US,,No,1.945910149
+887,0,2,"Montvila, Rev. Juozas",21,male,0,0,211536,,324,Lithuania,Southampton,"Worcester, Massachusetts, US",US,,No,2.564949357
+888,1,1,"Graham, Miss. Margaret Edith",28,female,0,0,112053,B42,228,US,Southampton,"Greenwich, Connecticut, US",US,3,Yes,3.401197382
+889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",40,female,1,2,W./C. 6607,,84,England,Southampton,"New London, Connecticut, US",US,,No,3.135494216
+890,1,1,"Behr, Mr. Karl Howell",21,male,0,0,111369,C148,312,US,Cherbourg,"New York, New York, US",US,5,Yes,3.401197382
+891,0,3,"Dooley, Mr. Patrick",19,male,0,0,370376,,516,Ireland,Queenstown,New York City,US,,No,1.945910149
+892,NA,3,"Kelly, Mr. James",16,male,0,0,330911,,228,Ireland,Southampton,New York City,US,,No,1.945910149
+893,NA,3,"Wilkes, Mrs. James ",19,female,1,0,363272,,564,England,Southampton,"Akron, Ohio, US",US,16,Yes,1.945910149
+894,NA,2,"Myles, Mr. Thomas Francis",25,male,0,0,240276,,756,Ireland,Queenstown,"Waban, Massachusetts, US",US,,No,2.197224577
+895,NA,3,"Wirz, Mr. Albert",16,male,0,0,315154,,324,Switzerland,Southampton,"Beloit, Wisconsin, US",US,,No,2.079441542
+896,NA,3,"Hirvonen, Mrs. Alexander ",25,female,1,1,3101298,,264,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,2.48490665
+897,NA,3,"Svensson, Mr. Johan Cervin",26,male,0,0,7538,,168,Sweden,Southampton,"Beresford, South Dakota, US",US,13,Yes,2.197224577
+898,NA,3,"Connolly, Miss. Kate",20,female,0,0,330972,,420,Ireland,Queenstown,"Dobbs Ferry, New York, US",US,,No,1.945910149
+899,NA,2,"Caldwell, Mr. Albert Francis",28,male,1,1,248738,,312,Bangkok,Southampton,"Roseville, Illinois, US",US,13,Yes,3.36729583
+900,NA,3,"Abrahim, Mrs. Joseph ",21,female,0,0,2657,,216,Syria,Cherbourg,"Greensburg, Pennsylvania, US",US,C,Yes,1.945910149
+901,NA,3,"Davies, Mr. John Samuel",23,male,2,0,A/4 48871,,252,England,Southampton,"Pontiac, Michigan, US",US,,No,3.17805383
+902,NA,3,"Ilieff, Mr. Ylio",16,male,0,0,349220,,384,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+903,NA,1,"Jones, Mr. Charles Cresson",26,male,0,0,694,,552,US,Southampton,"Bennington, Vermont, US",US,,No,3.258096538
+904,NA,1,"Snyder, Mrs. John Pillsbury ",28,female,1,0,21228,B45,276,US,Southampton,"Minneapolis, Minnesota, US",US,7,Yes,4.406719247
+905,NA,2,"Howard, Mr. Benjamin",20,male,1,0,24065,,756,England,Southampton,"Idaho, US",US,,No,3.258096538
+906,NA,1,"Chaffee, Mrs. Herbert Fuller ",29,female,1,0,W.E.P. 5734,E31,564,US,Southampton,"Amenia, North Dakota, US",US,4,Yes,4.110873864
+907,NA,2,"del Carlo, Mrs. Sebastiano ",27,female,1,0,SC/PARIS 2167,,288,Italy,Cherbourg,"Chicago, Illinois, US",US,11,Yes,3.295836866
+908,NA,2,"Keane, Mr. Daniel",17,male,0,0,233734,,420,Ireland,Queenstown,"St Louis, Missouri, US",US,,No,2.48490665
+909,NA,3,"Assaf, Mr. Gerios",17,male,0,0,2692,,252,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
+910,NA,3,"Ilmakangas, Miss. Ida Livija",28,female,1,0,STON/O2. 3101270,,324,US,Southampton,New York City,US,,No,1.945910149
+911,NA,3,"Assaf Khalil, Mrs. Mariana ",27,female,0,0,2696,,540,Lebanon,Cherbourg,"Ottawa, Ontario, Canada",Canada,C,Yes,1.945910149
+912,NA,1,"Rothschild, Mr. Martin",22,male,1,0,PC 17603,,552,US,Cherbourg,"New York, New York, US",US,,No,4.077537444
+913,NA,3,"Olsen, Master. Artur Karl",25,male,0,1,C 17368,,108,Norway,Southampton,"Brooklyn, New York, US",US,13,Yes,1.098612289
+914,NA,1,"Flegenheim, Mrs. Alfred ",24,female,0,0,PC 17598,,576,US,Cherbourg,"New York, New York, US",US,7,Yes,3.433987204
+915,NA,1,"Williams, Mr. Richard Norris II",31,male,0,1,PC 17597,,252,Switzerland,Cherbourg,"Radnor, Pennsylvania, US",US,A,Yes,4.110873864
+917,NA,3,"Robins, Mr. Alexander A",23,male,1,0,A/5. 3337,,600,England,Southampton,"Yonkers, New York, US",US,,No,2.63905733
+918,NA,1,"Ostby, Miss. Helene Ragnhild",28,female,0,1,113509,B36,264,US,Southampton,"Providence, Rhode Island, US",US,5,Yes,4.110873864
+919,NA,3,"Daher, Mr. Shedid",17,male,0,0,2698,,228,Lebanon,Cherbourg,"Kulpmont, Pennsylvania, US",US,,No,1.945910149
+920,NA,1,"Brady, Mr. John Bertram",23,male,0,0,113054,A21,492,US,Southampton,"Pomeroy, Washington, US",US,,No,3.401197382
+921,NA,3,"Samaan, Mr. Elias",17,male,2,0,2662,,204,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,3.044522438
+922,NA,2,"Louch, Mr. Charles Alexander",28,male,1,0,SC/AH 3085,,600,England,Southampton,New York City,US,,No,3.258096538
+923,NA,2,"Jefferys, Mr. Clifford Thomas",29,male,2,0,C.A. 31029,,288,Channel Islands,Southampton,"Elizabeth, New Jersey, US",US,,No,3.433987204
+924,NA,3,"Dean, Mrs. Bertram ",19,female,1,2,C.A. 2315,,384,England,Southampton,"Wichita, Kansas, US",US,10,Yes,2.995732274
+925,NA,3,"Johnston, Mrs. Andrew G ",24,female,1,2,W./C. 6607,,408,England,Southampton,"New London, Connecticut, US",US,,No,3.135494216
+926,NA,1,"Mock, Mr. Philipp Edmund",24,male,1,0,13236,C78,360,US,Cherbourg,"New York, New York, US",US,11,Yes,4.043051268
+927,NA,3,"Katavelas, Mr. Vassilios ",25,male,0,0,2682,,228,Greece,Cherbourg,"Milwaukee, Wisconsin, US",US,,No,1.945910149
+928,NA,3,"Roth, Miss. Sarah A",19,female,0,0,342712,,312,England,Southampton,New York City,US,C,Yes,2.079441542
+929,NA,3,"Cacic, Miss. Manda",18,female,0,0,315087,,252,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+930,NA,3,"Sap, Mr. Julius",15,male,0,0,345768,,252,Belgium,Southampton,"Detroit, Michigan, US",US,11,Yes,2.197224577
+931,NA,3,"Hee, Mr. Ling",13,male,0,0,1601,,336,China,Southampton,New York City,US,,No,4.025351691
+932,NA,3,"Karun, Mr. Franz",16,male,0,1,349256,,468,Slovenia,Southampton,"Galesburg, Illinois, US",US,15,Yes,2.564949357
+933,NA,1,"Franklin, Mr. Thomas Parham",27,male,0,0,113778,D34,444,England,Southampton,"New York, New York, US",US,,No,3.258096538
+934,NA,3,"Goldsmith, Mr. Nathan",21,male,0,0,SOTON/O.Q. 3101263,,492,Russia,Southampton,"Philadelphia, Pennsylvania, US",US,,No,1.945910149
+935,NA,2,"Corbett, Mrs. Walter H ",23,female,0,0,237249,,360,US,Southampton,"Provo, Utah, US",US,,No,2.564949357
+936,NA,1,"Kimball, Mrs. Edwin Nelson Jr ",30,female,1,0,11753,D19,540,US,Southampton,"Boston, Massachusetts, US",US,5,Yes,3.951243719
+937,NA,3,"Peltomaki, Mr. Nikolai Johannes",31,male,0,0,STON/O 2. 3101291,,300,Finland,Southampton,New York City,US,,No,1.945910149
+938,NA,1,"Chevre, Mr. Paul Romaine",24,male,0,0,PC 17594,A9,540,France,Cherbourg,"Ottawa, Ontario, Canada",Canada,7,Yes,3.36729583
+939,NA,3,"Shaughnessy, Mr. Patrick",24,male,0,0,370374,,288,Ireland,Queenstown,New York City,US,,No,1.945910149
+940,NA,1,"Bucknell, Mrs. William Robert ",30,female,0,0,11813,D15,708,US,Cherbourg,"Philadelphia, Pennsylvania, US",US,8,Yes,4.33073334
+941,NA,3,"Coutts, Mrs. William ",21,female,0,2,C.A. 37671,,432,England,Southampton,"Brooklyn, New York, US",US,2,Yes,2.708050201
+942,NA,1,"Smith, Mr. Lucien Philip",24,male,1,0,13695,C31,288,US,Cherbourg,"Huntington, West Virginia, US",US,,No,4.094344562
+943,NA,2,"Pulbaum, Mr. Franz",18,male,0,0,SC/PARIS 2168,,324,US,Southampton,New York City,US,,No,2.708050201
+944,NA,2,"Hocking, Miss. Ellen Nellie",27,female,2,1,29105,,240,England,Southampton,"Akron, Ohio, US",US,4,Yes,3.135494216
+945,NA,1,"Fortune, Miss. Ethel Flora",26,female,3,2,19950,C23 C25 C27,336,Canada,Southampton,"Winnipeg, Manitoba, Canada",Canada,10,Yes,5.572154032
+946,NA,2,"Mangiavacchi, Mr. Serafino Emilio",33,male,0,0,SC/A.3 2861,,360,France,Cherbourg,New York City,US,,No,2.708050201
+947,NA,3,"Rice, Master. Albert",20,male,4,1,382652,,120,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
+948,NA,3,"Cor, Mr. Bartol",15,male,0,0,349230,,420,Croatia,Southampton,"Great Falls, Montana, US",US,,No,1.945910149
+949,NA,3,"Abelseth, Mr. Olaus Jorgensen",29,male,0,0,348122,F G63,300,US,Southampton,"Perkins County, South Dakota, US",US,A,Yes,1.945910149
+950,NA,3,"Davison, Mr. Thomas Henry",25,male,1,0,386525,,384,England,Southampton,"Bedford, Indiana, US",US,,No,2.772588722
+951,NA,1,"Chaudanson, Miss. Victorine",27,female,0,0,PC 17608,B61,432,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504
+952,NA,3,"Dika, Mr. Mirko",15,male,0,0,349232,,204,Croatia,Southampton,"Vancouver, British Columbia, Canada",Canada,,No,1.945910149
+953,NA,2,"McCrae, Mr. Arthur Gordon",25,male,0,0,237216,,384,Australia,Southampton,Canada,Canada,,No,2.564949357
+954,NA,3,"Bjorklund, Mr. Ernst Herbert",28,male,0,0,347090,,216,Sweden,Southampton,New York City,US,,No,1.945910149
+955,NA,3,"Bradley, Miss. Bridget Delia",28,female,0,0,334914,,264,Ireland,Queenstown,"Glen Falls, New York, US",US,13,Yes,1.945910149
+956,NA,1,"Ryerson, Master. John Borie",27,male,2,2,PC 17608,B57 B59 B63 B66,156,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504
+957,NA,2,"Corey, Mrs. Percy C ",20,female,0,0,F.C.C. 13534,,360,US,Southampton,"Pittsburgh, Pennsylvania, US",US,,No,3.044522438
+958,NA,3,"Burns, Miss. Mary Delia",23,female,0,0,330963,,204,Ireland,Queenstown,New York City,US,,No,1.945910149
+959,NA,1,"Moore, Mr. Clarence Bloomfield",30,male,0,0,113796,,564,US,Southampton,"Washington, DC, US",US,,No,3.737669618
+960,NA,1,"Tucker, Mr. Gilbert Milligan Jr",31,male,0,0,2543,C53,372,US,Cherbourg,"Albany, New York, US",US,7,Yes,3.33220451
+962,NA,3,"Mulvihill, Miss. Bertha E",25,female,0,0,382653,,300,Ireland,Queenstown,"Providence, Rhode Island, US",US,15,Yes,1.945910149
+963,NA,3,"Minkoff, Mr. Lazar",18,male,0,0,349211,,252,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+964,NA,3,"Nieminen, Miss. Manta Josefina",30,female,0,0,3101297,,348,Finland,Southampton,"Aberdeen, Washington, US",US,,No,1.945910149
+965,NA,1,"Ovies y Rodriguez, Mr. Servando",31,male,0,0,PC 17562,D43,432,Cuba,Cherbourg,"Havana, Cuba",Cuba,,No,3.295836866
+966,NA,1,"Geiger, Miss. Amalie",20,female,0,0,113503,C130,420,US,Southampton,"Philadelphia, Pennsylvania, US",US,4,Yes,5.351858133
+967,NA,1,"Keeping, Mr. Edwin",18,male,0,0,113503,C132,396,US,Southampton,"Philadelphia, Pennsylvania, US",US,,No,5.351858133
+968,NA,3,"Miles, Mr. Frank",16,male,0,0,359306,,276,England,Southampton,New York City,US,,No,2.079441542
+969,NA,1,"Cornell, Mrs. Robert Clifford ",30,female,2,0,11770,C101,660,US,Southampton,"New York, New York, US",US,2,Yes,3.218875825
+970,NA,2,"Aldworth, Mr. Charles Augustus",30,male,0,0,248744,,360,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,,No,2.564949357
+971,NA,3,"Doyle, Miss. Elizabeth",22,female,0,0,368702,,288,Ireland,Queenstown,New York City,US,,No,1.945910149
+972,NA,3,"Boulos, Master. Akar",20,male,1,1,2678,,108,Lebanon,Cherbourg,"Kent, British Columbia, Canada",Canada,,No,2.708050201
+973,NA,1,"Straus, Mr. Isidor",18,male,1,0,PC 17483,C55 C57,804,US,Southampton,"New York, New York, US",US,,No,5.398162702
+974,NA,1,"Case, Mr. Howard Brown",22,male,0,0,19924,,588,England,Southampton,"Rochester, New York, US",US,,No,3.258096538
+975,NA,3,"Demetri, Mr. Marinko",20,male,0,0,349238,,276,Macedonia,Southampton,New York City,US,,No,1.945910149
+976,NA,2,"Lamb, Mr. John Joseph",21,male,0,0,240261,,360,Ireland,Queenstown,"Providence, Rhode Island, US",US,,No,2.302585093
+977,NA,3,"Khalil, Mr. Betros",18,male,1,0,2660,,300,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,,No,2.63905733
+978,NA,3,"Barry, Miss. Julia",18,female,0,0,330844,,312,US,Queenstown,New York City,US,,No,1.945910149
+979,NA,3,"Badman, Miss. Emily Louisa",26,female,0,0,A/4 31416,,216,England,Southampton,"Skaneateles, New York, US",US,C,Yes,2.079441542
+980,NA,3,"O'Donoghue, Ms. Bridget",23,female,0,0,364856,,252,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,1.945910149
+981,NA,2,"Wells, Master. Ralph Lester",27,male,1,1,29103,,24,England,Southampton,"Akron, Ohio, US",US,14,Yes,3.135494216
+982,NA,3,"Dyker, Mrs. Adolf Fredrik ",26,female,1,0,347072,,264,US,Southampton,"New Haven, Connecticut, US",US,16,Yes,2.564949357
+983,NA,3,"Pedersen, Mr. Olaf",18,male,0,0,345498,,336,Norway,Southampton,"Seattle, Washington, US",US,,No,1.945910149
+984,NA,1,"Davidson, Mrs. Thornton ",24,female,1,2,F.C. 12750,B71,324,Canada,Southampton,"Montreal, Quebec, Canada",Canada,3,Yes,3.951243719
+985,NA,3,"Guest, Mr. Robert",17,male,0,0,376563,,384,England,Southampton,"Clinton, New York, US",US,,No,2.079441542
+986,NA,1,"Birnbaum, Mr. Jakob",19,male,0,0,13905,,288,Belgium,Cherbourg,"San Francisco, California, US",US,,No,3.258096538
+987,NA,3,"Tenglin, Mr. Gunnar Isidor",26,male,0,0,350033,,300,Sweden,Southampton,"Burlington, Iowa, US",US,13,Yes,1.945910149
+988,NA,1,"Cavendish, Mrs. Tyrell William ",31,female,1,0,19877,C46,300,England,Southampton,"New York, New York, US",US,6,Yes,4.356708827
+989,NA,3,"Makinen, Mr. Kalle Edvard",25,male,0,0,STON/O 2. 3101268,,348,Finland,Southampton,"Glassport, Pennsylvania, US",US,,No,1.945910149
+990,NA,3,"Braf, Miss. Elin Ester Maria",28,female,0,0,347471,,240,Sweden,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+991,NA,3,"Nancarrow, Mr. William Henry",28,male,0,0,A./5. 3338,,396,England,Southampton,"Yonkers, New York, US",US,,No,2.079441542
+992,NA,1,"Stengel, Mrs. Charles Emil Henry ",33,female,1,0,11778,C116,528,US,Cherbourg,"Newark, New Jersey, US",US,5,Yes,4.007333185
+993,NA,2,"Weisz, Mr. Leopold",18,male,1,0,228414,,336,England,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.258096538
+994,NA,3,"Foley, Mr. William",18,male,0,0,365235,,240,Ireland,Queenstown,New York City,US,,No,1.945910149
+995,NA,3,"Johansson Palmquist, Mr. Oskar Leander",38,male,0,0,347070,,312,Sweden,Southampton,"New Haven, Connecticut, US",US,15,Yes,1.945910149
+996,NA,3,"Thomas, Mrs. Alexander ",23,female,1,1,2625,,192,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,14,Yes,2.079441542
+997,NA,3,"Holthen, Mr. Johan Martin",25,male,0,0,C 4001,,336,Norway,Southampton,New York City,US,,No,3.091042453
+998,NA,3,"Buckley, Mr. Daniel",19,male,0,0,330920,,252,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+999,NA,3,"Ryan, Mr. Edward",16,male,0,0,383162,,288,Ireland,Queenstown,"Troy, New York, US",US,14,Yes,1.945910149
+1000,NA,3,"Willer, Mr. Aaron ",18,male,0,0,3410,,444,Russia,Cherbourg,"Chicago, Illinois, US",US,,No,2.079441542
+1001,NA,2,"Swane, Mr. George",17,male,0,0,248734,F,228,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,2.564949357
+1002,NA,2,"Stanton, Mr. Samuel Ward",24,male,0,0,237734,,504,US,Southampton,New York City,US,,No,2.708050201
+1003,NA,3,"Shine, Miss. Ellen Natalia",26,female,0,0,330968,,240,Ireland,Queenstown,New York City,US,,No,1.945910149
+1004,NA,1,"Evans, Miss. Edith Corse",24,female,0,0,PC 17531,A29,432,US,Cherbourg,"New York, New York, US",US,,No,3.433987204
+1005,NA,3,"Buckley, Miss. Katherine",24,female,0,0,329944,,264,Ireland,Queenstown,"Roxbury, Massachusetts, US",US,,No,1.945910149
+1006,NA,1,"Straus, Mrs. Isidor ",20,female,1,0,PC 17483,C55 C57,756,US,Southampton,"New York, New York, US",US,,No,5.398162702
+1007,NA,3,"Chronopoulos, Mr. Demetrios",27,male,1,0,2680,,216,Greece,Cherbourg,New York City,US,,No,2.63905733
+1008,NA,3,"Thomas, Mr. John",16,male,0,0,2681,,408,Unknown,Cherbourg,"Columbus, Ohio, US",US,,No,1.791759469
+1009,NA,3,"Sandstrom, Miss. Beatrice Irene",31,female,1,1,PP 9549,G6,12,Sweden,Southampton,"San Francisco, US",US,13,Yes,2.772588722
+1010,NA,1,"Beattie, Mr. Thomson",20,male,0,0,13050,C6,432,Canada,Southampton,"Fergus, Ontario, Canada",Canada,A,Yes,4.317488114
+1011,NA,2,"Chapman, Mrs. John Henry ",25,female,1,0,SC/AH 29037,,336,England,Southampton,"Spokane, Washington, US",US,,No,3.258096538
+1012,NA,2,"Watt, Miss. Bertha J",20,female,0,0,C.A. 33595,,144,Scotland,Southampton,"Portland, Oregon, US",US,9,Yes,2.708050201
+1013,NA,3,"Kiernan, Mr. John",17,male,1,0,367227,,288,US,Queenstown,"Jersey City, New Jersey, US",US,,No,1.945910149
+1014,NA,1,"Schabert, Mrs. Paul ",20,female,1,0,13236,C28,420,Germany,Southampton,"New York, New York, US",US,11,Yes,4.043051268
+1015,NA,3,"Carver, Mr. Alfred John",23,male,0,0,392095,,336,England,Southampton,New York City,US,,No,1.945910149
+1016,NA,3,"Kennedy, Mr. John",17,male,0,0,368783,,288,Ireland,Queenstown,New York City,US,15,Yes,1.945910149
+1017,NA,3,"Cribb, Miss. Laura Alice",24,female,0,1,371362,,192,England,Southampton,"Newark, New Jersey, US",US,12,Yes,2.772588722
+1018,NA,3,"Brobeck, Mr. Karl Rudolf",24,male,0,0,350045,,264,Sweden,Southampton,"Worcester, Massachusetts, US",US,,No,1.945910149
+1019,NA,3,"McCoy, Miss. Alicia",19,female,2,0,367226,,312,Ireland,Queenstown,"Brooklyn, New York, US",US,16,Yes,3.135494216
+1020,NA,2,"Bowenur, Mr. Solomon",20,male,0,0,211535,,504,England,Southampton,New York City,US,,No,2.564949357
+1021,NA,3,"Petersen, Mr. Marius",20,male,0,0,342441,,288,England,Southampton,New York City,US,,No,2.079441542
+1022,NA,3,"Spinner, Mr. Henry John",23,male,0,0,STON/OQ. 369943,,384,England,Southampton,"Gloversville, New York, US",US,,No,2.079441542
+1023,NA,1,"Gracie, Col. Archibald IV",25,male,0,0,113780,C51,636,US,Southampton,"Washington, DC, US",US,B,Yes,3.33220451
+1025,NA,3,"Thomas, Mr. Charles P",21,male,1,0,2621,,372,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,,No,1.791759469
+1026,NA,3,"Dintcheff, Mr. Valtcho",22,male,0,0,349226,,516,Bulgaria,Southampton,"Tulsa, Oklahoma, US",US,,No,1.945910149
+1027,NA,3,"Carlsson, Mr. Carl Robert",25,male,0,0,350409,,288,Sweden,Southampton,"Huntley, Illinois, US",US,,No,1.945910149
+1028,NA,3,"Zakarian, Mr. Mapriededer",25,male,0,0,2656,,264,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,,No,1.945910149
+1029,NA,2,"Schmidt, Mr. August",19,male,0,0,248659,,312,US,Southampton,"Newark, New Jersey, US",US,,No,2.564949357
+1030,NA,3,"Drapkin, Miss. Jennie",21,female,0,0,SOTON/OQ 392083,,288,Belarus,Southampton,New York City,US,13,Yes,2.079441542
+1033,NA,1,"Daniels, Miss. Sarah",20,female,0,0,113781,,396,Canada,Southampton,"Montreal, Quebec, Canada",Canada,8,Yes,5.017279837
+1035,NA,2,"Beauchamp, Mr. Henry James",26,male,0,0,244358,,336,England,Southampton,New York City,US,,No,3.258096538
+1036,NA,1,"Lindeberg-Lind, Mr. Erik Gustaf ",32,male,0,0,17475,,504,Sweden,Southampton,"New York, New York, US",US,,No,3.258096538
+1037,NA,3,"Vander Planke, Mr. Julius",25,male,3,0,345763,,372,Belgium,Southampton,"Fremont, Ohio, US",US,,No,2.890371758
+1038,NA,1,"Hilliard, Mr. Herbert Henry",27,male,0,0,17463,E46,528,US,Southampton,"Brighton, Massachusetts, US",US,,No,3.931825633
+1039,NA,3,"Davies, Mr. Evan",16,male,0,0,SC/A4 23568,,264,Australia,Southampton,"Pontiac, Michigan, US",US,,No,2.079441542
+1040,NA,1,"Crafton, Mr. John Bertram",25,male,0,0,113791,,708,US,Southampton,"Roachdale, Indiana, US",US,,No,3.258096538
+1041,NA,2,"Lahtinen, Rev. William",22,male,1,1,250651,,420,US,Southampton,"Minneapolis, Minnesota, US",US,,No,3.258096538
+1042,NA,1,"Earnshaw, Mrs. Boulton ",23,female,0,1,11767,C54,351,,,,,,No,4.418840608
+1043,NA,3,"Matinoff, Mr. Nicola",20,male,0,0,349255,,360,Bulgaria,Cherbourg,"Madison, Wisconsin, US",US,,No,1.945910149
+1044,NA,3,"Storey, Mr. Thomas",18,male,0,0,3701,,612,England,Southampton,New York City,US,,No,2.564949357
+1045,NA,3,"Klasen, Mrs. ",13,female,0,2,350405,,432,Sweden,Southampton,"Los Angeles, US",US,,No,2.48490665
+1046,NA,3,"Asplund, Master. Filip Oscar",28,male,4,2,347077,,156,Sweden,Southampton,"Worcester, Massachusetts, US",US,,No,3.433987204
+1047,NA,3,"Duquemin, Mr. Joseph",20,male,0,0,S.O./P.P. 752,,228,Channel Islands,Southampton,"Albion, New York, US",US,D,Yes,1.945910149
+1048,NA,1,"Bird, Miss. Ellen",17,female,0,0,PC 17483,C97,372,US,Southampton,"New York, New York, US",US,8,Yes,5.398162702
+1049,NA,3,"Lundin, Miss. Olga Elida",24,female,0,0,347469,,351,,,,,,No,1.945910149
+1050,NA,1,"Borebank, Mr. John James",24,male,0,0,110489,D22,504,England,Southampton,"Toronto, Ontario, Canada",Canada,,No,3.258096538
+1051,NA,3,"Peacock, Mrs. Benjamin ",23,female,0,2,SOTON/O.Q. 3101315,,312,England,Southampton,"Elizabeth, New Jersey, US",US,,No,2.564949357
+1052,NA,3,"Smyth, Miss. Julia",18,female,0,0,335432,,204,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+1053,NA,3,"Touma, Master. Georges Youssef",30,male,1,1,2650,,96,Lebanon,Cherbourg,"Dowagiac, Michigan, US",US,C,Yes,2.708050201
+1054,NA,2,"Wright, Miss. Marion",20,female,0,0,220844,,312,England,Southampton,"Cottage Grove, Oregon, US",US,9,Yes,2.564949357
+1055,NA,3,"Pearce, Mr. Ernest",18,male,0,0,343271,,384,England,Southampton,New York City,US,,No,1.945910149
+1056,NA,2,"Peruschitz, Rev. Joseph Maria",29,male,0,0,237393,,336,Germany,Southampton,"St. Cloud, Minnesota, US",US,,No,2.564949357
+1057,NA,3,"Kink-Heilmann, Mrs. Anton ",26,female,1,1,315153,,312,Switzerland,Southampton,"Milwaukee, Wisconsin, US",US,2,Yes,3.091042453
+1058,NA,1,"Brandeis, Mr. Emil",18,male,0,0,PC 17591,B10,576,US,Cherbourg,"Omaha, Nebraska, US",US,,No,3.912023005
+1059,NA,3,"Ford, Mr. Edward Watson",23,male,2,2,W./C. 6608,,216,England,Southampton,"Essex County, New Jersey, US",US,,No,3.526360525
+1060,NA,1,"Cassebeer, Mrs. Henry Arthur Jr ",32,female,0,0,17770,,432,US,Cherbourg,"New York, New York, US",US,5,Yes,3.295836866
+1061,NA,3,"Hellstrom, Miss. Hilda Maria",28,female,0,0,7548,,264,Sweden,Southampton,"Evanston, Illinois, US",US,C,Yes,2.079441542
+1062,NA,3,"Lithman, Mr. Simon",18,male,0,0,S.O./P.P. 251,,312,Scotland,Southampton,New York City,US,,No,1.945910149
+1063,NA,3,"Zakarian, Mr. Ortin",19,male,0,0,2670,,324,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,,No,1.945910149
+1064,NA,3,"Dyker, Mr. Adolf Fredrik",24,male,1,0,347072,,276,US,Southampton,"New Haven, Connecticut, US",US,,No,2.564949357
+1065,NA,3,"Torfa, Mr. Assad",16,male,0,0,2673,,240,Syria,Cherbourg,New York City,US,,No,1.945910149
+1067,NA,2,"Brown, Miss. Edith Eileen",25,female,0,2,29750,,180,South Africa,Southampton,"Seattle, Washington, US",US,14,Yes,3.663561646
+1068,NA,2,"Sincock, Miss. Maude",20,female,0,0,C.A. 33112,,240,England,Southampton,"Hancock, Michigan, US",US,11,Yes,3.583518938
+1069,NA,1,"Stengel, Mr. Charles Emil Henry",31,male,1,0,11778,C116,648,US,Cherbourg,"Newark, New Jersey, US",US,1,Yes,4.007333185
+1071,NA,1,"Compton, Mrs. Alexander Taylor ",31,female,0,2,PC 17756,E45,768,US,Cherbourg,"Lakewood, New Jersey, US",US,14,Yes,4.418840608
+1072,NA,2,"McCrie, Mr. James Matthew",25,male,0,0,233478,,384,Canada,Southampton,"Sarnia, Ontario, Canada",Canada,,No,2.564949357
+1073,NA,1,"Compton, Mr. Alexander Taylor Jr",32,male,1,1,PC 17756,E52,444,US,Cherbourg,"Lakewood, New Jersey, US",US,,No,4.418840608
+1074,NA,1,"Marvin, Mrs. Daniel Warner ",27,female,1,0,113773,D30,216,US,Southampton,"New York, New York, US",US,10,Yes,3.970291914
+1075,NA,3,"Lane, Mr. Patrick",17,male,0,0,7935,,192,Ireland,Queenstown,New York City,US,,No,1.945910149
+1076,NA,1,"Douglas, Mrs. Frederick Charles ",32,female,1,1,PC 17558,B58 B60,324,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,6,Yes,5.509388337
+1077,NA,2,"Maybery, Mr. Frank Hubert",25,male,0,0,239059,,432,England,Southampton,"Moose Jaw, Saskatchewan, Canada",Canada,,No,2.772588722
+1078,NA,2,"Phillips, Miss. Alice Frances Louisa",36,female,0,1,S.O./P.P. 2,,252,England,Southampton,"New Brighton, Pennsylvania, US",US,12,Yes,3.044522438
+1079,NA,3,"Davies, Mr. Joseph",18,male,2,0,A/4 48873,,204,England,Southampton,"Pontiac, Michigan, US",US,,No,2.079441542
+1081,NA,2,"Veal, Mr. James",15,male,0,0,28221,,480,US,Southampton,"Barre, Vermont, US",US,,No,2.564949357
+1082,NA,2,"Angle, Mr. William A",20,male,1,0,226875,,384,England,Southampton,New York City,US,,No,3.258096538
+1083,NA,1,"Salomon, Mr. Abraham L",22,male,0,0,111163,,516,US,Cherbourg,"New York, New York, US",US,1,Yes,3.258096538
+1084,NA,3,"van Billiard, Master. Walter John",33,male,1,1,A/5. 851,,108,England,Southampton,"North Wales, Pennsylvania, US",US,,No,2.63905733
+1085,NA,2,"Lingane, Mr. John",17,male,0,0,235509,,732,US,Southampton,"Chelsea, Michigan, US",US,,No,2.48490665
+1086,NA,2,"Drew, Master. Marshall Brines",29,male,0,2,28220,,96,US,Southampton,"Greenport, New York, US",US,10,Yes,3.465735903
+1087,NA,3,"Karlsson, Mr. Julius Konrad Eugen",33,male,0,0,347465,,396,Sweden,Southampton,New York City,US,,No,1.945910149
+1088,NA,1,"Spedden, Master. Robert Douglas",31,male,0,2,16966,E34,72,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
+1089,NA,3,"Nilsson, Miss. Berta Olivia",27,female,0,0,347066,,216,Sweden,Southampton,"Missoula, Montana, US",US,D,Yes,1.945910149
+1090,NA,2,"Baimbrigge, Mr. Charles Robert",30,male,0,0,C.A. 31030,,276,Channel Islands,Southampton,New York City,US,,No,2.302585093
+1091,NA,3,"Rasmussen, Mrs. ",16,female,0,0,65305,,744,Norway,Southampton,"Centerville, South Dakota, US",US,,No,2.079441542
+1092,NA,3,"Murphy, Miss. Nora",18,female,0,0,36568,,408,Ireland,Queenstown,New York City,US,16,Yes,2.708050201
+1093,NA,3,"Danbom, Master. Gilbert Sigvard Emanuel",39,male,0,2,347080,,4,Sweden,Southampton,"Stanton, Iowa, US",US,,No,2.63905733
+1094,NA,1,"Astor, Col. John Jacob",22,male,1,0,PC 17757,C62 C64,564,US,Cherbourg,"New York, New York, US",US,,No,5.424950017
+1095,NA,2,"Quick, Miss. Winifred Vera",26,female,1,1,26360,,96,England,Southampton,"Detroit, Michigan, US",US,11,Yes,3.258096538
+1096,NA,2,"Andrew, Mr. Frank Thomas",24,male,0,0,C.A. 34050,,360,England,Southampton,"Houghton, Michigan, US",US,,No,2.302585093
+1097,NA,1,"Omont, Mr. Alfred Fernand",25,male,0,0,F.C. 12998,,348,France,Cherbourg,"New York, New York, US",US,7,Yes,3.218875825
+1098,NA,3,"McGowan, Miss. Katherine",24,female,0,0,9232,,504,Ireland,Queenstown,"Chicago, Illinois, US",US,,No,1.945910149
+1099,NA,2,"Collett, Mr. Sidney C Stuart",28,male,0,0,28034,,300,England,Southampton,"Port Byron, New York, US",US,9,Yes,2.302585093
+1100,NA,1,"Rosenbaum, Miss. Edith Louise",29,female,0,0,PC 17613,A11,408,France,Cherbourg,"Cincinnati, Ohio, US",US,11,Yes,3.295836866
+1101,NA,3,"Delalic, Mr. Redjo",18,male,0,0,349250,,300,Bosnia,Southampton,"Harrisburg, Pennsylvania, US",US,,No,1.945910149
+1102,NA,3,"Andersen, Mr. Albert Karvin",27,male,0,0,C 4001,,396,Norway,Southampton,New York City,US,,No,3.091042453
+1103,NA,3,"Finoli, Mr. Luigi",17,male,0,0,SOTON/O.Q. 3101308,,408,US,Southampton,"Philadelphia, Pennsylvania, US",US,15,Yes,1.945910149
+1104,NA,2,"Deacon, Mr. Percy William",25,male,0,0,S.O.C. 14879,,240,England,Southampton,"Boston, Massachusetts, US",US,,No,4.290459441
+1105,NA,2,"Howard, Mrs. Benjamin ",22,female,1,0,24065,,720,England,Southampton,"Idaho, US",US,,No,3.258096538
+1106,NA,3,"Andersson, Miss. Ida Augusta Margareta",38,female,4,2,347091,,456,Sweden,Southampton,"Manistee, Michigan, US",US,,No,1.945910149
+1107,NA,1,"Head, Mr. Christopher",21,male,0,0,113038,B11,504,England,Southampton,"New York, New York, US",US,,No,3.737669618
+1108,NA,3,"Mahon, Miss. Bridget Delia",26,female,0,0,330924,,240,Ireland,Queenstown,New York City,US,,No,1.945910149
+1109,NA,1,"Wick, Mr. George Dennick",24,male,1,1,36928,,696,US,Southampton,"Youngstown, Ohio, US",US,,No,5.099866428
+1110,NA,1,"Widener, Mrs. George Dunton ",28,female,1,1,113503,C80,600,US,Southampton,"Philadelphia, Pennsylvania, US",US,4,Yes,5.351858133
+1111,NA,3,"Thomson, Mr. Alexander Morrison",31,male,0,0,32302,,432,Scotland,Southampton,New York City,US,,No,2.079441542
+1112,NA,2,"Duran y More, Miss. Florentina",30,female,1,0,SC/PARIS 2148,,360,Spain,Cherbourg,"Havana, Cuba",Cuba,12,Yes,2.564949357
+1113,NA,3,"Reynolds, Mr. Harold J",22,male,0,0,342684,,252,England,Southampton,"Toronto, Ontario, Canada",Canada,,No,2.079441542
+1114,NA,2,"Cook, Mrs. ",11,female,0,0,W./C. 14266,F33,264,England,Southampton,New York City,US,14,Yes,2.302585093
+1115,NA,3,"Karlsson, Mr. Einar Gervasius",29,male,0,0,350053,,252,Sweden,Southampton,"Brooklyn, New York, US",US,13,Yes,1.945910149
+1116,NA,1,"Candee, Mrs. Edward ",20,female,0,0,PC 17606,,636,US,Cherbourg,"Washington, DC, US",US,6,Yes,3.295836866
+1117,NA,3,"Moubarek, Mrs. George ",22,female,0,2,2661,,288,Lebanon,Cherbourg,"Houtzdale, Pennsylvania, US",US,C,Yes,2.708050201
+1118,NA,3,"Asplund, Mr. Johan Charles",26,male,0,0,350054,,276,Sweden,Southampton,"Minneapolis, Minnesota, US",US,13,Yes,1.945910149
+1119,NA,3,"McNeill, Miss. Bridget",22,female,0,0,370368,,324,Ireland,Queenstown,New York City,US,,No,1.945910149
+1120,NA,3,"Everett, Mr. Thomas James",25,male,0,0,C.A. 6212,,468,England,Southampton,"Troy, New York, US",US,,No,2.708050201
+1121,NA,2,"Hocking, Mr. Samuel James Metcalfe",34,male,0,0,242963,,432,England,Southampton,"Middletown, Connecticut, US",US,,No,2.564949357
+1122,NA,2,"Sweet, Mr. George Frederick",27,male,0,0,220845,,168,England,Southampton,"Bernardsville, New Jersey, US",US,,No,4.17438727
+1123,NA,1,"Willard, Miss. Constance",24,female,0,0,113795,,252,US,Southampton,"Duluth, Minnesota, US",US,8,Yes,3.258096538
+1124,NA,3,"Wiklund, Mr. Karl Johan",23,male,1,0,3101266,,252,Finland,Southampton,"Montreal, Quebec, Canada",Canada,,No,1.791759469
+1125,NA,3,"Linehan, Mr. Michael",20,male,0,0,330971,,252,Ireland,Queenstown,New York City,US,,No,1.945910149
+1126,NA,1,"Cumings, Mr. John Bradley",25,male,1,0,PC 17599,C85,468,US,Cherbourg,"New York, New York, US",US,,No,4.262679877
+1127,NA,3,"Vendel, Mr. Olof Edvin",22,male,0,0,350416,,348,Sweden,Southampton,"St. Paul, Minnesota, US",US,,No,1.945910149
+1128,NA,1,"Warren, Mr. Frank Manley",24,male,1,0,110813,D37,756,US,Cherbourg,"Portland, Oregon, US",US,,No,4.317488114
+1129,NA,3,"Baccos, Mr. Raffull",19,male,0,0,2679,,240,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+1130,NA,2,"Hiltunen, Miss. Marta",21,female,1,1,250650,,216,Russia,Southampton,"Detroit, Michigan, US",US,,No,2.564949357
+1131,NA,1,"Douglas, Mrs. Walter Donald ",28,female,1,0,PC 17761,C86,576,US,Cherbourg,"Minneapolis, Minnesota, US",US,2,Yes,4.663439094
+1132,NA,1,"Lindstrom, Mrs. Carl Johan ",27,female,0,0,112377,,660,Sweden,Cherbourg,"New York, New York, US",US,6,Yes,3.295836866
+1133,NA,2,"Christy, Mrs. ",14,female,0,2,237789,,540,England,Southampton,"Montreal, Quebec, Canada",Canada,12,Yes,3.401197382
+1134,NA,1,"Spedden, Mr. Frederic Oakley",28,male,1,1,16966,E34,540,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
+1135,NA,3,"Hyman, Mr. Abraham",18,male,0,0,3470,,408,England,Southampton,"Springfield, Massachusetts, US",US,C,Yes,1.945910149
+1136,NA,3,"Johnston, Master. William Arthur Willie",39,male,1,2,W./C. 6607,,96,England,Southampton,"New London, Connecticut, US",US,,No,3.135494216
+1137,NA,1,"Kenyon, Mr. Frederick R",23,male,1,0,17464,D21,492,US,Southampton,"Pittsburgh, Pennsylvania, US",US,,No,3.931825633
+1138,NA,2,"Karnes, Mrs. J Frank ",21,female,0,0,F.C.C. 13534,,336,US,Southampton,"Pittsburgh, Pennsylvania, US",US,,No,3.044522438
+1139,NA,2,"Drew, Mr. James Vivian",22,male,1,1,28220,,504,US,Southampton,"Greenport, New York, US",US,,No,3.465735903
+1140,NA,2,"Hold, Mrs. Stephen ",19,female,1,0,26707,,348,England,Southampton,"Sacramento, California, US",US,10,Yes,3.258096538
+1141,NA,3,"Khalil, Mrs. Betros ",20,female,1,0,2660,,240,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,,No,2.63905733
+1142,NA,2,"West, Miss. Barbara J",21,female,1,2,C.A. 34651,,10,England,Southampton,"Gainesville, Florida, US",US,10,Yes,3.295836866
+1143,NA,3,"Abrahamsson, Mr. Abraham August Johannes",40,male,0,0,SOTON/O2 3101284,,240,Finland,Southampton,"Hoboken, New Jersey, US",US,15,Yes,1.945910149
+1144,NA,1,"Clark, Mr. Walter Miller",24,male,1,0,13508,C89,324,US,Cherbourg,"Los Angeles, California, US",US,,No,4.912654886
+1145,NA,3,"Salander, Mr. Karl Johan",24,male,0,0,7266,,288,Sweden,Southampton,"Red Wing, Minnesota, US",US,,No,2.197224577
+1146,NA,3,"Wenzel, Mr. Linhart",19,male,0,0,345775,,324,Austria,Southampton,New York City,US,,No,2.197224577
+1147,NA,3,"MacKay, Mr. George William",26,male,0,0,C.A. 42795,,240,England,Southampton,"Rochester, New York, US",US,,No,1.945910149
+1148,NA,3,"Mahon, Mr. John",15,male,0,0,AQ/4 3130,,264,Ireland,Queenstown,"Patterson, New Jersey, US",US,,No,1.945910149
+1149,NA,3,"Niklasson, Mr. Samuel",21,male,0,0,363611,,336,Sweden,Southampton,New York City,US,,No,2.079441542
+1150,NA,2,"Bentham, Miss. Lilian W",23,female,0,0,28404,,228,US,Southampton,"Rochester, New York, US",US,12,Yes,2.564949357
+1151,NA,3,"Midtsjo, Mr. Karl Albert",24,male,0,0,345501,,252,Norway,Southampton,"Chicago, Illinois, US",US,15,Yes,1.945910149
+1152,NA,3,"de Messemaeker, Mr. Guillaume Joseph",36,male,1,0,345572,,432,US,Southampton,"Tampico, Montana, US",US,15,Yes,2.833213344
+1153,NA,3,"Nilsson, Mr. August Ferdinand",29,male,0,0,350410,,252,Sweden,Southampton,"St. Paul, Minnesota, US",US,,No,1.945910149
+1154,NA,2,"Wells, Mrs. Arthur Henry ",25,female,0,2,29103,,348,England,Southampton,"Akron, Ohio, US",US,14,Yes,3.135494216
+1155,NA,3,"Klasen, Miss. Gertrud Emilia",28,female,1,1,350405,,12,Sweden,Southampton,New York City,US,,No,2.48490665
+1156,NA,2,"Portaluppi, Mr. Emilio Ilario Giuseppe",38,male,0,0,C.A. 34644,,408,US,Southampton,"Milford, New Hampshire, US",US,14,Yes,2.48490665
+1157,NA,3,"Lyntakoff, Mr. Stanko",21,male,0,0,349235,,528,Bulgaria,Southampton,"Coon Rapids, Iowa, US",US,,No,1.945910149
+1158,NA,1,"Chisholm, Mr. Roderick Robert Crispin",37,male,0,0,112051,,480,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+1159,NA,3,"Warren, Mr. Charles William",27,male,0,0,C.A. 49867,,360,England,Southampton,New York City,US,,No,1.945910149
+1160,NA,3,"Howard, Miss. May Elizabeth",27,female,0,0,A. 2. 39186,,324,England,Southampton,"Albion, Michigan, US",US,C,Yes,2.079441542
+1161,NA,3,"Pokrnic, Mr. Mate",17,male,0,0,315095,,204,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+1162,NA,1,"McCaffry, Mr. Thomas Francis",28,male,0,0,13050,C6,552,Canada,Southampton,"Vancouver, British Columbia, Canada",Canada,,No,4.317488114
+1163,NA,3,"Fox, Mr. Patrick",16,male,0,0,368573,,336,Ireland,Queenstown,New York City,US,,No,1.945910149
+1164,NA,1,"Clark, Mrs. Walter Miller ",26,female,1,0,13508,C89,312,US,Cherbourg,"Los Angeles, California, US",US,4,Yes,4.912654886
+1165,NA,3,"Lennon, Miss. Mary",18,female,1,0,370371,,216,Ireland,Queenstown,New York City,US,,No,2.708050201
+1166,NA,3,"Saade, Mr. Jean Nassr",21,male,0,0,2676,,240,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+1167,NA,2,"Bryhl, Miss. Dagmar Jenny Ingeborg ",35,female,1,0,236853,,240,Sweden,Southampton,"Rockford, Illinois, US",US,12,Yes,3.258096538
+1168,NA,2,"Parker, Mr. Clifford Richard",28,male,0,0,SC 14888,,336,Channel Islands,Southampton,New York City,US,,No,2.302585093
+1169,NA,2,"Faunthorpe, Mr. Harry",21,male,1,0,2926,,480,England,Southampton,"Philadelphia, Pennsylvania, US",US,,No,3.258096538
+1170,NA,2,"Ware, Mr. John James",20,male,1,0,CA 31352,,540,England,Southampton,"New Britain, Connecticut, US",US,,No,3.044522438
+1171,NA,2,"Oxenham, Mr. Percy Thomas",25,male,0,0,W./C. 14260,,264,England,Southampton,"North Bergen, New Jersey, US",US,13,Yes,2.302585093
+1172,NA,3,"Oreskovic, Miss. Jelka",22,female,0,0,315085,,276,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+1173,NA,3,"Peacock, Master. Alfred Edward",30,male,1,1,SOTON/O.Q. 3101315,,7,England,Southampton,"Elizabeth, New Jersey, US",US,,No,2.564949357
+1174,NA,3,"Fleming, Miss. Honora",21,female,0,0,364859,,264,Ireland,Queenstown,New York City,US,,No,1.945910149
+1175,NA,3,"Touma, Miss. Maria Youssef",26,female,1,1,2650,,108,Lebanon,Cherbourg,"Dowagiac, Michigan, US",US,C,Yes,2.708050201
+1176,NA,3,"Rosblom, Miss. Salli Helena",27,female,1,1,370129,,24,Finland,Southampton,"Astoria, Oregon, US",US,,No,2.995732274
+1177,NA,3,"Dennis, Mr. William",19,male,0,0,A/5 21175,,312,England,Southampton,"Saskatoon, Saskatchewan, Canada",Canada,,No,1.945910149
+1178,NA,3,"Franklin, Mr. Charles ",22,male,0,0,SOTON/O.Q. 3101314,,456,England,Cherbourg,Canada,Canada,,No,1.945910149
+1179,NA,1,"Snyder, Mr. John Pillsbury",26,male,1,0,21228,B45,288,US,Southampton,"Minneapolis, Minnesota, US",US,7,Yes,4.406719247
+1180,NA,3,"Mardirosian, Mr. Sarkis",23,male,0,0,2655,F E46,300,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,,No,1.945910149
+1181,NA,3,"Ford, Mr. Arthur",16,male,0,0,A/5 1478,,264,England,Southampton,"Elmira, New York, US",US,,No,2.079441542
+1182,NA,1,"Rheims, Mr. George Alexander Lucien",35,male,0,0,PC 17607,,432,France,Southampton,"New York, New York, US",US,A,Yes,3.663561646
+1183,NA,3,"Daly, Miss. Margaret Marcella Maggie",36,female,0,0,382650,,360,Ireland,Queenstown,New York City,US,15,Yes,1.791759469
+1184,NA,3,"Nasr, Mr. Mustafa",17,male,0,0,2652,,240,Lebanon,Cherbourg,New York City,US,,No,1.945910149
+1185,NA,1,"Dodge, Dr. Washington",21,male,1,1,33638,A34,624,US,Southampton,"San Francisco, California, US",US,13,Yes,4.394449155
+1186,NA,3,"Wittevrongel, Mr. Camille",25,male,0,0,345771,,432,Belgium,Southampton,"Detroit, Michigan, US",US,,No,2.197224577
+1187,NA,3,"Angheloff, Mr. Minko",20,male,0,0,349202,,312,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+1188,NA,2,"Laroche, Miss. Louise",21,female,1,2,SC/Paris 2123,,12,France,Cherbourg,"Cap-Ha??tien, Haiti",Haiti,14,Yes,3.713572067
+1189,NA,3,"Samaan, Mr. Hanna",17,male,2,0,2662,,480,Lebanon,Cherbourg,"Wilkes-Barre, Pennsylvania, US",US,,No,3.044522438
+1190,NA,1,"Loring, Mr. Joseph Holland",26,male,0,0,113801,,360,England,Southampton,"New York, New York, US",US,,No,3.80666249
+1191,NA,3,"Johansson, Mr. Nils",19,male,0,0,347467,,348,US,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
+1192,NA,3,"Olsson, Mr. Oscar Wilhelm",25,male,0,0,347079,,384,Sweden,Southampton,"Manitowoc, Wisconsin, US",US,A,Yes,1.945910149
+1193,NA,2,"Malachard, Mr. Noel",19,male,0,0,237735,D,300,France,Cherbourg,New York City,US,,No,2.708050201
+1194,NA,2,"Phillips, Mr. Escott Robert",27,male,0,1,S.O./P.P. 2,,504,England,Southampton,"New Brighton, Pennsylvania, US",US,,No,3.044522438
+1195,NA,3,"Pokrnic, Mr. Tome",17,male,0,0,315092,,288,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+1196,NA,3,"McCarthy, Miss. Catherine Katie",31,female,0,0,383123,,288,Ireland,Queenstown,"Bayonne, New Jersey, US",US,,No,1.945910149
+1197,NA,1,"Crosby, Mrs. Edward Gifford ",28,female,1,1,112901,B26,768,US,Southampton,"Milwaukee, Wisconsin, US",US,7,Yes,3.258096538
+1198,NA,1,"Allison, Mr. Hudson Joshua Creighton",36,male,1,2,113781,C22 C26,360,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,5.017279837
+1199,NA,3,"Aks, Master. Philip Frank",25,male,0,1,392091,,10,England,Southampton,"Norfolk, Virginia, US",US,11,Yes,2.197224577
+1200,NA,1,"Hays, Mr. Charles Melville",26,male,1,1,12749,B69,660,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,4.532599493
+1201,NA,3,"Hansen, Mrs. Claus Peter ",25,female,1,0,350026,,540,US,Southampton,"Racine, Wisconsin, US",US,11,Yes,2.63905733
+1202,NA,3,"Cacic, Mr. Jego Grga",20,male,0,0,315091,,216,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+1203,NA,3,"Vartanian, Mr. David",20,male,0,0,2658,,264,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,13,Yes,1.945910149
+1204,NA,3,"Sadowitz, Mr. Harry",19,male,0,0,LP 1588,,204,England,Southampton,"Providence, Rhode Island, US",US,,No,1.945910149
+1205,NA,3,"Carr, Miss. Jeannie",19,female,0,0,368364,,564,Ireland,Queenstown,"Hartford, Connecticut, US",US,,No,1.945910149
+1206,NA,1,"White, Mrs. John Stuart ",24,female,0,0,PC 17760,C32,660,US,Cherbourg,"New York, New York, US",US,8,Yes,4.905274778
+1207,NA,3,"Hagardon, Miss. Kate",20,female,0,0,AQ/3. 30631,,204,Ireland,Queenstown,New York City,US,,No,1.945910149
+1208,NA,1,"Spencer, Mr. William Augustus",29,male,1,0,PC 17569,B78,684,US,Cherbourg,"New York, New York, US",US,,No,4.983606622
+1209,NA,2,"Rogers, Mr. Reginald Harry",26,male,0,0,28004,,216,England,Southampton,"Wilkes Barre, Pennsylvania, US",US,,No,2.302585093
+1210,NA,3,"Jonsson, Mr. Nils Hilding",25,male,0,0,350408,,324,Sweden,Southampton,New York City,US,,No,1.945910149
+1211,NA,2,"Jefferys, Mr. Ernest Wilfred",28,male,2,0,C.A. 31029,,264,Channel Islands,Southampton,"Elizabeth, New Jersey, US",US,,No,3.433987204
+1212,NA,3,"Andersson, Mr. Johan Samuel",27,male,0,0,347075,,312,US,Southampton,"Hartford, Connecticut, US",US,,No,1.945910149
+1213,NA,3,"Krekorian, Mr. Neshan",21,male,0,0,2654,F E57,300,Turkey,Cherbourg,"Brantford, Ontario, Canada",Canada,10,Yes,1.945910149
+1214,NA,2,"Nesson, Mr. Israel",18,male,0,0,244368,F2,312,England,Southampton,"Boston, Massachusetts, US",US,,No,2.564949357
+1215,NA,1,"Rowe, Mr. Alfred G",18,male,0,0,113790,,708,England,Southampton,"New York, New York, US",US,,No,3.258096538
+1216,NA,1,"Kreuchen, Miss. Emilie",22,female,0,0,24160,,348,US,Southampton,"St Louis, Missouri, US",US,2,Yes,5.351858133
+1217,NA,3,"Assam, Mr. Ali",14,male,0,0,SOTON/O.Q. 3101309,,276,Argentina,Southampton,New York City,US,,No,1.945910149
+1218,NA,2,"Becker, Miss. Ruth Elizabeth",28,female,2,1,230136,F4,144,British India,Southampton,"Benton Harbor, Michigan, US",US,13,Yes,3.663561646
+1219,NA,1,"Rosenshine, Mr. George ",23,male,0,0,PC 17585,,552,US,Cherbourg,"New York, New York, US",US,,No,4.369447852
+1220,NA,2,"Clarke, Mr. Charles Valentine",29,male,1,0,2003,,348,England,Southampton,"San Francisco, California, US",US,,No,3.258096538
+1221,NA,2,"Enander, Mr. Ingvar",19,male,0,0,236854,,252,Sweden,Southampton,"Rockford, Illinois, US",US,,No,2.564949357
+1222,NA,2,"Davies, Mrs. John Morgan ",25,female,0,2,C.A. 33112,,576,England,Southampton,"Houghton, Michigan, US",US,14,Yes,3.583518938
+1223,NA,1,"Dulles, Mr. William Crothers",28,male,0,0,PC 17580,A18,468,US,Cherbourg,"Philadelphia, Pennsylvania, US",US,,No,3.36729583
+1224,NA,3,"Thomas, Mr. Tannous",19,male,0,0,2684,,192,Lebanon,Cherbourg,"Columbus, Ohio, US",US,,No,1.945910149
+1225,NA,3,"Nakid, Mrs. Said ",17,female,1,1,2653,,228,Lebanon,Cherbourg,"Waterbury, Connecticut, US",US,C,Yes,2.708050201
+1226,NA,3,"Cor, Mr. Ivan",13,male,0,0,349229,,324,Croatia,Southampton,"Great Falls, Montana, US",US,,No,1.945910149
+1227,NA,1,"Maguire, Mr. John Edward",24,male,0,0,110469,C106,360,US,Southampton,"Brockton, Massachusetts, US",US,,No,3.258096538
+1228,NA,2,"de Brito, Mr. Jose Joaquim",26,male,0,0,244360,,384,Portugal,Southampton,"S?œo Paulo, Brazil",Brazil,,No,2.564949357
+1229,NA,3,"Elias, Mr. Joseph",17,male,0,2,2675,,351,,,,,,No,1.945910149
+1230,NA,2,"Denbury, Mr. Herbert",20,male,0,0,C.A. 31029,,300,Channel Islands,Southampton,"Elizabeth, New Jersey, US",US,,No,3.433987204
+1231,NA,3,"Betros, Master. Seman",21,male,0,0,2622,,120,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,,No,1.945910149
+1232,NA,2,"Fillbrook, Mr. Joseph Charles",29,male,0,0,C.A. 15185,,216,England,Southampton,"Houghton, Michigan, US",US,,No,2.302585093
+1233,NA,3,"Lundstrom, Mr. Thure Edvin",26,male,0,0,350403,,384,Sweden,Southampton,"Los Angeles, US",US,15,Yes,1.945910149
+1235,NA,1,"Cardeza, Mrs. James Warburton Martinez ",39,female,0,1,PC 17755,B51 B53 B55,696,US,Cherbourg,"Germantown, Pennsylvania, US",US,3,Yes,6.238324625
+1236,NA,3,"van Billiard, Master. James William",35,male,1,1,A/5. 851,,120,England,Southampton,"North Wales, Pennsylvania, US",US,,No,2.63905733
+1237,NA,3,"Abelseth, Miss. Karen Marie",27,female,0,0,348125,,192,Norway,Southampton,"Los Angeles, California, US",US,16,Yes,1.945910149
+1238,NA,2,"Botsford, Mr. William Hull",26,male,0,0,237670,,300,US,Southampton,"Orange, New Jersey, US",US,,No,2.564949357
+1239,NA,3,"Whabee, Mrs. George Joseph ",27,female,0,0,2688,,264,US,Cherbourg,"Youngstown, Ohio, US",US,C,Yes,1.945910149
+1240,NA,2,"Giles, Mr. Ralph",16,male,0,0,248726,,300,England,Southampton,New York City,US,,No,2.564949357
+1241,NA,2,"Walcroft, Miss. Nellie",22,female,0,0,F.C.C. 13528,,432,England,Southampton,"Mamaroneck, New York, US",US,14,Yes,3.044522438
+1242,NA,1,"Greenfield, Mrs. Leo David ",27,female,0,1,PC 17759,D10 D12,540,US,Cherbourg,"New York, New York, US",US,7,Yes,4.143134726
+1243,NA,2,"Stokes, Mr. Philip Joseph",25,male,0,0,F.C.C. 13540,,300,England,Southampton,"Detroit, Michigan, US",US,,No,2.302585093
+1244,NA,2,"Dibden, Mr. William",19,male,0,0,S.O.C. 14879,,216,England,Southampton,"Eden, Manitoba, Canada",Canada,,No,4.290459441
+1245,NA,2,"Herman, Mr. Samuel",18,male,1,2,220845,,588,England,Southampton,"Bernardsville, New Jersey, US",US,,No,4.17438727
+1246,NA,3,"Dean, Miss. Elizabeth Gladys Millvina",37,female,1,2,C.A. 2315,,2,England,Southampton,"Wichita, Kansas, US",US,10,Yes,2.995732274
+1247,NA,1,"Julian, Mr. Henry Forbes",24,male,0,0,113044,E60,600,England,Southampton,"San Francisco, US",US,,No,3.258096538
+1248,NA,1,"Brown, Mrs. John Murray ",24,female,2,0,11769,C101,708,US,Southampton,"Belmont, Massachusetts, US",US,D,Yes,3.931825633
+1249,NA,3,"Lockyer, Mr. Edward",19,male,0,0,1222,,252,England,Southampton,"Ontario, New York, US",US,,No,1.945910149
+1250,NA,3,"O'Keefe, Mr. Patrick",20,male,0,0,368402,,264,Ireland,Queenstown,New York City,US,B,Yes,1.945910149
+1251,NA,3,"Lindell, Mrs. Edvard Bengtsson ",31,female,1,0,349910,,360,Sweden,Southampton,"Hartford, Connecticut, US",US,A,Yes,2.708050201
+1253,NA,2,"Mallet, Mrs. Albert ",20,female,1,1,S.C./PARIS 2079,,288,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,10,Yes,3.610917913
+1254,NA,2,"Ware, Mrs. John James ",22,female,0,0,CA 31352,,372,England,Southampton,"New Britain, Connecticut, US",US,10,Yes,3.044522438
+1255,NA,3,"Strilic, Mr. Ivan",17,male,0,0,315083,,324,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
+1256,NA,1,"Harder, Mrs. George Achilles ",29,female,1,0,11765,E50,252,US,Cherbourg,"New York, New York, US",US,5,Yes,4.007333185
+1258,NA,3,"Caram, Mr. Joseph",17,male,1,0,2689,,336,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,2.63905733
+1259,NA,3,"Riihivouri, Miss. Susanna Juhantytar Sanni",42,female,0,0,3101295,,264,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
+1260,NA,1,"Gibson, Mrs. Leonard ",21,female,0,1,112378,,528,US,Cherbourg,"New York, New York, US",US,7,Yes,4.077537444
+1261,NA,2,"Pallas y Castello, Mr. Emilio",29,male,0,0,SC/PARIS 2147,,348,Spain,Cherbourg,"Havana, Cuba",Cuba,9,Yes,2.564949357
+1262,NA,2,"Giles, Mr. Edgar",16,male,1,0,28133,,252,England,Southampton,"Camden, New Jersey, US",US,,No,2.397895273
+1263,NA,1,"Wilson, Miss. Helen Alice",25,female,0,0,16966,E39 E41,372,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
+1264,NA,1,"Ismay, Mr. Joseph Bruce",23,male,0,0,112058,B52 B54 B56,588,England,Southampton,"New York, New York, US",US,C,Yes,#NAME?
+1265,NA,2,"Harbeck, Mr. William H",22,male,0,0,248746,,528,US,Southampton,"Montreal, Quebec, Canada",Canada,,No,2.564949357
+1266,NA,1,"Dodge, Mrs. Washington ",23,female,1,1,33638,A34,408,US,Southampton,"San Francisco, California, US",US,5,Yes,4.394449155
+1267,NA,1,"Bowen, Miss. Grace Scott",24,female,0,0,PC 17608,,540,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504
+1268,NA,3,"Kink, Miss. Maria",17,female,2,0,315152,,264,Switzerland,Southampton,"Milwaukee, Wisconsin, US",US,,No,2.079441542
+1269,NA,2,"Cotterill, Mr. Henry Harry",26,male,0,0,29107,,240,England,Southampton,"Akron, Ohio, US",US,,No,2.397895273
+1270,NA,1,"Hipkins, Mr. William Edward",27,male,0,0,680,C39,660,England,Southampton,"New York, New York, US",US,,No,3.912023005
+1271,NA,3,"Asplund, Master. Carl Edgar",27,male,4,2,347077,,60,Sweden,Southampton,"Worcester, Massachusetts, US",US,,No,3.433987204
+1272,NA,3,"O'Connor, Mr. Patrick",21,male,0,0,366713,,276,Ireland,Queenstown,New York City,US,,No,1.945910149
+1273,NA,3,"Foley, Mr. Joseph",17,male,0,0,330910,,228,Ireland,Queenstown,"Larchmont, New York, US",US,,No,1.945910149
+1274,NA,3,"Risien, Mrs. Samuel ",20,female,0,0,364498,,696,South Africa,Southampton,"Groesbeck, Texas, US",US,,No,2.63905733
+1275,NA,3,"McNamee, Mrs. Neal ",19,female,1,0,376566,,228,England,Southampton,"Philadelphia, Pennsylvania, US",US,,No,2.772588722
+1276,NA,2,"Wheeler, Mr. Edwin Frederick",28,male,0,0,SC/PARIS 2159,,288,England,Southampton,"Asheville, North Carolina, US",US,,No,2.48490665
+1277,NA,2,"Herman, Miss. Kate",18,female,1,2,220845,,288,England,Southampton,"Bernardsville, New Jersey, US",US,9,Yes,4.17438727
+1278,NA,3,"Aronsson, Mr. Ernst Axel Algot",30,male,0,0,349911,,288,Sweden,Southampton,"Joliet, Illinois, US",US,,No,1.945910149
+1279,NA,2,"Ashby, Mr. John",15,male,0,0,244346,,684,US,Southampton,"West Hoboken, New Jersey, US",US,,No,2.564949357
+1280,NA,3,"Canavan, Mr. Patrick",20,male,0,0,364858,,252,ireland,Queenstown,"Philadelphia, Pennsylvania, US",US,,No,1.945910149
+1281,NA,3,"Palsson, Master. Paul Folke",27,male,3,1,349909,,72,Sweden,Southampton,"Chicago, Illinois, US",US,,No,3.044522438
+1282,NA,1,"Payne, Mr. Vivian Ponsonby",26,male,0,0,12749,B24,264,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,4.532599493
+1283,NA,1,"Lines, Mrs. Ernest H ",21,female,0,1,PC 17592,D28,600,France,Cherbourg,"Hanover, New Hampshire, US",US,9,Yes,3.663561646
+1284,NA,3,"Abbott, Master. Eugene Joseph",29,male,0,2,C.A. 2673,,168,US,Southampton,"East Providence, Rhode Island, US",US,,No,2.995732274
+1285,NA,2,"Gilbert, Mr. William",20,male,0,0,C.A. 30769,,564,England,Southampton,"Butte, Montana, US",US,,No,2.302585093
+1286,NA,3,"Kink-Heilmann, Mr. Anton",24,male,3,1,315153,,348,Switzerland,Southampton,"Milwaukee, Wisconsin",US,2,Yes,3.091042453
+1287,NA,1,"Smith, Mrs. Lucien Philip ",26,female,1,0,13695,C31,216,US,Cherbourg,"Huntington, West Virginia, US",US,6,Yes,4.094344562
+1288,NA,3,"Colbert, Mr. Patrick",20,male,0,0,371109,,288,Ireland,Queenstown,"Sherbrooke, Quebec, Canada",Canada,,No,1.945910149
+1289,NA,1,"Frolicher-Stehli, Mrs. Maxmillian ",34,female,1,1,13567,B41,576,Switzerland,Cherbourg,"New York, New York, US",US,5,Yes,4.369447852
+1290,NA,3,"Larsson-Rondberg, Mr. Edvard A",30,male,0,0,347065,,264,Sweden,Southampton,"Missoula, Montana, US",US,,No,1.945910149
+1291,NA,3,"Conlon, Mr. Thomas Henry",24,male,0,0,21332,,372,US,Queenstown,"Philadelphia, Pennsylvania, US",US,,No,1.945910149
+1292,NA,1,"Bonnell, Miss. Caroline",23,female,0,0,36928,C7,360,US,Southampton,"Youngstown, Ohio, US",US,8,Yes,5.099866428
+1293,NA,2,"Gale, Mr. Harry",15,male,1,0,28664,,456,England,Southampton,"Clear Creek, Colorado, US",US,,No,3.044522438
+1294,NA,1,"Gibson, Miss. Dorothy Winifred",30,female,0,1,112378,,264,US,Cherbourg,"New York, New York, US",US,7,Yes,4.077537444
+1295,NA,1,"Carrau, Mr. Jose Pedro",22,male,0,0,113059,,204,Uruguay,Southampton,"Montevideo, Uruguay",Uruguay,,No,3.850147602
+1296,NA,1,"Frauenthal, Mr. Isaac Gerald",28,male,1,0,17765,D40,516,England,Southampton,"New York, New York, US",US,5,Yes,3.295836866
+1297,NA,2,"Nourney, Mr. Alfred ",20,male,0,0,SC/PARIS 2166,D38,240,Germany,Cherbourg,"New York, New York, US",US,7,Yes,2.564949357
+1298,NA,2,"Ware, Mr. William Jeffery",25,male,1,0,28666,,276,England,Southampton,"Butte, Montana, US",US,,No,2.302585093
+1299,NA,1,"Widener, Mr. George Dunton",26,male,1,1,113503,C80,600,US,Southampton,"Philadelphia, Pennsylvania, US",US,,No,5.351858133
+1300,NA,3,"Riordan, Miss. Johanna Hannah",29,female,0,0,334915,,216,Ireland,Queenstown,New York City,US,13,Yes,1.945910149
+1301,NA,3,"Peacock, Miss. Treasteall",25,female,1,1,SOTON/O.Q. 3101315,,48,England,Southampton,"Elizabeth, New Jersey, US",US,,No,2.564949357
+1302,NA,3,"Naughton, Miss. Hannah",22,female,0,0,365237,,252,Ireland,Queenstown,New York City,US,,No,1.945910149
+1303,NA,1,"Minahan, Mrs. William Edward ",29,female,1,0,19928,C78,444,US,Southampton,"Fond du Lac, Wisconsin, US",US,14,Yes,4.49980967
+1304,NA,3,"Henriksson, Miss. Jenny Lovisa",30,female,0,0,347086,,336,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,1.945910149
+1305,NA,3,"Spector, Mr. Woolf",18,male,0,0,A.5. 3236,,276,England,Southampton,New York City,US,,No,2.079441542
+1306,NA,1,"Oliva y Ocana, Dona. Fermina",28,female,0,0,PC 17758,C105,468,Spain,Cherbourg,"New York, New York, US",US,8,Yes,4.682131227
+1307,NA,3,"Saether, Mr. Simon Sivertsen",28,male,0,0,SOTON/O.Q. 3101262,,516,Norway,Southampton,US,US,,No,1.945910149
+1308,NA,3,"Ware, Mr. Frederick",19,male,0,0,359309,,408,England,Southampton,New York City,US,,No,2.079441542
+1309,NA,3,"Peter, Master. Michael J",24,male,1,1,2668,,48,Syria,Cherbourg,"Detroit, Michigan, US",US,D,Yes,3.091042453

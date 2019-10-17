@@ -73,13 +73,6 @@ rpivotTable(tt)
 ## NOTE: Out of 1309 observations 
 ### 418 observations taken as Testing dataset (NULL)
 
-## Development (Study) dataSet and Validation (Test) dataset
-
-val = subset(tt, is.na(tt$Survived))
-
-dev = na.omit(tt)
-attach(dev)
-
 
 ## Ratio : Survived 1 and 0
 
@@ -93,7 +86,7 @@ as.matrix((prop.table(table(Survived)))*100)
 ## Fare Variable Analysis for Outliers
 
 
-boxplot(Fare ~ Pclass, data = dev, 
+boxplot(Fare ~ Pclass, data = tt, 
         main = 'Fare with respect to Passenger Class', ylab = 'Price', col = 'darksalmon')
 
 ## Remove Less Logical Fare observation ??
@@ -109,12 +102,12 @@ boxplot(Fare ~ Pclass, data = dev,
 
 ## Boxplot Analysis for Outliers!
 
-par(mfrow = c(1,1))
+par(mfrow = c(1,3))
 
-boxplot(SibSpouse ~ Survived, data = dev, 
+boxplot(SibSpouse ~ Survived, data = tt, 
         main = 'Sibbling / Spouce with respect to Survived', ylab = 'Count', col = 'darksalmon')
 
-boxplot(ParentsChild ~ Survived, data = dev, 
+boxplot(ParentsChild ~ Survived, data = tt, 
         main = 'Parents / Children with respect to Survived', ylab = 'Count', col = 'darksalmon')
 
 # NOTE: 1. Remove Outliers from SibSpouse & ParentChild
@@ -126,36 +119,37 @@ boxplot(ParentsChild ~ Survived, data = dev,
 
 # SibSpouse
 
-SibSpouse1 = subset(dev, SibSpouse <= 4)
+SibSpouse1 = subset(tt, SibSpouse <= 4)
 
 cor(SibSpouse1$SibSpouse, SibSpouse1$Survived)
 
-t.test(dev$SibSpouse, SibSpouse1$SibSpouse)
+t.test(tt$SibSpouse, SibSpouse1$SibSpouse)
 
-# p-value < 2.2e-16 # Hence, Reject Null Hypo - Significant Diff. # Remove Outliers
+# p-value = 0.04271 # Hence, Reject Null Hypo (95% Confidence)- Significant Diff. # Remove Outliers
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 # ParentsChild
 
-ParentsChild1 = subset(dev, ParentsChild <= 2)
+ParentsChild1 = subset(tt, ParentsChild <= 2)
 
 cor(ParentsChild1$ParentsChild, ParentsChild1$Survived)
 
-t.test(dev$ParentsChild, ParentsChild1$ParentsChild)
+t.test(tt$ParentsChild, ParentsChild1$ParentsChild)
 
-# p-value = 0.06225 # Hence, Very Close Significant Diff. # Remove Outliers
+# p-value = 0.009444 # Hence, Reject Null Hypo (95% Confidence)- Significant Diff. # Remove Outliers
 
-# Remove Outliers from ParentChild and SibSpouse
+# Hence, removed the Outliers from SibSpouse and ParentsChild variables
 
-dev = dev[which(dev$SibSpouse <= 4 & dev$ParentsChild <=2),]
+tt = tt[which(tt$SibSpouse <= 4 & tt$ParentsChild <=2),]
+
 
 ## Other VAriables Outliers Study
 
-boxplot(Age_Months ~ Survived, data = dev, 
+boxplot(Age_Months ~ Survived, data = tt, 
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
 
-boxplot(NameLength ~ Survived, data = dev, 
+boxplot(NameLength ~ Survived, data = tt, 
         main = 'Name Length of Male/Female Passengers', ylab = 'Name Length', col = 'darksalmon')
 
 
@@ -164,11 +158,11 @@ boxplot(NameLength ~ Survived, data = dev,
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-attach(dev)
+attach(tt)
 
 ## Coorelation 
 
-ggcorrplot(cor(dev[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
+ggcorrplot(cor(tt[, c(2,3,5,7,8,10,13)]), method = 'circle',  type = 'lower', lab = TRUE)
 
 ## Correlation
 
@@ -183,17 +177,24 @@ library(forecast)
 hist(Age_Months, col = 'salmon')
 BoxCox.lambda(Age_Months)
 
+# [1] 0.6221575
+
 
 hist(NameLength, col = 'Salmon')
 
 
 hist(Fare, col = 'Salmon')
 BoxCox.lambda(Fare)
-# That ARTICLE SAYS DO NORMILAZIT on FARE ??~ 
 
-## NOTE: Decided not to Normalize the Fare - Also FAre and Pclass has good coorelation. 
+tt$Fare_new = log(tt$Fare)
+# [1] 4.102259e-05 BoxCox Test
 
+# Remove Fare and Keep Fare_new
+tt = tt[, -c(10)]
 
+# Also Remove Age_Wiki, IN study forward we'll consider Age_Months
+tt = tt[, -c(11)]
 
-## Apply Feature Selection Method - LASSO , RIDGE, Boruta
-# 
+write.csv(tt, 'TitanicCleanData.csv')
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

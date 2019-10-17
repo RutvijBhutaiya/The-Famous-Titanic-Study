@@ -284,7 +284,7 @@ There are few Outliers (Not very large) in the tt dataset, But for significant p
 
 ggcorrplot(cor(tt[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
 ```
-<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923726-faf13700-f046-11e9-9db4-2b62be117386.png>
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67010275-f3936180-f10a-11e9-9b22-ec11ccec0a0b.png>
 
 As we can see in the correlation chart, PClass and Fare have the highest negative correlation, along with the target variable. Before building the Machine Learning models we will also do the feature selection through the Boruta package in R. 
 

@@ -312,15 +312,19 @@ BoxCox.lambda(Fare)
 As we can see in the histogram Fare is right skewed and hence, we use log() for normalization. 
 
 ```
-Fare = log(Fare)
+tt$Fare_new = log(tt$Fare)
 # [1] 4.102259e-05 BoxCox Test
 
-Fare = log(Fare)
-# [1] -0.9999242 BoxCox TEst
+# Remove Fare and Keep Fare_new
+tt = tt[, -c(10)]
 
-Fare = log(Fare)
-# [1] 1.371111 BoxCox Test
+# Also Remove Age_Wiki, IN study forward we'll consider Age_Months
+tt = tt[, -c(11)]
+
+write.csv(tt, 'TitanicCleanData.csv')
 ```
+Save the clean dataset into new file for the machine learning modeling - [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv)
+
 
 
 

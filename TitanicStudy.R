@@ -195,4 +195,5 @@ BoxCox.lambda(Fare)
 
 
 
-## Apply Baruta <__ 
+## Apply Feature Selection Method - LASSO , RIDGE, Boruta
+# 

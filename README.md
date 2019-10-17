@@ -249,7 +249,7 @@ cor(SibSpouse1$SibSpouse, SibSpouse1$Survived)
 
 t.test(dev$SibSpouse, SibSpouse1$SibSpouse)
 
-# p-value < 2.2e-16 # Hence, Reject Null Hypo - Significant Diff. # Remove Outliers
+# p-value = 0.06515 # Hence, failed to Reject Null Hypo (95% Confidence)- No Significant Diff. # Keep Outliers
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -261,14 +261,10 @@ cor(ParentsChild1$ParentsChild, ParentsChild1$Survived)
 
 t.test(dev$ParentsChild, ParentsChild1$ParentsChild)
 
-# p-value = 0.06225 # Hence, Very Close Significant Diff. # Remove Outliers
-
-# Remove Outliers from ParentChild and SibSpouse
-
-dev = dev[which(dev$SibSpouse <= 4 & dev$ParentsChild <=2),]
+# p-value = 0.06225 # Hence, failed to Reject Null Hypo (95% Confidence)- No Significant Diff. # Keep Outliers
 ```
 
-Hence, based on p-value we decided to remove the outliers. 
+Hence, based on p-value we decided not to remove the outliers. 
 
 
 Other Features - Age_Months & NameLength Outliers Study
@@ -295,6 +291,44 @@ ggcorrplot(cor(dev[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', l
 <p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923726-faf13700-f046-11e9-9db4-2b62be117386.png>
 
 As we can see in the correlation chart, PClass and Fare have the highest negative correlation, along with the target variable. Before building the Machine Learning models we will also do the feature selection through the Boruta package in R. 
+
+
+#### Normalization Feature - Skewness
+
+Based on the Histogram study, we decided to study normalization for continious variables. We used BoxCox.Lambda test to normalize the data. 
+
+Based on the histogram, we found that Age_Months and NameLengths are normally distributed. But, Fare is right skewed. 
+
+```
+library(forecast)
+
+hist(Age_Months, col = 'salmon')
+BoxCox.lambda(Age_Months)
+# [1] 0.5972085
+
+hist(NameLength, col = 'Salmon')
+
+hist(Fare, col = 'Salmon')
+BoxCox.lambda(Fare)
+```
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/67006267-559b9900-f102-11e9-9618-5be63d8ea79d.png>
+  
+As we can see in the histogram Fare is right skewed and hence, we use log() for normalization. 
+
+```
+Fare = log(Fare)
+# [1] 4.102259e-05 BoxCox Test
+
+Fare = log(Fare)
+# [1] -0.9999242 BoxCox TEst
+
+Fare = log(Fare)
+# [1] 1.371111 BoxCox Test
+```
+
+For Model building now, we have [traning dataset](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicTrain.csv) and [testing dataset](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicTest.csv). 
+
+
 
 
 

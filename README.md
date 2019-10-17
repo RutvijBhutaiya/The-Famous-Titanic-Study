@@ -112,18 +112,9 @@ tt$Age_wiki = as.numeric(tt$Age_wiki)
 tt$Age_Months = as.numeric(tt$Age_Months)
 ```
 
-For the Titanic passenger Survival study we created Dev (Study) and Val (test) dataset. Here, we decided to create a testing / Val dataset for missing values for the dependent variable 'Survived'. 
-
-And the Ratio from the Dev(Study) dataset for Survived and Not Survived passenger is 0: 61.6 and 1: 38.3
+And the Ratio from the  dataset for Survived and Not Survived passenger is 0: 61.6 and 1: 38.3
 
 ```
-## Development (Study) dataSet and Validation (Test) dataset
-
-val = subset(tt, is.na(tt$Survived))
-
-dev = na.omit(tt)
-attach(dev)
-
 
 ## Ratio : Survived 1 and 0
 
@@ -210,7 +201,7 @@ We began the Outliers study with the Fare variable. In the Outliersidentificatio
 - 4. $56.49 : 3Class passenger : 8 passengers :Remove.[Person pay high tkt and travel in 3 class!] 
 
 ```
-boxplot(Fare ~ Pclass, data = dev, 
+boxplot(Fare ~ Pclass, data = tt, 
         main = 'Fare with respect to Passenger Class', ylab = 'Price', col = 'darksalmon')
 ```
 
@@ -227,10 +218,10 @@ For the following 2 features, we did hypothesis testing after removing the outli
 
 par(mfrow = c(1,2))
 
-boxplot(SibSpouse ~ Survived, data = dev, 
+boxplot(SibSpouse ~ Survived, data = tt, 
         main = 'Sibbling / Spouce with respect to Survived', ylab = 'Count', col = 'darksalmon')
 
-boxplot(ParentsChild ~ Survived, data = dev, 
+boxplot(ParentsChild ~ Survived, data = tt, 
         main = 'Parents / Children with respect to Survived', ylab = 'Count', col = 'darksalmon')
 ```
 
@@ -243,25 +234,30 @@ boxplot(ParentsChild ~ Survived, data = dev,
 ```
 # SibSpouse Feature
 
-SibSpouse1 = subset(dev, SibSpouse <= 4)
+SibSpouse1 = subset(tt, SibSpouse <= 4)
 
 cor(SibSpouse1$SibSpouse, SibSpouse1$Survived)
 
-t.test(dev$SibSpouse, SibSpouse1$SibSpouse)
+t.test(tt$SibSpouse, SibSpouse1$SibSpouse)
 
-# p-value = 0.06515 # Hence, failed to Reject Null Hypo (95% Confidence)- No Significant Diff. # Keep Outliers
+# p-value = 0.04271 # Hence, Reject Null Hypo (95% Confidence)- Significant Diff. # Remove Outliers
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 # ParentsChild Feature
 
-ParentsChild1 = subset(dev, ParentsChild <= 2)
+ParentsChild1 = subset(tt, ParentsChild <= 2)
 
 cor(ParentsChild1$ParentsChild, ParentsChild1$Survived)
 
-t.test(dev$ParentsChild, ParentsChild1$ParentsChild)
+t.test(tt$ParentsChild, ParentsChild1$ParentsChild)
 
-# p-value = 0.06225 # Hence, failed to Reject Null Hypo (95% Confidence)- No Significant Diff. # Keep Outliers
+# p-value = 0.009444 # Hence, Reject Null Hypo (95% Confidence)- Significant Diff. # Remove Outliers
+
+# Hence, removed the Outliers from SibSpouse and ParentsChild variables
+
+tt = tt[which(tt$SibSpouse <= 4 & tt$ParentsChild <=2),]
+
 ```
 
 Hence, based on p-value we decided not to remove the outliers. 
@@ -270,23 +266,23 @@ Hence, based on p-value we decided not to remove the outliers.
 Other Features - Age_Months & NameLength Outliers Study
 
 ```
-boxplot(Age_Months ~ Survived, data = dev, 
+boxplot(Age_Months ~ Survived, data = tt, 
         main = 'Age in Months with respect to Survived', ylab = 'Age Months', col = 'darksalmon')
 
-boxplot(NameLength ~ Survived, data = dev, 
+boxplot(NameLength ~ Survived, data = tt, 
         main = 'Name Length of Male/Female Passengers', ylab = 'Name Length', col = 'darksalmon')
 ```
 
 <p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923222-0a23b500-f046-11e9-8534-4fcb3f70b54e.png>
   
-There are few Outliers (Not very large) in the Dev dataset, But for significant purpose we decided to consider it in the stud for Age_Month and NameLength. 
+There are few Outliers (Not very large) in the tt dataset, But for significant purpose we decided to consider it in the stud for Age_Month and NameLength. 
 
 #### Correlation Study between features 
 
 ```
 ## Coorelation 
 
-ggcorrplot(cor(dev[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
+ggcorrplot(cor(tt[, c(2,3,5,7,8,10,12)]), method = 'circle',  type = 'lower', lab = TRUE)
 ```
 <p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/66923726-faf13700-f046-11e9-9db4-2b62be117386.png>
 
@@ -326,7 +322,7 @@ Fare = log(Fare)
 # [1] 1.371111 BoxCox Test
 ```
 
-For Model building now, we have [traning dataset](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicTrain.csv) and [testing dataset](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicTest.csv). 
+
 
 
 

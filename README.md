@@ -94,11 +94,21 @@ missingage = subset(tt, is.na(Age_wiki))
 
 ```
 ##* See the MissingFare Analysis on Tabelue and Selected Avg. = 13.4
+
+#* Also Few observations are '0' as Fare - We changes acccording to PClass Average.
+##* 1st Class = 82.1 [Removed Outliers of 4 tickets with 512.3]
+##* 2nd CLass = 21.1
+##* 3rd Class = 13.4
+
 ##* See the MissinfAge Analysis on Tabelue and Select Avg. 
 ##* Age_wiki Avg.: 29.42 and Age_Months: 351
 
 
 tt$Fare[is.na(tt$Fare)] = '13.4'
+
+tt$Fare[tt$Fare == 0 & tt$Pclass == 1] = '82.1'
+tt$Fare[tt$Fare == 0 & tt$Pclass == 2] = '21.1'
+tt$Fare[tt$Fare == 0 & tt$Pclass == 3] = '13.4'
 
 tt$Age_wiki[is.na(tt$Age_wiki)] = '29.42'
 

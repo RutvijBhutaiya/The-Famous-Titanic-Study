@@ -171,7 +171,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 177,0,3,"Lefebre, Master. Henry Forbes",29,male,3,1,4133,,60,France,Southampton,"Mystic, Iowa, US",US,,No,3.218875825
 178,0,1,"Isham, Miss. Ann Elizabeth",26,female,0,0,PC 17595,C49,600,US,Cherbourg,"Chicago, Illinois, US",US,,No,3.33220451
 179,0,2,"Hale, Mr. Reginald",18,male,0,0,250653,,360,US,Southampton,"Auburn, New York, US",US,,No,2.564949357
-180,0,3,"Leonard, Mr. Lionel",19,male,0,0,LINE,,432,US,Southampton,New York City,US,,No,#NAME?
+180,0,3,"Leonard, Mr. Lionel",19,male,0,0,LINE,,432,US,Southampton,New York City,US,,No,2.564949357
 182,0,2,"Pernot, Mr. Rene",16,male,0,0,SC/PARIS 2131,,468,France,Cherbourg,"New York, New York, US",US,,No,2.708050201
 183,0,3,"Asplund, Master. Clarence Gustaf Hugo",37,male,4,2,347077,,108,Sweden,Southampton,"Worcester, Massachusetts, US",US,,No,3.433987204
 184,1,2,"Becker, Master. Richard F",25,male,2,1,230136,F4,12,British India,Southampton,"Benton Harbor, Michigan, US",US,11,Yes,3.663561646
@@ -253,7 +253,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 261,0,3,"Smith, Mr. Thomas",17,male,0,0,384461,,312,Ireland,Queenstown,"Hammond, Indiana, US",US,,No,1.945910149
 262,1,3,"Asplund, Master. Edvin Rojj Felix",33,male,4,2,347077,,36,Sweden,Southampton,"Worcester, Massachusetts, US",US,15,Yes,3.433987204
 263,0,1,"Taussig, Mr. Emil",17,male,1,1,110413,E67,624,US,Southampton,"New York, New York, US",US,,No,4.369447852
-264,0,1,"Harrison, Mr. William",21,male,0,0,112059,B94,540,England,Southampton,"New York, New York, US",US,,No,#NAME?
+264,0,1,"Harrison, Mr. William",21,male,0,0,112059,B94,540,England,Southampton,"New York, New York, US",US,,No,4.406719247
 265,0,3,"Henry, Miss. Delia",18,female,0,0,382649,,276,Ireland,Queenstown,"Boston, Massachusetts, US",US,,No,1.945910149
 266,0,2,"Reeves, Mr. David",17,male,0,0,C.A. 17248,,432,England,Southampton,New York City,US,,No,2.302585093
 267,0,3,"Panula, Mr. Ernesti Arvid",25,male,4,1,3101295,,192,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
@@ -261,13 +261,13 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 269,1,1,"Graham, Mrs. William Thompson ",30,female,0,1,PC 17582,C125,708,US,Southampton,"Greenwich, Connecticut, US",US,3,Yes,5.030437921
 270,1,1,"Bissette, Miss. Amelia",22,female,0,0,PC 17760,C99,468,US,Cherbourg,"New York, New York, US",US,8,Yes,4.905274778
 271,0,1,"Cairns, Mr. Alexander",21,male,0,0,113798,,336,US,Southampton,"Bryn Mawr, Pennsylvania, US",US,,No,3.433987204
-272,1,3,"Tornquist, Mr. William Henry",28,male,0,0,LINE,,300,Sweden,Southampton,New York City,US,15,Yes,#NAME?
+272,1,3,"Tornquist, Mr. William Henry",28,male,0,0,LINE,,300,Sweden,Southampton,New York City,US,15,Yes,2.564949357
 273,1,2,"Mellinger, Mrs. ",16,female,0,1,250644,,492,England,Southampton,"Bennington, Vermont, US",US,14,Yes,2.944438979
 274,0,1,"Natsch, Mr. Charles H",21,male,0,1,PC 17596,C118,432,US,Cherbourg,"Brooklyn, New York, US",US,,No,3.36729583
 275,1,3,"Healy, Miss. Hanora ""Nora""",26,female,0,0,370375,,348,Ireland,Queenstown,New York City,US,16,Yes,1.945910149
 276,1,1,"Andrews, Miss. Kornelia Theodosia",33,female,1,0,13502,D7,744,US,Cherbourg,"Hudson, New York, US",US,10,Yes,4.343805422
 277,0,3,"Lindblom, Miss. Augusta Charlotta",33,female,0,0,347073,,540,Sweden,Southampton,"Stratford, Connecticut, US",US,,No,1.945910149
-278,0,2,"Parkes, Mr. Francis ""Frank""",27,male,0,0,239853,,216,Ireland,Belfast,New York City,US,,No,#NAME?
+278,0,2,"Parkes, Mr. Francis ""Frank""",27,male,0,0,239853,,216,Ireland,Belfast,New York City,US,,No,3.044522438
 279,0,3,"Rice, Master. Eric",18,male,4,1,382652,,84,Ireland,Queenstown,"Spokane, Washington, US",US,,No,3.36729583
 280,1,3,"Abbott, Mrs. Stanton ",21,female,1,1,C.A. 2673,,468,US,Southampton,"East Providence, Rhode Island, US",US,A,Yes,2.995732274
 281,0,3,"Duane, Mr. Frank",16,male,0,0,336439,,780,Ireland,Queenstown,"Morris Plains, New Jersey, US",US,,No,1.945910149
@@ -292,7 +292,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 300,1,1,"Baxter, Mrs. James ",19,female,0,1,PC 17558,B58 B60,600,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,6,Yes,5.509388337
 301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",40,female,0,0,9234,,240,Ireland,Queenstown,"Chicago, Illinois, US",US,16,Yes,1.945910149
 302,1,3,"McCoy, Mr. Bernard",18,male,2,0,367226,,288,Ireland,Queenstown,"Brooklyn, New York, US",US,16,Yes,3.135494216
-303,0,3,"Johnson, Mr. William Cahoone Jr",31,male,0,0,LINE,,228,US,Southampton,New York City,US,,No,#NAME?
+303,0,3,"Johnson, Mr. William Cahoone Jr",31,male,0,0,LINE,,228,US,Southampton,New York City,US,,No,2.564949357
 304,1,2,"Keane, Miss. Nora A",19,female,0,0,226593,E101,552,Ireland,Queenstown,"Harrisburg, Pennsylvania, US",US,10,Yes,2.48490665
 305,0,3,"Williams, Mr. Howard Hugh ""Harry""",33,male,0,0,A/5 2466,,336,Channel Islands,Southampton,New York City,US,,No,2.079441542
 306,1,1,"Allison, Master. Hudson Trevor",30,male,1,2,113781,C22 C26,11,Canada,Southampton,"Montreal, Quebec, Canada",Canada,11,Yes,5.017279837
@@ -400,7 +400,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 411,0,3,"Sdycoff, Mr. Todor",18,male,0,0,349222,,504,Bulgaria,Southampton,"Chicago, Illinois, US",US,,No,1.945910149
 412,0,3,"Hart, Mr. Henry",15,male,0,0,394140,,324,Ireland,Queenstown,"Boston, Massachusetts, US",US,,No,1.791759469
 413,1,1,"Minahan, Miss. Daisy E",22,female,1,0,19928,C78,396,US,Southampton,"Fond du Lac, Wisconsin, US",US,14,Yes,4.49980967
-414,0,2,"Cunningham, Mr. Alfred Fleming",30,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,#NAME?
+414,0,2,"Cunningham, Mr. Alfred Fleming",30,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,3.044522438
 415,1,3,"Sundman, Mr. Johan Julian",25,male,0,0,STON/O 2. 3101269,,528,Finland,Southampton,"Cheyenne, Wyoming, US",US,15,Yes,1.945910149
 416,0,3,"Meek, Mrs. Thomas ",18,female,0,0,343095,,372,Australia,Southampton,New York City,US,,No,2.079441542
 417,1,2,"Drew, Mrs. James Vivian ",24,female,1,1,28220,,408,US,Southampton,"Greenport, New York, US",US,10,Yes,3.465735903
@@ -451,7 +451,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 464,0,2,"Milling, Mr. Jacob Christian",28,male,0,0,234360,,576,Denmark,Southampton,"Oregon, Wisconsin, US",US,,No,2.564949357
 465,0,3,"Maisner, Mr. Simon",18,male,0,0,A/S 2816,,408,England,Southampton,New York City,US,,No,2.079441542
 466,0,3,"Goncalves, Mr. Manuel Estanslas",31,male,0,0,SOTON/O.Q. 3101306,,444,Portugal,Southampton,New York City,US,,No,1.945910149
-467,0,2,"Campbell, Mr. William",21,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,#NAME?
+467,0,2,"Campbell, Mr. William",21,male,0,0,239853,,252,Ireland,Belfast,New York City,US,,No,3.044522438
 468,0,1,"Smart, Mr. John Montgomery",26,male,0,0,113792,,672,England,Southampton,"New York, New York, US",US,,No,3.258096538
 469,0,3,"Scanlan, Mr. James",18,male,0,0,36209,,264,Ireland,Queenstown,New York City,US,,No,1.945910149
 470,1,3,"Baclini, Miss. Helene Barbara",29,female,2,1,2666,,9,Lebanon,Cherbourg,"Brooklyn, New York, US",US,C,Yes,2.944438979
@@ -465,7 +465,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 478,0,3,"Braund, Mr. Lewis Richard",25,male,1,0,3460,,348,England,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Canada,,No,1.945910149
 479,0,3,"Karlsson, Mr. Nils August",25,male,0,0,350060,,264,Sweden,Southampton,"Palmer, Massachusetts, US",US,,No,1.945910149
 480,1,3,"Hirvonen, Miss. Hildur E",24,female,0,1,3101298,,24,Finland,Southampton,"Monessen, Pennsylvania, US",US,15,Yes,2.48490665
-482,0,2,"Frost, Mr. Anthony Wood ""Archie""",32,male,0,0,239854,,444,Ireland,Belfast,New York City,US,,No,#NAME?
+482,0,2,"Frost, Mr. Anthony Wood ""Archie""",32,male,0,0,239854,,444,Ireland,Belfast,New York City,US,,No,3.044522438
 483,0,3,"Rouse, Mr. Richard Henry",24,male,0,0,A/5 3594,,600,England,Southampton,"Cleveland, Ohio, US",US,,No,2.079441542
 484,1,3,"Turkula, Mrs. ",14,female,0,0,4134,,756,Finland,Southampton,"Hibbing, Minnesota, US",US,15,Yes,2.197224577
 485,1,1,"Bishop, Mr. Dickinson H",23,male,1,0,11967,B49,300,US,Cherbourg,"Dowagiac, Michigan, US",US,7,Yes,4.510859507
@@ -580,7 +580,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 595,0,2,"Chapman, Mr. John Henry",23,male,1,0,SC/AH 29037,,432,England,Southampton,"Spokane, Washington, US",US,,No,3.258096538
 596,0,3,"Van Impe, Mr. Jean Baptiste",27,male,1,1,345773,,432,Belgium,Southampton,"Detroit, Michigan, US",US,,No,3.17805383
 597,1,2,"Leitch, Miss. Jessie Wills",26,female,0,0,248727,,372,England,Southampton,"Chicago, Illinois, US",US,11,Yes,3.496507561
-598,0,3,"Johnson, Mr. Alfred",19,male,0,0,LINE,,588,England,Southampton,New York City,US,,No,#NAME?
+598,0,3,"Johnson, Mr. Alfred",19,male,0,0,LINE,,588,England,Southampton,New York City,US,,No,2.564949357
 599,0,3,"Boulos, Mr. Hanna",17,male,0,0,2664,,216,Syria,Cherbourg,"Ottawa, Ontario, Canada",Canada,,No,1.945910149
 600,1,1,"Duff Gordon, Sir. Cosmo Edmund ",31,male,1,0,PC 17485,A20,588,England,Cherbourg,"New York, New York, US",US,1,Yes,4.025351691
 601,1,2,"Jacobsohn, Mrs. Sidney Samuel ",30,female,2,1,243847,,288,England,Southampton,"Montreal, Quebec, Canada",Canada,12,Yes,3.295836866
@@ -615,7 +615,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 631,1,1,"Barkworth, Mr. Algernon Henry Wilson",36,male,0,0,27042,A23,564,England,Southampton,"New York, New York, US",US,B,Yes,3.401197382
 632,0,3,"Lundahl, Mr. Johan Svensson",27,male,0,0,347743,,612,Sweden,Southampton,"Spokane, Washington, US",US,,No,1.945910149
 633,1,1,"Stahelin-Maeglin, Dr. Max",25,male,0,0,13214,B50,384,Switzerland,Southampton,"New York, New York, US",US,3,Yes,3.401197382
-634,0,1,"Parr, Mr. William Henry Marsh",29,male,0,0,112052,,348,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+634,0,1,"Parr, Mr. William Henry Marsh",29,male,0,0,112052,,348,Ireland,Belfast,"New York, New York, US",US,,No,4.406719247
 635,0,3,"Skoog, Miss. Mabel",18,female,3,2,347088,,108,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
 636,1,2,"Davis, Miss. Mary",17,female,0,0,237668,,336,England,Southampton,"Tottenville, New York, US",US,13,Yes,2.564949357
 637,0,3,"Leinonen, Mr. Antti Gustaf",26,male,0,0,STON/O 2. 3101292,,384,Finland,Southampton,New York City,US,,No,1.945910149
@@ -655,7 +655,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 672,0,1,"Davidson, Mr. Thornton",22,male,1,0,F.C. 12750,B71,372,Canada,Southampton,"Montreal, Quebec, Canada",Canada,,No,3.951243719
 673,0,2,"Mitchell, Mr. Henry Michael",27,male,0,0,C.A. 24580,,852,Channel Islands,Southampton,"Toledo, Ohio, US",US,,No,2.302585093
 674,1,2,"Wilhelms, Mr. Charles",21,male,0,0,244270,,384,England,Southampton,New York City,US,9,Yes,2.564949357
-675,0,2,"Watson, Mr. Ennis Hastings",26,male,0,0,239856,,180,Ireland,Belfast,New York City,US,,No,#NAME?
+675,0,2,"Watson, Mr. Ennis Hastings",26,male,0,0,239856,,180,Ireland,Belfast,New York City,US,,No,3.044522438
 676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",30,male,0,0,349912,,216,Sweden,Southampton,"Joliet, Illinois, US",US,,No,1.945910149
 677,0,3,"Sawyer, Mr. Frederick Charles",29,male,0,0,342826,,396,England,Southampton,"Halley, Michigan, US",US,,No,2.079441542
 678,1,3,"Turja, Miss. Anna Sofia",23,female,0,0,4138,,216,Finland,Southampton,"Ashtabula, Ohio, US",US,15,Yes,2.197224577
@@ -711,7 +711,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 730,0,3,"Ilmakangas, Miss. Pieta Sofia",29,female,1,0,STON/O2. 3101271,,300,Finland,Southampton,New York City,US,,No,1.945910149
 731,1,1,"Allen, Miss. Elisabeth Walton",29,female,0,0,24160,B5,348,US,Southampton,"St Louis, Missouri, US",US,2,Yes,5.351858133
 732,0,3,"Hassan, Mr. Houssein G N",24,male,0,0,2699,,132,US,Cherbourg,"Fredericksburg, Virginia, US",US,,No,2.890371758
-733,0,2,"Knight, Mr. Robert J",20,male,0,0,239855,,468,Ireland,Belfast,New York City,US,,No,#NAME?
+733,0,2,"Knight, Mr. Robert J",20,male,0,0,239855,,468,Ireland,Belfast,New York City,US,,No,3.044522438
 734,0,2,"Berriman, Mr. William John",26,male,0,0,28425,,276,England,Southampton,"Calumet, Michigan, US",US,,No,2.564949357
 735,0,2,"Troupiansky, Mr. Moses Aaron",28,male,0,0,233639,,276,England,Southampton,New York City,US,,No,2.564949357
 736,0,3,"Williams, Mr. Leslie",20,male,0,0,54636,,336,Australia,Southampton,New York City,US,,No,2.772588722
@@ -782,7 +782,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 804,1,3,"Thomas, Master. Assad Alexander",31,male,0,1,2625,,5,Lebanon,Cherbourg,"Wilkes Barre, Pennsylvania, US",US,16,Yes,2.079441542
 805,1,3,"Hedman, Mr. Oskar Arvid",23,male,0,0,347089,,324,US,Southampton,"St. Paul, Minnesota, US",US,15,Yes,1.791759469
 806,0,3,"Johansson, Mr. Karl Johan",25,male,0,0,347063,,372,US,Southampton,"Duluth, Minnesota, US",US,,No,1.945910149
-807,0,1,"Andrews, Mr. Thomas Jr",22,male,0,0,112050,A36,468,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+807,0,1,"Andrews, Mr. Thomas Jr",22,male,0,0,112050,A36,468,Ireland,Belfast,"New York, New York, US",US,,No,4.406719247
 808,0,3,"Pettersson, Miss. Ellen Natalia",31,female,0,0,347087,,216,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,1.945910149
 809,0,2,"Meyer, Mr. August",17,male,0,0,248723,,372,England,Southampton,New York City,US,,No,2.564949357
 810,1,1,"Chambers, Mrs. Norman Campbell ",31,female,1,0,113806,E8,384,US,Southampton,"New York, New York, US",US,5,Yes,3.970291914
@@ -791,14 +791,14 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 813,0,2,"Slemen, Mr. Richard James",25,male,0,0,28206,,420,England,Southampton,"Nashua, New Hampshire, US",US,,No,2.302585093
 814,0,3,"Andersson, Miss. Ebba Iris Alfrida",34,female,4,2,347082,,72,Sweden,Southampton,"Winnipeg, Manitoba, Canada",Canada,,No,3.433987204
 815,0,3,"Tomlin, Mr. Ernest Portage",26,male,0,0,364499,,264,Canada,Southampton,"Des Moines, Iowa, US",US,,No,2.079441542
-816,0,1,"Fry, Mr. Richard",16,male,0,0,112058,B102,468,England,Southampton,"New York, New York, US",US,,No,#NAME?
+816,0,1,"Fry, Mr. Richard",16,male,0,0,112058,B102,468,England,Southampton,"New York, New York, US",US,,No,4.406719247
 817,0,3,"Heininen, Miss. Wendla Maria",28,female,0,0,STON/O2. 3101290,,276,Finland,Southampton,New York City,US,,No,1.945910149
 818,0,2,"Mallet, Mr. Albert",18,male,1,1,S.C./PARIS 2079,,372,Canada,Cherbourg,"Montreal, Quebec, Canada",Canada,,No,3.610917913
 819,0,3,"Holm, Mr. John Fredrik Alexander",32,male,0,0,C 7075,,516,Sweden,Southampton,New York City,US,,No,1.791759469
 820,0,3,"Skoog, Master. Karl Thorsten",28,male,3,2,347088,,132,Sweden,Southampton,"Iron Mountain, Michigan, US",US,,No,3.295836866
 821,1,1,"Hays, Mrs. Charles Melville ",28,female,1,1,12749,B69,624,Canada,Southampton,"Montreal, Quebec, Canada",Canada,3,Yes,4.532599493
 822,1,3,"Lulic, Mr. Nikola",17,male,0,0,315098,,348,Croatia,Southampton,"Chicago, Illinois, US",US,15,Yes,2.079441542
-823,0,1,"Reuchlin, Jonkheer. John George",31,male,0,0,19972,,456,Netherlands,Southampton,"New York, New York, US",US,,No,#NAME?
+823,0,1,"Reuchlin, Jonkheer. John George",31,male,0,0,19972,,456,Netherlands,Southampton,"New York, New York, US",US,,No,4.406719247
 824,1,3,"Moor, Mrs. ",11,female,0,1,392096,E121,348,Russia,Southampton,"Chicago, Illinois, US",US,14,Yes,2.48490665
 825,0,3,"Panula, Master. Urho Abraham",28,male,4,1,3101295,,24,Finland,Southampton,"Coal Center, Pennsylvania, US",US,,No,3.663561646
 826,0,3,"Flynn, Mr. John",15,male,0,0,368323,,504,Ireland,Queenstown,"Pittsburgh, Pennsylvania, US",US,,No,1.791759469
@@ -1120,7 +1120,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 1155,NA,3,"Klasen, Miss. Gertrud Emilia",28,female,1,1,350405,,12,Sweden,Southampton,New York City,US,,No,2.48490665
 1156,NA,2,"Portaluppi, Mr. Emilio Ilario Giuseppe",38,male,0,0,C.A. 34644,,408,US,Southampton,"Milford, New Hampshire, US",US,14,Yes,2.48490665
 1157,NA,3,"Lyntakoff, Mr. Stanko",21,male,0,0,349235,,528,Bulgaria,Southampton,"Coon Rapids, Iowa, US",US,,No,1.945910149
-1158,NA,1,"Chisholm, Mr. Roderick Robert Crispin",37,male,0,0,112051,,480,Ireland,Belfast,"New York, New York, US",US,,No,#NAME?
+1158,NA,1,"Chisholm, Mr. Roderick Robert Crispin",37,male,0,0,112051,,480,Ireland,Belfast,"New York, New York, US",US,,No,4.406719247
 1159,NA,3,"Warren, Mr. Charles William",27,male,0,0,C.A. 49867,,360,England,Southampton,New York City,US,,No,1.945910149
 1160,NA,3,"Howard, Miss. May Elizabeth",27,female,0,0,A. 2. 39186,,324,England,Southampton,"Albion, Michigan, US",US,C,Yes,2.079441542
 1161,NA,3,"Pokrnic, Mr. Mate",17,male,0,0,315095,,204,Croatia,Southampton,"Chicago, Illinois, US",US,,No,2.079441542
@@ -1223,7 +1223,7 @@ PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNum
 1261,NA,2,"Pallas y Castello, Mr. Emilio",29,male,0,0,SC/PARIS 2147,,348,Spain,Cherbourg,"Havana, Cuba",Cuba,9,Yes,2.564949357
 1262,NA,2,"Giles, Mr. Edgar",16,male,1,0,28133,,252,England,Southampton,"Camden, New Jersey, US",US,,No,2.397895273
 1263,NA,1,"Wilson, Miss. Helen Alice",25,female,0,0,16966,E39 E41,372,US,Cherbourg,"Tuxedo Park, New York, US",US,3,Yes,4.8978398
-1264,NA,1,"Ismay, Mr. Joseph Bruce",23,male,0,0,112058,B52 B54 B56,588,England,Southampton,"New York, New York, US",US,C,Yes,#NAME?
+1264,NA,1,"Ismay, Mr. Joseph Bruce",23,male,0,0,112058,B52 B54 B56,588,England,Southampton,"New York, New York, US",US,C,Yes,4.406719247
 1265,NA,2,"Harbeck, Mr. William H",22,male,0,0,248746,,528,US,Southampton,"Montreal, Quebec, Canada",Canada,,No,2.564949357
 1266,NA,1,"Dodge, Mrs. Washington ",23,female,1,1,33638,A34,408,US,Southampton,"San Francisco, California, US",US,5,Yes,4.394449155
 1267,NA,1,"Bowen, Miss. Grace Scott",24,female,0,0,PC 17608,,540,US,Cherbourg,"Cooperstown, New York, US",US,4,Yes,5.568344504

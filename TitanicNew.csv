@@ -1,4 +1,4 @@
-PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouce,ParentsChild,TicketNumber,Fare,Cabin,Age_wiki,Age_Months,HometownCountry,Boarded,Destination,DestinationCountry,Lifeboat,LifeboatSupport
+PassengerId,Survived,Pclass,Name,NameLength,Sex,SibSpouse,ParentsChild,TicketNumber,Fare,Cabin,Age_wiki,Age_Months,HometownCountry,Boarded,Destination,DestinationCountry,Lifeboat,LifeboatSupport
 1,0,3,"Braund, Mr. Owen Harris",23,male,1,0,A/5 21171,7.25,,22,264,England,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Canada,,No
 2,1,1,"Cumings, Mrs. John Bradley ",27,female,1,0,PC 17599,71.2833,C85,35,420,US,Cherbourg,"New York, New York, US",US,4,Yes
 3,1,3,"Heikkinen, Miss. Laina",22,female,0,0,STON/O2. 3101282,7.925,,26,312,Finland,Southampton,New York City,US,14,Yes

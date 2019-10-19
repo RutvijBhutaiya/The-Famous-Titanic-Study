@@ -33,6 +33,8 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 - [Data Cleaning and Edit](#data-cleaning-and-edit)
 - [Exploratery Data Analysis](#exploratery-data-analysis)
 - [Data Analysis on Tableau](#data-analysis-on-tableau)
+- [Random Forest Model](#random-forest-model)
+- 
 
 
 
@@ -335,10 +337,96 @@ write.csv(tt, 'TitanicCleanData.csv')
 ```
 Save the clean dataset into new file for the machine learning modeling - [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv)
 
+<br>
 
+### Random Forest Model 
 
+Random Forest technique is based on ‘Ensemble technique’, where you create multiple trees like forest and the prediction is based on Mode of classification tree, and voting principle will select the class based on Mode. 
 
+Random forest model user inbuilt library called randomForest in R studio. 
 
+We loaded the clean dataset fro the Random Forest model building, - [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv)
+
+Based on the data we created 2 subsets. Here, One subset is missing values in attribute of Survived [Actual prediction]. Hence we called this subset as Prediction. 
+
+```
+## Development (Study) dataSet and Validation (Test) dataset
+
+Prediction = subset(TitanicCleanData, is.na(TitanicCleanData$Survived))
+
+train = na.omit(TitanicCleanData)
+attach(train)
+```
+
+Then, In the second subset we created two more subset, 1. For model building - train1 and 2. For model testing test1 dataset. 
+
+Train1 and tst1 dataset are in the artio of 70:30. 
+
+```
+
+# Make Ratio of 30% and 70% for test1 and train1 dataset 
+
+## Create Random variable with random numberw between 0 and 1
+
+train$random = runif(nrow(train),0,1)
+
+## Add new coloum for these new randam data
+
+train = train[order(train$random),]
+
+#Splitting the data into Development (70%) and Testing (30%) sample
+
+train1 = train[which(train$random <= 0.7),]
+test1 = train[which(train$random > 0.7),]
+
+# Remove Random dummy variable 
+
+train1 = train1[, -c(19)]
+test1 = test1[, -c(19)]
+```
+
+For feature selection we used Boruta technique. 
+
+```
+boruta.train <- Boruta(Survived ~ . , data=train1, doTrace = 2)
+
+## UnImportant attruibutes - Destination, DestinationCountry, Name, PassengerId
+
+train1 = train1[, -c(1,4, 15, 14)]
+```
+
+After that with the use of 201 trees and 20 nodesize we build Randomforest tree and tried to see the Error rate for ideal tree selaction. 
+
+```
+train.rf = randomForest(as.factor(Survived) ~ ., data = train1, 
+                        ntree = 201, mtry = 5, nodesize = 20, importance  = TRUE)
+
+print(train.rf)
+
+plot(train.rf, main="Error Rate")
+```
+
+Based on the following chart OOB (Out Of Bag Erroe rate is 1.9%), with number of variables tries is 5. 
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67146214-7f8dc080-f2a6-11e9-9af4-8c53c8747fd8.png> 
+  
+  <br>
+  
+Hence, based on the erroe rate we decided to select ideal nmtree as 55. 
+For model trnung, we selected mtryStart as 6 and stepFactor as 1.2.
+
+And we found out that ideal mtry is 7, with minimum OOB. 
+
+After model building , train.rf, we used the model to predict the same dataset for train1. 
+```
+## For Prediction class do Scoring 
+
+train1$predict.class <- predict(train.rf, train1, type = "class")
+```
+
+#### Performance Measurement of the MOdel
+
+#####
 
 
 

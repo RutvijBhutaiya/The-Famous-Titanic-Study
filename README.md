@@ -524,6 +524,7 @@ test1$predict.class <- predict(train.rf, test1, type = "class")
 Based on the predict.class, we used same three model performance measurement techniques.
 
 <br>
+
 ##### Confusion Matrix for test1
 
 ```
@@ -564,6 +565,7 @@ Prediction   0   1
 Hence, it's true that model is fit for unseen dataset. And the accuracy for the model is 98.4%. Which is superb!
 
 <br>
+
 ##### F1 Score for test1
 
 ```
@@ -578,6 +580,7 @@ test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
 ```
 
 <br>
+
 ##### ROC and AUC for test1
 
 AUC for the test1 data is 0.9793
@@ -586,7 +589,7 @@ AUC for the test1 data is 0.9793
   
 <br>
 
-#### Apply RF Model on Actual Prediction dataset
+##### Apply RF Model on Actual Prediction dataset
 
 Hence, based on the train1 and test1 performance we decided to apply same train.rf model to the missing dataset set of Survived passenged prediction in the study, for Prediction dataset. 
 

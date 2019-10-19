@@ -408,11 +408,15 @@ plot(train.rf, main="Error Rate")
 
 Based on the following chart OOB (Out Of Bag Erroe rate is 1.9%), with number of variables tries is 5. 
 
-<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67146214-7f8dc080-f2a6-11e9-9af4-8c53c8747fd8.png> 
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67146408-8584a100-f2a8-11e9-8993-96fd41c43fbb.png>
   
-  <br>
+<br>
+
+NOTE: Model Results would vary with every diffrent performance, because, In selection of train1 and test1 we have selected random. Hence, every run would through diffrent results. 
+
+<br>
   
-Hence, based on the erroe rate we decided to select ideal nmtree as 55. 
+Hence, based on the erroe rate we decided to select ideal nmtree as 61. 
 For model trnung, we selected mtryStart as 6 and stepFactor as 1.2.
 
 And we found out that ideal mtry is 7, with minimum OOB. 
@@ -426,8 +430,174 @@ train1$predict.class <- predict(train.rf, train1, type = "class")
 
 #### Performance Measurement of the MOdel
 
-#####
+FOr Random Forest - Classification model performance we took three performance measurement. 
+1. Confusion Matrix
+2. F1 Score (Between 0 and 1, higher the score better the results)
+3. ROC Curve - AUC (Area Under Curve)
+
+##### Confusion Matrix
+
+Confusion matris is combination of TP (True Positive), TN(True Negative), FP(False Positive) and FN (False Negative). For classification problem, confusion matrix is highly preferable. 
+
+```
+## Confusion Matrix 
+
+library(caret)
+library(e1071)
+
+confusionMatrix(as.factor(train1$Survived), train1$predict.class)
+```
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 367   3
+         1   8 233
+                                        
+               Accuracy : 0.982         
+                 95% CI : (0.968, 0.991)
+    No Information Rate : 0.6137        
+    P-Value [Acc > NIR] : <2e-16        
+                                        
+                  Kappa : 0.9622        
+                                        
+ Mcnemar's Test P-Value : 0.2278        
+                                        
+            Sensitivity : 0.9787        
+            Specificity : 0.9873        
+         Pos Pred Value : 0.9919        
+         Neg Pred Value : 0.9668        
+             Prevalence : 0.6137        
+         Detection Rate : 0.6007        
+   Detection Prevalence : 0.6056        
+      Balanced Accuracy : 0.9830        
+                                        
+       'Positive' Class : 0 
+       
+IN the performance matrix, Accuracy is 98.2%. However, it is important that we get good accuracy on testing dataset.  test1. 
+<br>
+
+##### F1 Score
+
+F1 Score is measured based on the values from Precesion and Recall. 
+```
+precision.train1 = precision(as.factor(train1$Survived), train1$predict.class)
+# [1] 0.9915966
+
+recall.train1 = recall(as.factor(train1$Survived), train1$predict.class)
+# [1] 0.9806094
+
+train1.F1 = (2*precision.train1*recall.train1) / sum(precision.train1, recall.train1)
+# [1] 0.9860724
+```
+
+##### ROC Curve and AUC (Area Under Curve)
+
+For ROC curve, we used library(pROC. IN the follwoing ROC Chart the AUC value is 0.9793
+```
+library(pROC)
+
+roc(train1$Survived, as.numeric(train1$predict.class), plot = TRUE, main = 'ROC Curve', col = 'Blue')
+```
+<br>
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67146594-540cd500-f2aa-11e9-99c7-7b1600eef96c.png>
+  
 
 
+<br>
+<br>
+
+#### Random Forest Model on test1 dataset
+
+Similarly, train.rf model we used to prdeict the Survived class on unseen dataset of test1. Hence, we will check the accuracy of the model prediction on the test1 dats and then we will put the RF model train.rf for the actual Prediction data. 
+
+Based on the performance measurement we woud chec the train.rf model realiability. 
+
+```
+# Apply RF Model on test1 datasets
+
+test1$predict.class <- predict(train.rf, test1, type = "class")
+```
+
+Based on the predict.class, we used same three model performance measurement techniques.
+
+<br>
+##### Confusion Matrix for test1
+
+```
+## testing Random Forest MOdel Performance on test1 dataset
+
+## Confusion Matrix 
+
+confusionMatrix(as.factor(test1$Survived), test1$predict.class)
+```
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 155   1
+         1   3  94
+                                        
+               Accuracy : 0.9842        
+                 95% CI : (0.96, 0.9957)
+    No Information Rate : 0.6245        
+    P-Value [Acc > NIR] : <2e-16        
+                                        
+                  Kappa : 0.9664        
+                                        
+ Mcnemar's Test P-Value : 0.6171        
+                                        
+            Sensitivity : 0.9810        
+            Specificity : 0.9895        
+         Pos Pred Value : 0.9936        
+         Neg Pred Value : 0.9691        
+             Prevalence : 0.6245        
+         Detection Rate : 0.6126        
+   Detection Prevalence : 0.6166        
+      Balanced Accuracy : 0.9852        
+                                        
+       'Positive' Class : 0   
+  
+  <br>
+Hence, it's true that model is fit for unseen dataset. And the accuracy for the model is 98.4%. Which is superb!
+
+<br>
+##### F1 Score for test1
+
+```
+precision.test1 = precision(as.factor(test1$Survived), test1$predict.class)
+# [1] 0.9940828
+
+recall.test1 = recall(as.factor(test1$Survived), test1$predict.class)
+# [1] 0.9767442
+
+test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
+# [1] 0.9853372
+```
+
+<br>
+##### ROC and AUC for test1
+
+AUC for the test1 data is 0.9793
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/67146895-62102500-f2ad-11e9-95b9-08cb5775b177.png>
+  
+<br>
+
+#### Apply RF Model on Actual Prediction dataset
+
+Hence, based on the train1 and test1 performance we decided to apply same train.rf model to the missing dataset set of Survived passenged prediction in the study, for Prediction dataset. 
+
+```
+Prediction$Survived <- predict(train.rf, Prediction, type = "class")
+
+write.csv(Prediction, 'Prediction Random Forest.csv')
+```
+
+Also save the results in the File - [Prediction Random Forest.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/Prediction%20Random%20Forest.csv)
+
+<br>
 
 

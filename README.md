@@ -34,7 +34,7 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 - [Exploratery Data Analysis](#exploratery-data-analysis)
 - [Data Analysis on Tableau](#data-analysis-on-tableau)
 - [Random Forest Model](#random-forest-model)
-- 
+- [Logistic Regression Model](#logistic-regression-model)
 
 
 
@@ -602,5 +602,7 @@ write.csv(Prediction, 'Prediction Random Forest.csv')
 Also save the results in the File - [Prediction Random Forest.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/Prediction%20Random%20Forest.csv)
 
 <br>
+
+### Logistic Regression Model
 
 

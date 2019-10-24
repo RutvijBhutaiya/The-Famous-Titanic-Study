@@ -23,23 +23,10 @@ attach(train)
 
 # Make Ratio of 30% and 70% for test1 and train1 dataset 
 
-## Create Random variable with random numberw between 0 and 1
+ind = sample(2, nrow(train), replace = TRUE, prob = c(0.7,0.3))
 
-train$random = runif(nrow(train),0,1)
-
-## Add new coloum for these new randam data
-
-train = train[order(train$random),]
-
-#Splitting the data into Development (70%) and Testing (30%) sample
-
-train1 = train[which(train$random <= 0.7),]
-test1 = train[which(train$random > 0.7),]
-
-# Remove Random dummy variable 
-
-train1 = train1[, -c(19)]
-test1 = test1[, -c(19)]
+train1 = train[ind == 1,]
+test1 = train[ind == 2,]
   
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
@@ -78,7 +65,7 @@ train.rf$err.rate
 
 train.tune = tuneRF(x = train1[, -c(1)], y = as.factor(train1$Survived),
                     mtryStart = 6,
-                    ntreeTry = 61,
+                    ntreeTry = 41,
                     stepFactor = 1.2,
                     improve = 0.0001,
                     trace = TRUE,
@@ -89,13 +76,12 @@ train.tune = tuneRF(x = train1[, -c(1)], y = as.factor(train1$Survived),
                     ) 
 
 train.rf = randomForest(as.factor(train1$Survived) ~ ., data = train1, 
-                        ntree = 61, mtry = 5, nodesize = 20, importance  = TRUE)
+                        ntree =31, mtry = 5, nodesize = 20, importance  = TRUE)
 
 print(train.rf)
 
 ## For Prediction class do Scoring 
 
-train1$predict.class <- predict(train.rf, train1, type = "class")
 
 View(train1)
 

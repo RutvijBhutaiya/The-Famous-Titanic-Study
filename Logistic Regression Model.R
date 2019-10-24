@@ -34,23 +34,10 @@ attach(train)
 
 # Make Ratio of 30% and 70% for test1 and train dataset 
 
-## Create Random variable with random numberw between 0 and 1
+ind = sample(2, nrow(train), replace = TRUE, prob = c(0.7,0.3))
 
-train$random = runif(nrow(train),0,1)
-
-## Add new coloum for these new randam data
-
-train = train[order(train$random),]
-
-#Splitting the data into Development (70%) and Testing (30%) sample
-
-train1 = train[which(train$random <= 0.7),]
-test1 = train[which(train$random > 0.7),]
-
-# Remove Random dummy variable 
-
-train1 = train1[, -c(11)]
-test1 = test1[, -c(11)]
+train1 = train[ind == 1,]
+test1 = train[ind == 2,]
 
 ## %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

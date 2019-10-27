@@ -49,6 +49,11 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 - Collect the data from kaggle - [Link](https://www.kaggle.com/pavlofesenko/titanic-extended)
 - Edit the Original Dataset and Create the dataset for the study - [TitanicNew.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicNew.csv) 
 - Exploratery Data Analysis
+- Clean the original dataset and get data ready for buiding models - [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv)
+- Use [cleandata](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv) for Random Forst model.
+- Use Boruta for feature selection.
+- Built the Random Forest Model - [R code](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/RandomForestModel.R)
+- Check the performance of model and present Area Under Curve(AUC).
 -
 
 <br>

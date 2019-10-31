@@ -35,7 +35,7 @@ train = train[, -c(4,8,9)]
 
 ### SCALING
 
-train2 = scale(train[, -1])
+ train2 = scale(train[, -1])
 train = data.frame(Survived, train2)
 
 
@@ -84,52 +84,41 @@ attach(train)
 
 # Make Ratio of 30% and 70% for test1 and train dataset 
 
+## Create Random variable with random numberw between 0 and 1
 
-ind = sample(2, nrow(train), replace = TRUE, prob = c(0.7,0.3))
+train$random = runif(nrow(train),0,1)
 
-train1 = train[ind == 1,]
-test1 = train[ind == 2,]
+## Add new coloum for these new randam data
+
+train = train[order(train$random),]
+
+#Splitting the data into Development (70%) and Testing (30%) sample
+
+train1 = train[which(train$random <= 0.7),]
+test1 = train[which(train$random > 0.7),]
+
+# Remove Random dummy variable 
+
+train1 = train1[, -c(17)]
+test1 = test1[, -c(17)]
+
 
 
 ## Build KNN Model
 
-train.knn = knn(train = train1[, -c(1)], test = test1[, -c(1)], 
+test5 = test1
+test7 = test1
+
+train.knn = knn(train = train1[, -c(1)], test = test5[, -c(1)], 
                 cl = train1[, 1], k = 5)
 
-test1$knn.Survived = train.knn
+test1$predict.knn = train.knn
 
-confusionMatrix(as.factor(test1$Survived), as.factor(test1$knn.Survived))
+confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.knn))
 
+## ROC & AUC
 
-
-### ## ENsemble Modeling
-
-## For Random Forest
-
-test1$RF.Survived = predict(train.rf, test1, type = 'class')
-
-## For Logistic Regression
-
-test1$Logit.Survived = predict.glm(train.logit, test1, type = 'response')
-test1$Logit.Survived = round(test1$Logit.Survived)
-
-## For KNN
-
-test1$knn.Survived = train.knn
-
-##
-
-test1$RF.Survuved = as.factor(test1$RF.Survuved)
-test1$Logit.Survived = as.factor(test1$Logit.Survived)
-test1$knn.Survived = as.factor(test1$knn.Survived)
-
-test1$Survived.Majority = as.factor(ifelse(test1$RF.Survuved == '1' & test1$test1$Logit.Survived == '1', '1', 
-                                           ifelse(test1$Logit.Survived == '1' & test1$knn.Survived == '1', '1',
-                                                  ifelse(test1$knn.Survived == '1' &test1$RF.Survuved == '1', '1', '0'))))
-
-
-
-
+roc(test1$Survived, as.numeric(test1$predict.knn), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
 
 
 

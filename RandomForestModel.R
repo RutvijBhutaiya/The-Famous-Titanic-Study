@@ -147,7 +147,7 @@ test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
 
 ## ROC Curve
 
-roc(train1$Survived, as.numeric(train1$predict.class), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
+roc(test1$Survived, as.numeric(test1$predict.class), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

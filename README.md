@@ -665,9 +665,10 @@ test1$predict.logit = round(test1$test.predict)
 confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.logit))
 ```
 
-<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68070300-c2fe2980-fd92-11e9-8849-3400bf0afd81.png>
+<p align="center"><img width=65% src=https://user-images.githubusercontent.com/44467789/68070378-618a8a80-fd93-11e9-949c-82ca60c21b17.png>
   
- Accuracy of the model is more than 98% 
+Accuracy of the model is more than 98% 
+
 Apart from accuracy, Precision for the model came to 0.99 and recall is 0.97. 
 Also, as performance measurement we have checked the F1 score, and which is more than 98% 
 ```

@@ -610,4 +610,58 @@ Also save the results in the File - [Prediction Random Forest.csv](https://githu
 
 ### Logistic Regression Model
 
+In the logistic regression, we have used the TitanicCleanData.csv file. Based on the feature selection study from Random Forest model, we decided to remove less significant features – PassengerID, Name, TicketNumber, Cabin, Destination, DestCountry, and Lifeboat. 
+
+```
+## Remove : PassengerId, Name, TicketNumber, Cabin, Destination, Dest Country,  Lifeboat 
+
+train = train[, -c(1,4,9,10,12,14,16,15)]
+```
+For the training and testing dataset we used random 70% observation ad validation (train) and 30% observations as test dataset. Same proportion of observation as we selected in Random Forest model. 
+
+```
+## Development (Study) dataSet and Validation (Test) dataset
+
+Prediction = subset(train, is.na(train$Survived))
+
+train = na.omit(train)
+attach(train)
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Make Ratio of 30% and 70% for test1 and train dataset 
+
+ind = sample(2, nrow(train), replace = TRUE, prob = c(0.7,0.3))
+
+train1 = train[ind == 1,]
+test1 = train[ind == 2,]
+```
+
+Now, to build Logistic Regression we uses Generalised Linear Model, glm() function. 
+
+```
+## Build Logit Model
+
+train.logit = glm(Survived ~ . , data = train1, family = binomial())
+
+summary(train.logit)
+```
+
+After applying the model on testing dataset with the use of predict.glm() function we completed the performance measurement with to check the model accuracy. 
+
+```
+## Apply model on testing dataset
+
+test1$test.predict = predict.glm(train.logit, test1, type = 'response')
+
+## Performance Measurement
+
+# confusionmatrix = confusion.matrix(test1$Survived, test1$test.predict, threshold = 0.5)
+
+# confusionmatrix
+
+test1$predict.logit = round(test1$test.predict)
+
+confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.logit))
+```
 

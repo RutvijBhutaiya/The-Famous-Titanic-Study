@@ -665,3 +665,30 @@ test1$predict.logit = round(test1$test.predict)
 confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.logit))
 ```
 
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68070300-c2fe2980-fd92-11e9-8849-3400bf0afd81.png>
+  
+ Accuracy of the model is more than 98% 
+Apart from accuracy, Precision for the model came to 0.99 and recall is 0.97. 
+Also, as performance measurement we have checked the F1 score, and which is more than 98% 
+```
+## F1 Score
+
+precision.test1 = precision(as.factor(test1$Survived), as.factor(test1$predict.logit))
+# [1] 0.9944444
+
+recall.test1 = recall(as.factor(test1$Survived), as.factor(test1$predict.logit))
+# [1] 0.9781421
+
+test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
+# [1] 0.9862259
+```
+
+Now, before we conclude the Logistic Regression, we also test ROC curve for the model and checked the Area Under Curve (AUC). 
+AUC is 0.977
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68070317-ec1eba00-fd92-11e9-805b-4471b6b6bb7b.png>
+  
+<br>
+
+### kNN Model
+

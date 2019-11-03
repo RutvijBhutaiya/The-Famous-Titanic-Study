@@ -693,3 +693,45 @@ AUC is 0.977
 
 ### kNN Model
 
+KNN – also known as K-Nearest Neighbour algorithm.  KNN is a non-parametric algorithm, and entertains only factor and numeric as variables, hence we need to create dummy variables for categorical variables. KNN used Ecludian, Manhatten and Chebychev distance measurement techniques, mainly Ecludian technique. 
+
+IN KNN model too, we removed less significant features from the dataset, and created the dummy features in the dataset. 
+
+```
+## Create Dummy Variables
+
+sex.matrix = model.matrix( ~ Sex - 1, data = train)
+train = data.frame(train, sex.matrix)
+
+boarded.matrix = model.matrix( ~ Boarded - 1, data = train)
+train = data.frame(train, boarded.matrix)
+
+Lifeboatsupport.matrix = model.matrix( ~ LifeboatSupport - 1, data = train)
+train = data.frame(train, Lifeboatsupport.matrix)
+
+train = train[, -c(4,8,9)]
+```
+
+IN the KNN algorithm, it is important either the features should be scaled or normalized! Here we decide to scale the features. 
+
+```
+### SCALING
+
+train2 = scale(train[, -1],)
+train = data.frame(train$Survived, train2)
+```
+
+And after that we created the train and testing datasets with 70:30. And build the model with knn() and Class library. 
+Here, in the model, we performed k = 5 [can be changed on case to case bases]
+
+```
+## Build KNN Model
+
+train.knn = knn(train = train1[, -c(1)], test = test1[, -c(1)], 
+                cl = train1[, 1], k = 5)
+```
+
+For performance measurement, first we checked the confusion matrix, and the accuracy stands at 97.1% for testing(unknown) dataset. 
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68083530-99570800-fe4f-11e9-9d94-49bc7d1ec537.png>
+ 

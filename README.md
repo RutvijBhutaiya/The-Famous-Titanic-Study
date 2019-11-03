@@ -35,7 +35,8 @@ __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/t
 - [Data Analysis on Tableau](#data-analysis-on-tableau)
 - [Random Forest Model](#random-forest-model)
 - [Logistic Regression Model](#logistic-regression-model)
-
+- [K Nearest Neighbors](#k-nearest-neighbors)
+- [Conclusion](#conclusion)
 
 
 <br>
@@ -691,7 +692,7 @@ AUC is 0.977
   
 <br>
 
-### kNN Model
+### K Nearest Neighbors
 
 KNN – also known as K-Nearest Neighbour algorithm.  KNN is a non-parametric algorithm, and entertains only factor and numeric as variables, hence we need to create dummy variables for categorical variables. KNN used Ecludian, Manhatten and Chebychev distance measurement techniques, mainly Ecludian technique. 
 
@@ -733,7 +734,7 @@ train.knn = knn(train = train1[, -c(1)], test = test1[, -c(1)],
 
 For performance measurement, first we checked the confusion matrix, and the accuracy stands at 97.1% for testing(unknown) dataset. 
 
-<p align="center"><img width=65% src=https://user-images.githubusercontent.com/44467789/68083530-99570800-fe4f-11e9-9d94-49bc7d1ec537.png>
+<p align="center"><img width=60% src=https://user-images.githubusercontent.com/44467789/68083530-99570800-fe4f-11e9-9d94-49bc7d1ec537.png>
  
 After that we also checked the Precision, Recall and F1 Score on the same model, 
 ```

@@ -733,5 +733,25 @@ train.knn = knn(train = train1[, -c(1)], test = test1[, -c(1)],
 
 For performance measurement, first we checked the confusion matrix, and the accuracy stands at 97.1% for testing(unknown) dataset. 
 
-<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68083530-99570800-fe4f-11e9-9d94-49bc7d1ec537.png>
+<p align="center"><img width=65% src=https://user-images.githubusercontent.com/44467789/68083530-99570800-fe4f-11e9-9d94-49bc7d1ec537.png>
  
+After that we also checked the Precision, Recall and F1 Score on the same model, 
+```
+## F1 Score
+
+precision.test1 = precision(as.factor(test1$train.Survived), test1$knn.Survived)
+# [1] 0.9801325
+
+recall.test1 = recall(as.factor(test1$train.Survived), as.factor(test1$knn.Survived))
+# [1] 0.9736842
+
+test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
+# [1] 0.9768977
+
+```
+As, a final measurement we also studied the AUC and ROC graph, AUC for the modes stands at 0.969
+
+<p align="center"><img width=88% src=https://user-images.githubusercontent.com/44467789/68083549-dd4a0d00-fe4f-11e9-8edf-aee7fb88748e.png>
+  
+### Conclusion
+

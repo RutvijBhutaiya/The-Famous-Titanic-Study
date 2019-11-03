@@ -17,57 +17,6 @@ attach(train)
 
 train = train[, -c(1,4,9,10,12,14,16,15)]
 
-## Create Dummy Variables
-
-sex.matrix = model.matrix( ~ Sex - 1, data = train)
-train = data.frame(train, sex.matrix)
-
-boarded.matrix = model.matrix( ~ Boarded - 1, data = train)
-train = data.frame(train, boarded.matrix)
-
-Lifeboatsupport.matrix = model.matrix( ~ LifeboatSupport - 1, data = train)
-train = data.frame(train, Lifeboatsupport.matrix)
-
-train = train[, -c(4,8,9)]
-
-
-## FORM KNN USE SCALING OR NORMALIZATION ## EITHER of ONE 
-
-### SCALING
-
- train2 = scale(train[, -1])
-train = data.frame(Survived, train2)
-
-
-###
-
-## Normalizarion
-
-normalize<-function(x){
-  +return((x-min(x))/(max(x)-min(x)))}
-
-train$Pclass = normalize(train$Pclass)
-train$NameLength = normalize(train$NameLength)
-
-train$SibSpouse = normalize(train$SibSpouse)
-train$ParentsChild = normalize(train$ParentsChild)
-
-train$Age_Months = normalize(train$Age_Months)
-train$Fare_new = normalize(train$Fare_new)
-
-train$Sexfemale = normalize(train$Sexfemale)
-train$Sexmale = normalize(train$Sexmale)
-
-train$Boarded.1 = normalize(train$Boarded.1)
-train$BoardedBelfast = normalize(train$BoardedBelfast)
-
-train$BoardedQueenstown = normalize(train$BoardedQueenstown)
-train$BoardedSouthampton = normalize(train$BoardedSouthampton)
-train$BoardedCherbourg = normalize(train$BoardedCherbourg)
-
-train$LifeboatSupportNo = normalize(train$LifeboatSupportNo)
-train$LifeboatSupportYes = normalize(train$LifeboatSupportYes)
-
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -82,43 +31,68 @@ attach(train)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+## Create Dummy Variables
+
+sex.matrix = model.matrix( ~ Sex - 1, data = train)
+train = data.frame(train, sex.matrix)
+
+boarded.matrix = model.matrix( ~ Boarded - 1, data = train)
+train = data.frame(train, boarded.matrix)
+
+Lifeboatsupport.matrix = model.matrix( ~ LifeboatSupport - 1, data = train)
+train = data.frame(train, Lifeboatsupport.matrix)
+
+train = train[, -c(4,8,9)]
+
+
+### SCALING
+
+train2 = scale(train[, -1],)
+train = data.frame(train$Survived, train2)
+
 # Make Ratio of 30% and 70% for test1 and train dataset 
 
-## Create Random variable with random numberw between 0 and 1
 
-train$random = runif(nrow(train),0,1)
+ind = sample(2, nrow(train), replace = TRUE, prob = c(0.7,0.3))
 
-## Add new coloum for these new randam data
-
-train = train[order(train$random),]
-
-#Splitting the data into Development (70%) and Testing (30%) sample
-
-train1 = train[which(train$random <= 0.7),]
-test1 = train[which(train$random > 0.7),]
-
-# Remove Random dummy variable 
-
-train1 = train1[, -c(17)]
-test1 = test1[, -c(17)]
-
+train1 = train[ind == 1,]
+test1 = train[ind == 2,]
 
 
 ## Build KNN Model
 
-test5 = test1
-test7 = test1
-
-train.knn = knn(train = train1[, -c(1)], test = test5[, -c(1)], 
+train.knn = knn(train = train1[, -c(1)], test = test1[, -c(1)], 
                 cl = train1[, 1], k = 5)
 
-test1$predict.knn = train.knn
 
-confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.knn))
+## Performance Measurement of kNN Model
 
-## ROC & AUC
+test1$knn.Survived = train.knn
 
-roc(test1$Survived, as.numeric(test1$predict.knn), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
+confusionMatrix(as.factor(test1$train.Survived), test1$knn.Survived)
+
+
+## F1 Score
+
+precision.test1 = precision(as.factor(test1$train.Survived), test1$knn.Survived)
+# [1] 0.9801325
+
+recall.test1 = recall(as.factor(test1$train.Survived), as.factor(test1$knn.Survived))
+# [1] 0.9736842
+
+test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
+# [1] 0.9768977
+
+
+## ROC Curve
+
+roc(test1$train.Survived, as.numeric(test1$knn.Survived), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
+
+
+
+
+
 
 
 

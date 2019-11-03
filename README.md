@@ -756,3 +756,8 @@ As, a final measurement we also studied the AUC and ROC graph, AUC for the modes
   
 ### Conclusion
 
+
+
+<p align="center"><img width=60% src=https://user-images.githubusercontent.com/44467789/68084041-564c6300-fe56-11e9-9d7e-d0595f2ffecd.png> 
+  
+

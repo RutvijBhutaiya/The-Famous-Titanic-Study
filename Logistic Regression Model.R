@@ -50,6 +50,9 @@ summary(train.logit)
 
 
 
+
+## Apply model on testing dataset
+
 test1$test.predict = predict.glm(train.logit, test1, type = 'response')
 
 ## Performance Measurement
@@ -61,5 +64,22 @@ test1$test.predict = predict.glm(train.logit, test1, type = 'response')
 test1$predict.logit = round(test1$test.predict)
 
 confusionMatrix(as.factor(test1$Survived), as.factor(test1$predict.logit))
+
+## F1 Score
+
+precision.test1 = precision(as.factor(test1$Survived), as.factor(test1$predict.logit))
+# [1] 0.9944444
+
+recall.test1 = recall(as.factor(test1$Survived), as.factor(test1$predict.logit))
+# [1] 0.9781421
+
+test1.F1 = (2*precision.test1*recall.test1) / sum(precision.test1, recall.test1)
+# [1] 0.9862259
+
+
+## ROC Curve
+
+roc(test1$Survived, as.numeric(test1$predict.logit), plot = TRUE, main = 'ROC Curve for test1', col = 'darkseagreen')
+
 
 

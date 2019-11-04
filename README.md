@@ -756,7 +756,11 @@ As, a final measurement we also studied the AUC and ROC graph, AUC for the modes
   
 ### Conclusion
 
+As we set an objective for the study - to predict the survival of passengers from the Titanic ship, with the use of Machine Learning algorithms. We used Random Forest, Logistic Regression and K-nearest neighbor techniques to achieve the results. 
 
+Based on the Exploratory Data Analysis (EDA) one thing is clear that 1st class passengers had priority for Lifeboats as ratio 62% passengers survived and from 3rd class, only 24% of passengers survived. However, the total count for a passenger from 1st, 2nd and 3rd class were 709, 277 and 323 respectively [based on TitanicNew.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicNew.csv) file. 
+
+As we can see in the below-mentioned table, RF works best in accuracy, however, Logistic Regression fits best in the dataset with respect to precision, recall, and F1 score. KNN also achieved an accuracy of more than 97%. 
 
 <p align="center"><img width=60% src=https://user-images.githubusercontent.com/44467789/68084041-564c6300-fe56-11e9-9d7e-d0595f2ffecd.png> 
   

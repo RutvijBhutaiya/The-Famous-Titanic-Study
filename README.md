@@ -22,6 +22,26 @@ __Step 1:__ [Install R Studio](https://www.rstudio.com/products/rstudio/download
 
 __Step 2:__ Download the Titanic [Dataset](https://www.kaggle.com/pavlofesenko/titanic-extended)
 
+__Step 3:__ Set Objective of the study
+
+__Step 4:__ Multivariate analysis in [tableau](https://public.tableau.com/profile/rutvij.b#!/vizhome/Titanic_15707010380590/PassengerClassSurvivedRatio)
+
+__Step 5:__ Begin with Data Analysis - Read Data Cleaning and Edit carefully
+
+__Step 6:__ Load [TitanicNew.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicNew.csv) file and complet the EDA
+
+__Step 7:__ [EDA results](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicStudy.R) - Clean data stored in [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv)
+
+__Step 8:__ Load [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv) for Random Forest Modeling - [Random Forest code](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/RandomForestModel.R)
+
+__Step 9:__ Load [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv) for Logistic Regression Modeling - [Logistic Regression code](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/Logistic%20Regression%20Model.R)
+
+__Step 10:__ Load [TitanicCleanData.csv](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/TitanicCleanData.csv) for K-Nearest Neighbour Modeling - [KNN code](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/kNN%20Model.R)
+
+__Step 11:__ Use [Ensemble Modeling](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/Ensemble%20Modeling%20Titanic.R) - for higher accuracy. 
+
+__Step 12:__ Conclude the results from the diffrent ML Models and their Performance.
+
 </details>
 
 <br>

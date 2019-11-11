@@ -1,5 +1,3 @@
-In progress..
-
 ## The Famous Titanic Study
 
 <br>

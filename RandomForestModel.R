@@ -82,7 +82,7 @@ print(train.rf)
 
 ## For Prediction class do Scoring 
 
-
+train1$predict.class <- predict(train.rf, train1, type = "class")
 View(train1)
 
 

@@ -119,10 +119,9 @@ roc(train1$Survived, as.numeric(train1$predict.class), plot = TRUE, main = 'ROC 
 
 # Apply RF Model on test1 datasets
 
+test = test1[, -c(2)]
 
-test1$predict.class <- predict(train.rf, test1, type = "class")
-
-View(test)
+test1$predict.class <- predict(train.rf, test, type = "class")
 
 ## testing Random Forest MOdel Performance on test1 dataset
 

@@ -53,7 +53,11 @@ summary(train.logit)
 
 ## Apply model on testing dataset
 
-test1$test.predict = predict.glm(train.logit, test1, type = 'response')
+
+test = test1[, -c(1)]
+
+test1$test.predict = predict.glm(train.logit, test, type = 'response')
+
 
 ## Performance Measurement
 

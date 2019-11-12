@@ -542,7 +542,10 @@ Based on the performance measurement we woud chec the train.rf model realiabilit
 ```
 # Apply RF Model on test1 datasets
 
-test1$predict.class <- predict(train.rf, test1, type = "class")
+test = test1[, -c(2)]
+
+
+test1$predict.class <- predict(train.rf, test, type = "class")
 ```
 
 Based on the predict.class, we used same three model performance measurement techniques.

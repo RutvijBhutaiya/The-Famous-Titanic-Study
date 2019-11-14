@@ -1,4 +1,7 @@
 ## The Famous Titanic Study
+<br>
+
+#### Predict The Famous Titanic Survival Study based on based on demographics like Passenger Class, Age etc. For the study, data is chosen from kaggle (Kaggle + Wikipedia)
 
 <br>
 

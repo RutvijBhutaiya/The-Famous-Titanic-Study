@@ -785,4 +785,9 @@ As we can see in the below-mentioned table, RF works best in accuracy, however, 
 
 <p align="center"><img width=60% src=https://user-images.githubusercontent.com/44467789/68084041-564c6300-fe56-11e9-9d7e-d0595f2ffecd.png> 
   
+<br>
+
+### License
+
+This Project/Repository is Licensed under [MIT license](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/LICENSE).
 

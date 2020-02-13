@@ -1,5 +1,4 @@
 ## The Famous Titanic Study
-<br>
 
 #### Predict The Famous Titanic Survival Study based on based on demographics like Passenger Class, Age etc. For the study, data is chosen from kaggle (Kaggle + Wikipedia)
 
@@ -76,7 +75,10 @@ Objective of the study is to predict the survival of passenger from the Titanic 
 - Use Boruta for feature selection.
 - Built the Random Forest Model - [R code](https://github.com/RutvijBhutaiya/The-Famous-Titanic-Study/blob/master/RandomForestModel.R)
 - Check the performance of model and present Area Under Curve(AUC).
--
+- Build LOgistic Regression and model performance
+- Build KNN and model performance
+- Use Ensemble technique for final prediction (Note: KNN not included! Need to re-evaluate technique)
+- Conclusion and models comparision. 
 
 <br>
 

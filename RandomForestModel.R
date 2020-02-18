@@ -95,7 +95,7 @@ library(e1071)
 
 confusionMatrix(as.factor(train1$Survived), train1$predict.class)
 
-## F1 Score
+## F1 Score with precision and recall. 
 
 precision.train1 = precision(as.factor(train1$Survived), train1$predict.class)
 # [1] 0.9915966
